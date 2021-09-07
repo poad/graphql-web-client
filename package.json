@@ -21,8 +21,6 @@
     "graphql": "^15.5.3",
     "graphql-request": "^3.5.0",
     "next": "^11.1.2",
-    "node-sass": "^6.0.1",
-    "prism-core": "^2.0.2",
     "prism-themes": "^1.8.0",
     "prismjs": "^1.24.1",
     "react": "^17.0.2",
