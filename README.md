@@ -1,9 +1,5 @@
-# next-ts-template
+# GraphQL Web Client
 
-## Usage
+[demo](https://graphql-web-client-ba41ps072-poad.vercel.app)
 
-```
-yarn create next-app ${app_name} --example "https://github.com/poad/next-ts-minimal-template"
-cd ${app_name}
-rm -rf .github
-```
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world)

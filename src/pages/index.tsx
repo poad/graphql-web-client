@@ -9,9 +9,9 @@ import { Container } from 'components/Container';
 import { Footer } from 'components/Footer';
 import { DarkModeSwitch } from 'components/DarkModeSwitch';
 import { gql, GraphQLClient } from 'graphql-request';
-
 import dynamic from 'next/dynamic';
 import EndpointInput from 'components/EndpointInput';
+import GitHubProjectLink from 'components/GitHubProjectLink';
 
 const GraphQLEditor = dynamic(() => import('components/GraphQLEditor'), {
   ssr: false,
@@ -207,9 +207,9 @@ const Home = (): JSX.Element => {
         </form>
       </Main>
       <DarkModeSwitch />
+      <GitHubProjectLink />
 
       <Footer>
-
       </Footer>
     </Container>
   );
