@@ -6,5 +6,5 @@ module.exports = {
         esmExternals: true,
         swcLoader: true,
         swcMinify: true,
-    },
-}
+    }
+};

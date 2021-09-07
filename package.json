@@ -1,20 +1,34 @@
 {
-  "name": "my-app",
+  "name": "graphql-client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "test": "jest --passWithNoTests",
     "dev": "next",
-    "build": "next build && next export && rm -rf build && mv out build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "eslint --ext .ts,.js,.tsx,.jsx src",
     "all": "yarn install && yarn lint && yarn build && yarn test"
   },
   "dependencies": {
+    "@chakra-ui/form-control": "^1.4.1",
+    "@chakra-ui/react": "^1.6.7",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@types/prismjs": "^1.16.6",
     "@types/react": "^17.0.20",
+    "framer-motion": "^4.1.17",
+    "graphql": "^15.5.3",
+    "graphql-request": "^3.5.0",
     "next": "^11.1.2",
+    "node-sass": "^6.0.1",
+    "prism-core": "^2.0.2",
+    "prism-themes": "^1.8.0",
+    "prismjs": "^1.24.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.15.0",
+    "react-simple-code-editor": "^0.11.0"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.49",
@@ -37,7 +51,6 @@
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "jest": "^27.1.0",
-    "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^8.0.0",
     "swc-loader": "^0.1.14",
     "typescript": "^4.4.2"
