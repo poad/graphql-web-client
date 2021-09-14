@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
 import {
-  VStack, Box, Flex, useColorMode, Accordion, AccordionItem, AccordionPanel, AccordionButton,
-  Table, Tbody, Td, Th, Thead, Tr, Input, AccordionIcon } from '@chakra-ui/react';
+  VStack, Box, Flex, useColorMode,
+} from '@chakra-ui/react';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import { Main } from 'components/Main';
 import { Container } from 'components/Container';
@@ -12,6 +12,7 @@ import { gql, GraphQLClient } from 'graphql-request';
 import dynamic from 'next/dynamic';
 import EndpointInput from 'components/EndpointInput';
 import GitHubProjectLink from 'components/GitHubProjectLink';
+import Headers from 'components/Headers';
 
 const GraphQLEditor = dynamic(() => import('components/GraphQLEditor'), {
   ssr: false,
@@ -24,18 +25,15 @@ const JsonEditor = dynamic(() => import('components/JsonEditor'), {
 const Home = (): JSX.Element => {
   type Inputs = {
     endpoint: string,
-    AuthorizationValue?: string,
   };
 
   const { colorMode } = useColorMode();
   const [result, setReault] = useState<string>('');
   const [query, setQuery] = useState<string>('# Looks like you do not have any tables.\n# Click on the "Data" tab on top to create tables\n# Try out GraphQL queries here after you create tables');
   const [variables, setVariables] = useState<string>('');
+  const [headers, setHeaders] = useState<{ [key: string]: string }>({});
 
   const onSubmit: SubmitHandler<Inputs> = (data: Inputs) => {
-    const headers = data.AuthorizationValue !== undefined ? Object.assign({}, {
-      'Authorization': data.AuthorizationValue,
-    }) : undefined;
 
     const client = new GraphQLClient(data.endpoint, {
       headers,
@@ -55,7 +53,6 @@ const Home = (): JSX.Element => {
     register,
     formState: { errors, isSubmitting },
   } = useForm();
-
 
   const bgColor = { light: 'gray.50', dark: 'gray.900' };
   const btnColor = { light: 'green', dark: 'gray' };
@@ -99,44 +96,11 @@ const Home = (): JSX.Element => {
                 isSubmitting={isSubmitting}
               />
             </Flex>
-            <Box>
-              <Accordion allowToggle>
-                <AccordionItem border='none'>
-                  <AccordionButton bg={toggleColor[colorMode]}>
-                    <Box flex='1' textAlign='left'>
-                      <h2>
-                        Headers
-                      </h2>
-                    </Box>
-                    <AccordionIcon />
-                  </AccordionButton>
-                  <AccordionPanel
-                    pl='0'
-                  >
-                    <Table variant='simple'>
-                      <Thead>
-                        <Tr bgColor={thColor[colorMode]}>
-                          <Th>Name</Th>
-                          <Th>Value</Th>
-                        </Tr>
-                      </Thead>
-                      <Tbody>
-                        <Tr>
-                          <Td>Authorization</Td>
-                          <Td>
-                            <Input
-                              type='password'
-                              placeholder='ex) Bearer <YOUR_TOKEN>'
-                              {...register('AuthorizationValue')}
-                            />
-                          </Td>
-                        </Tr>
-                      </Tbody>
-                    </Table>
-                  </AccordionPanel>
-                </AccordionItem>
-              </Accordion>
-            </Box>
+
+            <Headers
+              accordionBgColor={toggleColor[colorMode]}
+              thBgColor={thColor[colorMode]}
+              onChange={setHeaders} />
 
             <Flex>
               <VStack
