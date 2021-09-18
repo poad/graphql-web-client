@@ -149,6 +149,7 @@ const Headers = (props: HeadersProps): JSX.Element => {
     value: {
       id: 'header-0-value',
       value: '',
+      type: 'password',
       placeholder: 'ex) Bearer <YOUR_TOKEN>',
     },
   }];
