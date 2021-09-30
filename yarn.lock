@@ -3980,16 +3980,16 @@ jest-each@^27.2.3:
     pretty-format "^27.2.4"
 
 jest-environment-jsdom@^27.2.3:
-  version "27.2.3"
-  resolved "https://registry.yarnpkg.com/jest-environment-jsdom/-/jest-environment-jsdom-27.2.3.tgz#36ad673f93f1948dd5daa6dcb1c9b1ad09d60165"
-  integrity sha512-QEcgd5bloEfugjvYFACFtFkn5sW9fGYS/vJaTQZ2kj8/q1semDYWssbUWeT8Lmm/4utv9G50+bTq/vGP/LZwvQ==
+  version "27.2.4"
+  resolved "https://registry.yarnpkg.com/jest-environment-jsdom/-/jest-environment-jsdom-27.2.4.tgz#39ae80bbb8675306bfaf0440be1e5f877554539a"
+  integrity sha512-X70pTXFSypD7AIzKT1mLnDi5hP9w9mdTRcOGOmoDoBrNyNEg4rYm6d4LQWFLc9ps1VnMuDOkFSG0wjSNYGjkng==
   dependencies:
-    "@jest/environment" "^27.2.3"
-    "@jest/fake-timers" "^27.2.3"
-    "@jest/types" "^27.2.3"
+    "@jest/environment" "^27.2.4"
+    "@jest/fake-timers" "^27.2.4"
+    "@jest/types" "^27.2.4"
     "@types/node" "*"
-    jest-mock "^27.2.3"
-    jest-util "^27.2.3"
+    jest-mock "^27.2.4"
+    jest-util "^27.2.4"
     jsdom "^16.6.0"
 
 jest-environment-node@^27.2.3:
