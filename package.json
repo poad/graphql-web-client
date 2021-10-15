@@ -11,12 +11,12 @@
     "all": "yarn install && yarn lint && yarn build && yarn test"
   },
   "dependencies": {
-    "@chakra-ui/form-control": "^1.4.1",
+    "@chakra-ui/form-control": "^1.4.2",
     "@chakra-ui/react": "^1.6.9",
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
     "@types/prismjs": "^1.16.6",
-    "@types/react": "^17.0.29",
+    "@types/react": "^17.0.30",
     "framer-motion": "^4.1.17",
     "graphql": "^15.6.1",
     "graphql-request": "^3.6.0",
@@ -25,7 +25,7 @@
     "prismjs": "^1.25.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-hook-form": "^7.17.3",
+    "react-hook-form": "^7.17.4",
     "react-icons": "^4.3.1",
     "react-simple-code-editor": "^0.11.0"
   },
@@ -45,7 +45,7 @@
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-flowtype": "^6.1.0",
     "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-jest": "^25.0.5",
+    "eslint-plugin-jest": "^25.2.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
