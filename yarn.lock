@@ -473,7 +473,7 @@
     "@chakra-ui/utils" "1.8.4"
     react-focus-lock "2.5.0"
 
-"@chakra-ui/form-control@1.4.3", "@chakra-ui/form-control@^1.4.2":
+"@chakra-ui/form-control@1.4.3", "@chakra-ui/form-control@^1.4.3":
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/@chakra-ui/form-control/-/form-control-1.4.3.tgz#a266dda19932604d59b41689bdaa0c8755e4e435"
   integrity sha512-uHulh477WgB5YYoamcNdQpH6/p+Gf2Nk1sC6YzqhG6brJAoXWRxa5oazgpUt0U/AAlA+W1rMTciUKidGxM4Hbw==
@@ -2713,9 +2713,9 @@ domexception@^2.0.1:
     webidl-conversions "^5.0.0"
 
 electron-to-chromium@^1.3.723, electron-to-chromium@^1.3.878:
-  version "1.3.888"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.888.tgz#243204af9b4c928ac45e47dbbe7bc44c30e65bf0"
-  integrity sha512-5iD1zgyPpFER4kJ716VsA4MxQ6x405dxdFNCEK2mITL075VHO5ResjY0xzQUZguCww/KlBxCA6JmBA9sDt1PRw==
+  version "1.3.889"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.889.tgz#0b7c6f7628559592d5406deda281788f37107790"
+  integrity sha512-suEUoPTD1mExjL9TdmH7cvEiWJVM2oEiAi+Y1p0QKxI2HcRlT44qDTP2c1aZmVwRemIPYOpxmV7CxQCOWcm4XQ==
 
 elliptic@^6.5.3:
   version "6.5.4"
