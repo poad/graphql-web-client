@@ -487,7 +487,7 @@
     "@chakra-ui/utils" "1.8.4"
     react-focus-lock "2.5.0"
 
-"@chakra-ui/form-control@1.4.3", "@chakra-ui/form-control@^1.4.3":
+"@chakra-ui/form-control@1.4.3":
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/@chakra-ui/form-control/-/form-control-1.4.3.tgz#a266dda19932604d59b41689bdaa0c8755e4e435"
   integrity sha512-uHulh477WgB5YYoamcNdQpH6/p+Gf2Nk1sC6YzqhG6brJAoXWRxa5oazgpUt0U/AAlA+W1rMTciUKidGxM4Hbw==
@@ -496,6 +496,16 @@
     "@chakra-ui/icon" "1.1.13"
     "@chakra-ui/react-utils" "1.1.2"
     "@chakra-ui/utils" "1.8.4"
+
+"@chakra-ui/form-control@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/form-control/-/form-control-1.5.0.tgz#8524d8d380c86c876183fb54ee34aa94ec5d1af7"
+  integrity sha512-fdBVGRu+M7wibJUk2aii/vBuKu3zlyoj3xQ2fYnA5w8a1dM7GlVuPEBvIDQMrsSnd2np0jTXS8pzyy9KqdoLGQ==
+  dependencies:
+    "@chakra-ui/hooks" "1.7.0"
+    "@chakra-ui/icon" "1.2.0"
+    "@chakra-ui/react-utils" "1.2.0"
+    "@chakra-ui/utils" "1.9.0"
 
 "@chakra-ui/hooks@1.6.2":
   version "1.6.2"
@@ -507,12 +517,29 @@
     compute-scroll-into-view "1.0.14"
     copy-to-clipboard "3.3.1"
 
+"@chakra-ui/hooks@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/hooks/-/hooks-1.7.0.tgz#f6ec5d2d82ee3d3560a53d759b8565d1ccb06450"
+  integrity sha512-T6TwwyRPB2/7Gv07d7TxPEnD2167cz203ceJMppk841J9qnBl7etHbNDvj0rGvT6kTO3QhYt3oA4ptzhlOTg7g==
+  dependencies:
+    "@chakra-ui/react-utils" "1.2.0"
+    "@chakra-ui/utils" "1.9.0"
+    compute-scroll-into-view "1.0.14"
+    copy-to-clipboard "3.3.1"
+
 "@chakra-ui/icon@1.1.13":
   version "1.1.13"
   resolved "https://registry.yarnpkg.com/@chakra-ui/icon/-/icon-1.1.13.tgz#0b8222b6874f83a063b959dc106575800c2cd3c2"
   integrity sha512-yVZr1YMd3YEd0toHKmLxNH4LlLQ60vzuaKYVOmAO9c/gxxPMNYM4Il260Q5W2lxOOzoimfQnZlNfTUPCwHHfUg==
   dependencies:
     "@chakra-ui/utils" "1.8.4"
+
+"@chakra-ui/icon@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icon/-/icon-1.2.0.tgz#417c9c227dc474e7e3c1c209571c76edfdd13ef1"
+  integrity sha512-pPujGgFiBRYYOYX3qihwV8koZL8zucDLMM04BtxV+XMojuhgJ8L4+e6VP2MTe/x/gKNm1cngXHE0POtK7yVQ/A==
+  dependencies:
+    "@chakra-ui/utils" "1.9.0"
 
 "@chakra-ui/image@1.0.22":
   version "1.0.22"
@@ -671,12 +698,19 @@
   dependencies:
     "@chakra-ui/utils" "1.8.4"
 
-"@chakra-ui/react-utils@1.1.2", "@chakra-ui/react-utils@^1.1.2":
+"@chakra-ui/react-utils@1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@chakra-ui/react-utils/-/react-utils-1.1.2.tgz#7ea80b6ae25bd7b182095cc9ffaad23c464408b5"
   integrity sha512-S8jPVKGZH2qF7ZGxl/0DF/dXXI2AxDNGf4Ahi2LGHqajMvqBB7vtYIRRmIA7+jAnErhzO8WUi3i4Z7oScp6xSA==
   dependencies:
     "@chakra-ui/utils" "^1.7.0"
+
+"@chakra-ui/react-utils@1.2.0", "@chakra-ui/react-utils@^1.1.2":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/react-utils/-/react-utils-1.2.0.tgz#5603de6e6a09ce6f578f1893ac6e304ac9a950c7"
+  integrity sha512-3y2l7YN4qnt4bbwz9wFXt/C4Uj40uT5u62g3bPb2dn7U2Fk1WkwiykuEocARd3c9QP1mpYcPAvRmU9/fcIHtZQ==
+  dependencies:
+    "@chakra-ui/utils" "^1.9.0"
 
 "@chakra-ui/react@^1.6.12":
   version "1.6.12"
@@ -885,10 +919,20 @@
   dependencies:
     "@chakra-ui/utils" "1.8.4"
 
-"@chakra-ui/utils@1.8.4", "@chakra-ui/utils@^1.7.0":
+"@chakra-ui/utils@1.8.4":
   version "1.8.4"
   resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-1.8.4.tgz#0e0c93ce39435d678c49af945ccd7972f8624aa9"
   integrity sha512-lMk+FD70zgI8Fn6Ee5h6T2FJdJLnYIYaRQI+Au5izjl8e3V2OZ/Tdi72LW9FnHlQyFZ5N24HGefZlNxOEDUjmw==
+  dependencies:
+    "@types/lodash.mergewith" "4.6.6"
+    css-box-model "1.2.1"
+    framesync "5.3.0"
+    lodash.mergewith "4.6.2"
+
+"@chakra-ui/utils@1.9.0", "@chakra-ui/utils@^1.7.0", "@chakra-ui/utils@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-1.9.0.tgz#ac82f2970b12be077f8293ff52ecda456443330d"
+  integrity sha512-chQb3DTdnn5OG38qXCBJDK1M62YjMYK2O8esFr+o/ndi3aKVHkQV57pqaAYkspzaste8Dg5wscOc0W/jJ66Yiw==
   dependencies:
     "@types/lodash.mergewith" "4.6.6"
     css-box-model "1.2.1"
