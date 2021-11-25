@@ -30,7 +30,7 @@
     "react-simple-code-editor": "^0.11.0"
   },
   "devDependencies": {
-    "@swc/cli": "^0.1.51",
+    "@swc/cli": "^0.1.52",
     "@swc/core": "^1.2.111",
     "@swc/jest": "^0.2.9",
     "@types/jest": "^27.0.3",
