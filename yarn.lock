@@ -4165,17 +4165,17 @@ jest-matcher-utils@^27.4.0:
     pretty-format "^27.4.0"
 
 jest-message-util@^27.4.0:
-  version "27.4.0"
-  resolved "https://registry.yarnpkg.com/jest-message-util/-/jest-message-util-27.4.0.tgz#8961c47cf8974590fa1a94dbf30953e2cb047576"
-  integrity sha512-2KmfpnxFwt+5CF0YST6U1IwFomX9gx2dmcAV/ZjzF9/4tlmieExl7Ch7D36l94mIxWTXhDuPji4XOvxRBdswrQ==
+  version "27.4.2"
+  resolved "https://registry.yarnpkg.com/jest-message-util/-/jest-message-util-27.4.2.tgz#07f3f1bf207d69cf798ce830cc57f1a849f99388"
+  integrity sha512-OMRqRNd9E0DkBLZpFtZkAGYOXl6ZpoMtQJWTAREJKDOFa0M6ptB7L67tp+cszMBkvSgKOhNtQp2Vbcz3ZZKo/w==
   dependencies:
     "@babel/code-frame" "^7.12.13"
-    "@jest/types" "^27.4.0"
+    "@jest/types" "^27.4.2"
     "@types/stack-utils" "^2.0.0"
     chalk "^4.0.0"
     graceful-fs "^4.2.4"
     micromatch "^4.0.4"
-    pretty-format "^27.4.0"
+    pretty-format "^27.4.2"
     slash "^3.0.0"
     stack-utils "^2.0.3"
 
@@ -5134,7 +5134,7 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-pretty-format@^27.0.0, pretty-format@^27.4.0:
+pretty-format@^27.0.0, pretty-format@^27.4.0, pretty-format@^27.4.2:
   version "27.4.2"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-27.4.2.tgz#e4ce92ad66c3888423d332b40477c87d1dac1fb8"
   integrity sha512-p0wNtJ9oLuvgOQDEIZ9zQjZffK7KtyR6Si0jnXULIDwrlNF8Cuir3AZP0hHv0jmKuNN/edOnbMjnzd4uTcmWiw==
