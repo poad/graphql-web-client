@@ -1,5 +1,10 @@
 import React from 'react';
-import NextDocument, { Html, Head, Main, NextScript } from 'next/document';
+
+import { Html, Head, Main, NextScript } from 'next/document';
+
+// https://github.com/vercel/next.js/pull/31939
+import NextDocument from 'next/dist/pages/_document';
+
 import { ColorModeScript } from '@chakra-ui/react';
 
 export default class Document extends NextDocument {
