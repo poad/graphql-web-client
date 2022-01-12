@@ -24,7 +24,7 @@ const JsonEditor = dynamic(() => import('components/JsonEditor'), {
 
 const Home = (): JSX.Element => {
   type Inputs = {
-    endpoint: string,
+    [x: string]: string,
   };
 
   const { colorMode } = useColorMode();
