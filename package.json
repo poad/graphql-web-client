@@ -11,7 +11,7 @@
     "all": "yarn install && yarn lint && yarn build && yarn test"
   },
   "dependencies": {
-    "@chakra-ui/form-control": "^1.5.10",
+    "@chakra-ui/form-control": "^1.6.0",
     "@chakra-ui/react": "^1.8.7",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
