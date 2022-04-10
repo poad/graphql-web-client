@@ -3,10 +3,10 @@ import * as React from 'react';
 import { ChakraProvider } from '@chakra-ui/react';
 import theme from '../theme';
 
-const App = ({ Component, pageProps }: AppProps): JSX.Element => {
+const App = ({ Component }: AppProps): JSX.Element => {
   return (
     <ChakraProvider resetCSS theme={theme}>
-      <Component {...pageProps} />
+      <Component />
     </ChakraProvider>);
 };
 
