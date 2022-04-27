@@ -2684,6 +2684,17 @@ expect@^28.0.2:
     jest-message-util "^28.0.2"
     jest-util "^28.0.2"
 
+expect@^28.0.1:
+  version "28.0.1"
+  resolved "https://registry.yarnpkg.com/expect/-/expect-28.0.1.tgz#7bfac95d375d4310d5061f7e9b7f2afa55a1c1c0"
+  integrity sha512-sJjuHVbveEUczNITHKgHUepbEyj+UzjACMNuEln5tZI6b9L/y8jTXAN8VnOCnMoK7vuQPSttO/5HlKB+G3Enpw==
+  dependencies:
+    "@jest/expect-utils" "^28.0.1"
+    jest-get-type "^28.0.0"
+    jest-matcher-utils "^28.0.1"
+    jest-message-util "^28.0.1"
+    jest-util "^28.0.1"
+
 extract-files@^9.0.0:
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/extract-files/-/extract-files-9.0.0.tgz#8a7744f2437f81f5ed3250ed9f1550de902fe54a"
