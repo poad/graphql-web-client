@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@chakra-ui/form-control": "^2.0.0",
-    "@chakra-ui/react": "^2.0.2",
+    "@chakra-ui/react": "^2.1.0",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "@types/prismjs": "^1.26.0",
