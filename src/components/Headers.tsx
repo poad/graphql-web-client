@@ -163,7 +163,7 @@ const Headers = (props: HeadersProps): JSX.Element => {
       const key = getKey(cur, idx, src);
       const record = (obj[key] || (obj[key] = []));
       if (record === undefined) {
-        throw new Error(`${key} in ${obj} is undefined`);
+        throw new Error(`${key.toString()} in ${obj} is undefined`);
       }
       record.push(cur);
       return obj;
