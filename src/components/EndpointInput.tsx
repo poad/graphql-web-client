@@ -16,7 +16,7 @@ type EndpointInputProps = HTMLAttributes<HTMLDivElement> & {
 const EndpointInput = (props: EndpointInputProps): JSX.Element => {
   return (
     <Flex w='100%'>
-      <FormControl isRequired w='100%' isInvalid={props.errors.endpoint}>
+      <FormControl isRequired w='100%' isInvalid={props.errors.endpoint !== undefined}>
         <FormLabel>GraphQL Endpoint</FormLabel>
         <Input
           id='endpoint'
@@ -27,7 +27,7 @@ const EndpointInput = (props: EndpointInputProps): JSX.Element => {
           })}
         />
       </FormControl>
-      <FormControl isRequired w='10%' isInvalid={props.errors.endpoint}>
+      <FormControl isRequired w='10%' isInvalid={props.errors.endpoint !== undefined}>
         <FormLabel>Method</FormLabel>
         <Select placeholder='HTTP Method' defaultValue='POST'>
           <option value='POST'>POST</option>
