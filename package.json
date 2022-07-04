@@ -40,14 +40,17 @@
     "eslint-config-airbnb-typescript": "*",
     "eslint-config-import": "*",
     "eslint-config-next": "*",
+    "eslint-config-prettier": "*",
     "eslint-import-resolver-typescript": "*",
     "eslint-plugin-flowtype": "*",
     "eslint-plugin-import": "*",
     "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-prettier": "*",
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
     "next-compose-plugins": "*",
     "next-transpile-modules": "*",
+    "prettier": "*",
     "swc-loader": "*",
     "typescript": "*"
   }
