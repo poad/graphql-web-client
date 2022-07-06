@@ -1,7 +1,7 @@
 import React from 'react';
-import Icon from '@chakra-ui/icon';
-import { Box, Link } from '@chakra-ui/layout';
-import { GoMarkGithub } from 'react-icons/go';
+import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const GitHubProjectLink = (): JSX.Element => {
   return (
@@ -10,8 +10,8 @@ const GitHubProjectLink = (): JSX.Element => {
       bottom='1rem'
       right='1rem'
     >
-      <Link href="https://github.com/poad/graphql-web-client" isExternal>
-        <Icon as={GoMarkGithub}  w='3rem' h='3rem' />
+      <Link href="https://github.com/poad/graphql-web-client">
+        <GitHubIcon sx={{ w: '3rem', h: '3rem' }} />
       </Link>
     </Box>
   );

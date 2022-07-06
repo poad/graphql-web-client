@@ -2,7 +2,6 @@
   "name": "graphql-client",
   "version": "0.0.1",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
@@ -12,22 +11,26 @@
     "all": "yarn install && yarn lint && yarn build"
   },
   "dependencies": {
-    "@chakra-ui/form-control": "*",
-    "@chakra-ui/react": "*",
     "@emotion/react": "*",
+    "@emotion/server": "*",
     "@emotion/styled": "*",
+    "@graphiql/react": "*",
+    "@mui/icons-material": "*",
+    "@mui/material": "*",
+    "@mui/styles": "*",
     "@types/prismjs": "*",
+    "autoprefixer": "*",
     "framer-motion": "*",
+    "graphiql": "*",
     "graphql": "*",
     "graphql-request": "*",
+    "graphql-ws": "*",
     "next": "*",
-    "prism-themes": "*",
-    "prismjs": "*",
+    "postcss": "*",
     "react": "*",
     "react-dom": "*",
-    "react-hook-form": "*",
-    "react-icons": "*",
-    "react-simple-code-editor": "*"
+    "tailwindcss": "*",
+    "web-vitals": "*"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "*",
