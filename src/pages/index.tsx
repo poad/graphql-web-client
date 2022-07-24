@@ -9,8 +9,8 @@ import { Footer } from 'components/Footer';
 import EndpointInput from 'components/EndpointInput';
 import GitHubProjectLink from 'components/GitHubProjectLink';
 import Headers from 'components/Headers';
-import GraphiQL, { FetcherParams } from 'graphiql';
 import 'graphiql/graphiql.min.css';
+import GraphQLEditor from 'components/GraphQLEditor';
 
 const Home = (): JSX.Element => {
   const [endpoint, setEndpoint] = useState<string>('');
@@ -19,23 +19,6 @@ const Home = (): JSX.Element => {
 
   const handleEndpointChange = (value: string) => setEndpoint(value);
   const handleMethodChange = (value: string) => setMethod(value);
-
-  const fetcher = async (graphQLParams: FetcherParams) => {
-    const data = await fetch(
-      endpoint,
-      {
-        method,
-        headers: {
-          Accept: 'application/json',
-          'Content-Type': 'application/json',
-          ...headers,
-        },
-        body: JSON.stringify(graphQLParams),
-        credentials: 'same-origin',
-      },
-    );
-    return data.json().catch(() => data.text());
-  };
 
   return (
     <Container paddingLeft='0' marginLeft='0' paddingRight='0' marginRight='0' sx={{ w: '100%', maxW: '100%' }}>
@@ -71,11 +54,12 @@ const Home = (): JSX.Element => {
             <Grid
               item
               xs={12}
-              sx={{ height: '75vh' }}
             >
-              <GraphiQL
-                fetcher={fetcher}
-              />
+              <GraphQLEditor
+                endpoint={endpoint}
+                method={method}
+                headers={headers}
+                sx={{ height: '70vh' }} />
             </Grid>
           </Grid>
         </Stack>
