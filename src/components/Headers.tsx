@@ -1,11 +1,20 @@
-import { Input } from '@chakra-ui/input';
-import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Button } from '@chakra-ui/react';
-import { Table, Thead, Tr, Th, Tbody, Td } from '@chakra-ui/table';
+import TextField from '@mui/material/TextField';
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Table from '@mui/material/Table';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import React, { ReactElement, useState } from 'react';
 
 interface HeadersProps {
-  accordionBgColor: string,
-  thBgColor: string,
+  accordionBgColor?: string,
+  thBgColor?: string,
   onChange: (headers: { [key: string]: string }) => void
 }
 
@@ -26,7 +35,7 @@ interface HttpHeaderRecord extends Record<string, unknown> {
 }
 
 interface HeadersTableProps {
-  thBgColor: string,
+  thBgColor?: string,
   records: HttpHeaderRecord[],
   onChange: (records: HttpHeaderRecord[]) => void
   onDelete: (id: string) => void
@@ -95,43 +104,89 @@ const HeadersTable = (props: HeadersTableProps): ReactElement => {
 
   return (
     <>
-      <Table variant='simple'>
-        <Thead w='100%'>
-          <Tr bgColor={props.thBgColor}>
-            <Th w='35%' pl='1rem' pr='1rem'>Name</Th>
-            <Th w='65%' pl='1rem' pr='0' colSpan={2}>Value</Th>
-          </Tr>
-        </Thead>
-        <Tbody>
+      <Table
+        sx={{
+          pt: '0',
+          pb: '0',
+          mt: '0',
+        }}
+      >
+        <TableHead sx={{ w: '100vw' }}>
+          <TableRow sx={{ bgcolor: '#ccc' }}>
+            <TableCell component='th' scope='row' sx={{
+              w: '35vw', pl: '1rem', pr: '1rem',
+            }}>
+              Name
+            </TableCell>
+            <TableCell component='th' scope='row' sx={{
+              w: '65vw', pl: '1rem', pr: '0',
+            }} colSpan={2}>
+              Value
+            </TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
           {records.map((record) => {
             return (
-              <Tr key={record.id}>
-                <Td key={record.key.id} w='35%' border='none' pl='0' pr='1rem' pt='0.5rem'>
-                  <Input
+              <TableRow key={record.id}>
+                <TableCell
+                  key={record.key.id}
+                  sx={{
+                    w: '35vw',
+                    border: 'none',
+                    pl: '0',
+                    pr: '1rem',
+                    pt: '0.5rem',
+                  }}
+                >
+                  <TextField
                     type='text'
                     name={record.key.id}
-                    readOnly={record.key.readonly}
+                    InputProps={{
+                      readOnly: record.value.readonly,
+                    }}
                     value={record.key.value}
                     onChange={(event) => onKeyChange({ id: record.id, value: event.target.value })}
+                    sx={{ minWidth: '100%', bgcolor: '#fff' }}
                   />
-                </Td>
-                <Td key={record.value.id} w='64%' border='none' pl='0' pr='1rem' pt='0.5rem'>
-                  <Input
+                </TableCell>
+                <TableCell
+                  key={record.value.id}
+                  sx={{
+                    w: '64vw',
+                    border: 'none',
+                    pl: '0',
+                    pr: '0',
+                    pt: '0.5rem',
+                  }}
+                >
+                  <TextField
                     type={record.value.type || 'text'}
                     name={record.value.id}
-                    readOnly={record.value.readonly}
+                    InputProps={{
+                      readOnly: record.value.readonly,
+                    }}
                     placeholder={record.value.placeholder}
                     value={record.value.value}
                     onChange={(event) => onValueChange({ id: record.id, value: event.target.value })}
+                    sx={{ minWidth: '100%', bgcolor: '#fff' }}
+
                   />
-                </Td>
-                <Td w='1%' border='none' pl='0' pr='0' pt='0.5rem'>
-                  <Button onClick={() => props.onDelete(record.id)}>-</Button>
-                </Td>
-              </Tr>
+                </TableCell>
+                <TableCell
+                  sx={{
+                    maxWidth: '1vw',
+                    p: '0',
+                    m: '0',
+                    textAlign: 'center',
+                  }}
+                >
+                  <Button onClick={() => props.onDelete(record.id)} sx={{ fontSize: '1.75rem', minWidth: '1vw', p: '0', m: '0' }}>-</Button>
+                </TableCell>
+              </TableRow>
             );
           })}
-        </Tbody>
+        </TableBody>
       </Table>
     </>
   );
@@ -149,11 +204,11 @@ const Headers = (props: HeadersProps): JSX.Element => {
     value: {
       id: 'header-0-value',
       value: '',
-      type: 'password',
+      type: 'text',
       placeholder: 'ex) Bearer <YOUR_TOKEN>',
     },
   }];
-  const [data, setData] = useState<HttpHeaderRecord[]>(originalData);
+  const [data, seTableCellata] = useState<HttpHeaderRecord[]>(originalData);
 
   const groupBy = <K extends PropertyKey, V>(
     array: readonly V[],
@@ -162,7 +217,7 @@ const Headers = (props: HeadersProps): JSX.Element => {
     array.reduce((obj, cur, idx, src) => {
       const key = getKey(cur, idx, src);
       const record = (obj[key] || (obj[key] = []));
-      if (record === undefined) {
+      if (!record) {
         throw new Error(`${key.toString()} in ${obj} is undefined`);
       }
       record.push(cur);
@@ -170,7 +225,7 @@ const Headers = (props: HeadersProps): JSX.Element => {
     }, {} as Partial<Record<K, V[]>>);
 
   const updateData = (headers: HttpHeaderRecord[]) => {
-    setData(headers);
+    seTableCellata(headers);
 
     const groupping = groupBy(
       headers.map(header => ({ key: header.key.value, value: header.value.value })),
@@ -194,7 +249,7 @@ const Headers = (props: HeadersProps): JSX.Element => {
     props.onChange(h.length > 0 ? h.reduce((cur, acc) => Object.assign(acc, cur)) : {});
   };
 
-  const resetData = () => updateData(originalData);
+  const reseTableCellata = () => updateData(originalData);
 
   const addData = () => updateData(data.concat([{
     id: `header-${data.length}`,
@@ -219,31 +274,28 @@ const Headers = (props: HeadersProps): JSX.Element => {
 
   return (
     <Box pb='0'>
-      <Accordion allowToggle>
-        <AccordionItem border='none' pb='0'>
-          <AccordionButton bg={props.accordionBgColor}>
-            <Box flex='1' textAlign='left'>
-              <h2>
-                Headers
-              </h2>
-            </Box>
-            <AccordionIcon />
-          </AccordionButton>
-          <AccordionPanel
-            pl='0'
-            pr='0'
-            pb='0'
-          >
-            <HeadersTable
-              records={data}
-              {...props}
-              onChange={updateData}
-              onDelete={remove}
-            />
-            <Button onClick={addData}>+</Button>
-            <Button onClick={resetData} ml={'1rem'}>Reset</Button>
-          </AccordionPanel>
-        </AccordionItem>
+      <Accordion sx={{ border: 'none', pt: '0', pl: '0', pr: '0', bgcolor: '#f3f3f3' }}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          sx={{ margin: '0', pt: '0', pb: '0', fontSize: '14' }}
+        >
+          Headers
+        </AccordionSummary>
+        <AccordionDetails
+          sx={{
+            pt: '0',
+            mt: '0',
+          }}
+        >
+          <HeadersTable
+            records={data}
+            {...props}
+            onChange={updateData}
+            onDelete={remove}
+          />
+          <Button onClick={addData}>+</Button>
+          <Button onClick={reseTableCellata} sx={{ ml: '1rem' }}>Reset</Button>
+        </AccordionDetails>
       </Accordion>
     </Box>
   );

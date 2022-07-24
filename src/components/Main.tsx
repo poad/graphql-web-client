@@ -1,20 +1,42 @@
 import React from 'react';
-import { Center, VStack, Stack, StackProps, Heading } from '@chakra-ui/react';
+import Typography from '@mui/material/Typography';
+import Stack from '@mui/material/Stack';
+import Box, { BoxProps } from '@mui/material/Box';
+import { createStyles, withStyles } from '@mui/styles';
 
-export const Main = (props: StackProps): JSX.Element => (
-  <Center w='80%' minW='85%'>
-    <VStack w='100%'>
-      <Heading pt='1rem' size="2xl" noOfLines={1}>GraphQL Online Client</Heading>
-      <Stack
+interface MainProps extends BoxProps {
+  title: string
+}
+
+const Center = withStyles(() => createStyles({
+  root: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+}))(Box);
+
+export const Main = (props: MainProps): JSX.Element => (
+  <Center sx={{ w: '80%', minW: '85%' }}>
+    <Stack sx={{ w: '100%' }}>
+      <Typography variant='h1' sx={{
+        pt: '1rem', noOfLines: 1, fontSize: '36pt', mb: '1rem',
+      }}>
+        {props.title}
+      </Typography>
+      <Box
         id='main'
-        w='80%'
-        spacing='1.5rem'
-        h='inherit'
-        pt='1rem'
-        px='1rem'
+        sx={{
+          w: '80%',
+          spacing: '1.5rem',
+          h: 'inherit',
+          pt: '1rem',
+          px: '1rem',
+
+        }}
         {...props}
         className='line-numbers'
       />
-    </VStack>
+    </Stack>
   </Center>
 );

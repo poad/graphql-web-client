@@ -1,46 +1,43 @@
-import { Button } from '@chakra-ui/button';
-import { FormControl, FormLabel } from '@chakra-ui/form-control';
-import { Input } from '@chakra-ui/input';
-import { Flex, Spacer, VStack } from '@chakra-ui/layout';
-import { Select } from '@chakra-ui/select';
-import React, { HTMLAttributes } from 'react';
-import { FieldErrors, FieldValues, UseFormRegister } from 'react-hook-form';
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
+import React from 'react';
+import Select, { SelectChangeEvent } from '@mui/material/Select';
 
-type EndpointInputProps = HTMLAttributes<HTMLDivElement> & {
-  register: UseFormRegister<FieldValues>;
-  errors: FieldErrors<FieldValues>,
-  btnColor: string;
-  isSubmitting: boolean
-};
+interface EndpointInputProps {
+  value: string;
+  onChange: (value: string) => void;
+  onSelect: (value: string) => void;
+}
 
-const EndpointInput = (props: EndpointInputProps): JSX.Element => {
+const EndpointInput = ({ value, onChange, onSelect }: EndpointInputProps): JSX.Element => {
+
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    onChange(event.target.value);
+  };
+
+  const handleSelectChange = (event: SelectChangeEvent<string>) => {
+    onSelect(event.target.value);
+  };
+
   return (
-    <Flex w='100%'>
-      <FormControl isRequired w='100%' isInvalid={props.errors.endpoint !== undefined}>
-        <FormLabel>GraphQL Endpoint</FormLabel>
-        <Input
-          id='endpoint'
-          placeholder='GraphQL endpoint'
-          {...props.register('endpoint', {
-            required: 'This is required',
-            minLength: { value: 8, message: 'Minimum length should be 8' },
-          })}
-        />
-      </FormControl>
-      <FormControl isRequired w='10%' isInvalid={props.errors.endpoint !== undefined}>
-        <FormLabel>Method</FormLabel>
-        <Select placeholder='HTTP Method' defaultValue='POST'>
-          <option value='POST'>POST</option>
-          <option value='GET'>GET</option>
-        </Select>
-      </FormControl>
-      <VStack w='5%' align='stretch'>
-        <Spacer />
-        <Button colorScheme={props.btnColor} isLoading={props.isSubmitting} type='submit'>
-                    Submit
-        </Button>
-      </VStack>
-    </Flex>
+    <Box sx={{ w: '100vw' }}>
+      <TextField
+        id='endpoint'
+        placeholder='GraphQL endpoint'
+        value={value}
+        onChange={handleInputChange}
+        sx={{ minWidth: '94vw', fontSize: '14', padding: '0' }}
+      />
+      <Select
+        placeholder='HTTP Method'
+        defaultValue='POST'
+        onChange={handleSelectChange}
+        sx={{ minWidth: '6vw', fontSize: '14', padding: '0' }}
+      >
+        <option value='POST'>POST</option>
+        <option value='GET'>GET</option>
+      </Select>
+    </Box>
   );
 };
 

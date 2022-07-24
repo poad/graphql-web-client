@@ -1,6 +1,6 @@
 import React from 'react';
-import { Flex, FlexProps } from '@chakra-ui/react';
+import Box, { BoxProps } from '@mui/material/Box';
 
-export const Footer = (props: FlexProps): JSX.Element => (
-  <Flex as='footer' py='8rem' {...props} />
+export const Footer = (props: BoxProps): JSX.Element => (
+  <Box py='8rem' {...props} />
 );
