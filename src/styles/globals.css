@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @import "codemirror-github-light/lib/codemirror-github-dark-theme.css"; */
+@import "codemirror-github-light/lib/codemirror-github-light-theme.css";
+
 html,
 body {
   padding: 0;
