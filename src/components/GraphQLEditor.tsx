@@ -17,7 +17,7 @@ const isURL = (text: string): boolean => {
   } catch (err) {
     return false;
   }
-}
+};
 
 const GraphQLEditor = ({ endpoint, method, headers, ...props }: GraphQLEditorProps): JSX.Element => {
   const fetcher = async (graphQLParams: FetcherParams) => {

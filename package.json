@@ -18,14 +18,13 @@
     "@mui/icons-material": "*",
     "@mui/material": "*",
     "@mui/styles": "*",
-    "@types/prismjs": "*",
     "autoprefixer": "*",
     "framer-motion": "*",
     "graphiql": "*",
     "graphql": "*",
     "graphql-request": "*",
     "graphql-ws": "*",
-    "next": "*",
+    "next": "^12",
     "postcss": "*",
     "react": "*",
     "react-dom": "*",
@@ -34,7 +33,7 @@
     "web-vitals": "*"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "*",
+    "@next/bundle-analyzer": "^12",
     "@types/node": "*",
     "@types/react": "*",
     "@types/react-no-ssr": "*",
@@ -44,7 +43,7 @@
     "eslint-config-airbnb-base": "*",
     "eslint-config-airbnb-typescript": "*",
     "eslint-config-import": "*",
-    "eslint-config-next": "*",
+    "eslint-config-next": "^12",
     "eslint-config-prettier": "*",
     "eslint-import-resolver-typescript": "*",
     "eslint-plugin-flowtype": "*",
@@ -56,7 +55,6 @@
     "next-compose-plugins": "*",
     "next-transpile-modules": "*",
     "prettier": "*",
-    "swc-loader": "*",
     "typescript": "*"
   }
 }
