@@ -112,7 +112,7 @@ const HeadersTable = (props: HeadersTableProps): ReactElement => {
         }}
       >
         <TableHead sx={{ w: '100vw' }}>
-          <TableRow sx={{ bgcolor: '#ccc' }}>
+          <TableRow sx={{ bgcolor: 'background.paper' }}>
             <TableCell component='th' scope='row' sx={{
               w: '35vw', pl: '1rem', pr: '1rem',
             }}>
@@ -147,7 +147,7 @@ const HeadersTable = (props: HeadersTableProps): ReactElement => {
                     }}
                     value={record.key.value}
                     onChange={(event) => onKeyChange({ id: record.id, value: event.target.value })}
-                    sx={{ minWidth: '100%', bgcolor: '#fff' }}
+                    sx={{ minWidth: '100%', bgcolor: 'background.default' }}
                   />
                 </TableCell>
                 <TableCell
@@ -169,7 +169,7 @@ const HeadersTable = (props: HeadersTableProps): ReactElement => {
                     placeholder={record.value.placeholder}
                     value={record.value.value}
                     onChange={(event) => onValueChange({ id: record.id, value: event.target.value })}
-                    sx={{ minWidth: '100%', bgcolor: '#fff' }}
+                    sx={{ minWidth: '100%', bgcolor: 'background.default' }}
 
                   />
                 </TableCell>
@@ -181,7 +181,7 @@ const HeadersTable = (props: HeadersTableProps): ReactElement => {
                     textAlign: 'center',
                   }}
                 >
-                  <Button onClick={() => props.onDelete(record.id)} sx={{ fontSize: '1.75rem', minWidth: '1vw', p: '0', m: '0' }}>-</Button>
+                  <Button onClick={() => props.onDelete(record.id)} sx={{ fontSize: '1.75rem', minWidth: '1vw', p: '0', m: '0', color: 'text.primary' }}>-</Button>
                 </TableCell>
               </TableRow>
             );
@@ -193,7 +193,6 @@ const HeadersTable = (props: HeadersTableProps): ReactElement => {
 };
 
 const Headers = (props: HeadersProps): JSX.Element => {
-
   const originalData = [{
     id: 'header-0',
     key: {
@@ -274,7 +273,7 @@ const Headers = (props: HeadersProps): JSX.Element => {
 
   return (
     <Box pb='0'>
-      <Accordion sx={{ border: 'none', pt: '0', pl: '0', pr: '0', bgcolor: '#f3f3f3' }}>
+      <Accordion sx={{ border: 'none', pt: '0', pl: '0', pr: '0', bgcolor: 'divider' }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           sx={{ margin: '0', pt: '0', pb: '0', fontSize: '14' }}
@@ -293,8 +292,8 @@ const Headers = (props: HeadersProps): JSX.Element => {
             onChange={updateData}
             onDelete={remove}
           />
-          <Button onClick={addData}>+</Button>
-          <Button onClick={reseTableCellata} sx={{ ml: '1rem' }}>Reset</Button>
+          <Button onClick={addData} sx={{ color: 'text.primary' }}>+</Button>
+          <Button onClick={reseTableCellata} sx={{ ml: '1rem', color: 'text.primary' }}>Reset</Button>
         </AccordionDetails>
       </Accordion>
     </Box>

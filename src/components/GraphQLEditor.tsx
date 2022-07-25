@@ -4,22 +4,16 @@ import GraphiQL, { FetcherParams } from 'graphiql';
 import NoSSR from 'react-no-ssr';
 import 'graphiql/graphiql.min.css';
 
+export type ColorMode = 'light' | 'dark';
+
 interface GraphQLEditorProps extends BoxProps {
   endpoint: string,
   method: string,
   headers: { [key: string]: string },
+  colorMode: ColorMode,
 }
 
-const isURL = (text: string): boolean => {
-  try {
-    new URL(text);
-    return true;
-  } catch (err) {
-    return false;
-  }
-};
-
-const GraphQLEditor = ({ endpoint, method, headers, ...props }: GraphQLEditorProps): JSX.Element => {
+const GraphQLEditor = ({ endpoint, method, headers, colorMode, ...props }: GraphQLEditorProps): JSX.Element => {
   const fetcher = async (graphQLParams: FetcherParams) => {
     const data = await fetch(
       endpoint,
@@ -38,12 +32,18 @@ const GraphQLEditor = ({ endpoint, method, headers, ...props }: GraphQLEditorPro
   };
 
   return (
-    <Box visibility={isURL(endpoint) ? 'visible' : 'hidden'} {...props}>
-      <NoSSR>
-        <GraphiQL
-          fetcher={fetcher}
-        />
-      </NoSSR>
+    <Box>
+      <Box {...props}>
+        <NoSSR>
+
+          <GraphiQL
+            fetcher={fetcher}
+            shouldPersistHeaders
+            headerEditorEnabled
+            editorTheme="github-dark"
+          />
+        </NoSSR>
+      </Box>
     </Box>
   );
 };

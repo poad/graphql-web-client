@@ -11,7 +11,7 @@ const GitHubProjectLink = (): JSX.Element => {
       right='1rem'
     >
       <Link href="https://github.com/poad/graphql-web-client">
-        <GitHubIcon sx={{ w: '3rem', h: '3rem' }} />
+        <GitHubIcon sx={{ w: '3rem', h: '3rem', color: 'text.primary' }} />
       </Link>
     </Box>
   );
