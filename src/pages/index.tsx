@@ -80,7 +80,7 @@ const Home = ({ mode }: HomeProps): JSX.Element => {
               xs={12}
               sx={{
                 bgcolor: 'text.secondary',
-                pb: '1rem'
+                pb: '1rem',
               }}
             >
               <GraphQLEditor
@@ -129,7 +129,7 @@ const ToggleColorMode = () => {
       </ThemeProvider>
     </ColorModeContext.Provider>
   );
-}
+};
 
 
 export default ToggleColorMode;
