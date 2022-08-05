@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
+    "export": "echo \"no action in script. Please run yarn build (includes next export)\"",
     "start": "next start",
     "analyze": "ANALYZE=true next build",
     "lint": "eslint --ext .ts,.js,.tsx,.jsx src",
