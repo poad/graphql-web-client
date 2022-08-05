@@ -214,12 +214,12 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@graphiql/react@*", "@graphiql/react@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@graphiql/react/-/react-0.7.0.tgz#0c8473798c70ae4b573057f2890f3c7f2a62d6ba"
-  integrity sha512-1xlj+WnfumwyWsXGWCX7DSN9/sXAganPOvceyochlcuhxeejnWy5s3gsSiTdGVDVR68OOTkYx+EpkRnXAZyEeA==
+"@graphiql/react@*", "@graphiql/react@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@graphiql/react/-/react-0.7.1.tgz#c2741080f525a6b3779f47d16e94859e48b2ea14"
+  integrity sha512-eWNuBXzELOjzfQDsQI9cO8MxolAaZwWVRj/qazGo8cqNzOV9dtFz/XnB37roZCSz+qiGW1cwXmXpJnUJW45kcQ==
   dependencies:
-    "@graphiql/toolkit" "^0.6.0"
+    "@graphiql/toolkit" "^0.6.1"
     codemirror "^5.65.3"
     codemirror-graphql "^1.3.2"
     copy-to-clipboard "^3.2.0"
@@ -228,10 +228,10 @@
     markdown-it "^12.2.0"
     set-value "^4.1.0"
 
-"@graphiql/toolkit@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@graphiql/toolkit/-/toolkit-0.6.0.tgz#e508e58f305a976222f6adb84ab0ec748c26ab60"
-  integrity sha512-mbAwbt4lw2bFp9QW3NLVmh/r/ymczlcqvXk1HfvuC7Ma4h0yzrJiQauJyh1/gF5kjqevcRSquvP/YQJSvh1u6w==
+"@graphiql/toolkit@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@graphiql/toolkit/-/toolkit-0.6.1.tgz#ab2ae0a401ef5a6334a5573397608c2c5867c79d"
+  integrity sha512-rRjbHko6aSg1RWGr3yOJQqEV1tKe8yw9mDSr/18B+eDhVLQ30yyKk2NznFUT9NmIDzWFGR2pH/0lbBhHKmUCqw==
   dependencies:
     "@n1ru4l/push-pull-async-iterable-iterator" "^3.1.0"
     meros "^1.1.4"
@@ -256,13 +256,13 @@
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
 "@motionone/animation@^10.13.1":
-  version "10.13.1"
-  resolved "https://registry.yarnpkg.com/@motionone/animation/-/animation-10.13.1.tgz#ebacb50df4b7eb4957cf398c221ae10852f28520"
-  integrity sha512-dxQ+1wWxL6iFHDy1uv6hhcPjIdOg36eDT56jN4LI7Z5HZRyLpq8x1t7JFQclo/IEIb+6Bk4atmyinGFdXVECuA==
+  version "10.13.2"
+  resolved "https://registry.yarnpkg.com/@motionone/animation/-/animation-10.13.2.tgz#174a55a3bac1b6fb314cc1c3627093dc790ae081"
+  integrity sha512-YGWss58IR2X4lOjW89rv1Q+/Nq/QhfltaggI7i8sZTpKC1yUvM+XYDdvlRpWc6dk8LviMBrddBJAlLdbaqeRmw==
   dependencies:
-    "@motionone/easing" "^10.13.1"
-    "@motionone/types" "^10.13.0"
-    "@motionone/utils" "^10.13.1"
+    "@motionone/easing" "^10.13.2"
+    "@motionone/types" "^10.13.2"
+    "@motionone/utils" "^10.13.2"
     tslib "^2.3.1"
 
 "@motionone/dom@10.13.1":
@@ -277,34 +277,34 @@
     hey-listen "^1.0.8"
     tslib "^2.3.1"
 
-"@motionone/easing@^10.13.1":
-  version "10.13.1"
-  resolved "https://registry.yarnpkg.com/@motionone/easing/-/easing-10.13.1.tgz#7927b7fe96135989e37c2cda957e4101a4b85aa8"
-  integrity sha512-INEsInHHDHVgx0dp5qlXi1lMXBqYicgLMMSn3zfGzaIvcaEbI1Uz8BoyNV4BiclTupG7RYIh+T6BU83ZcEe74g==
+"@motionone/easing@^10.13.2":
+  version "10.13.2"
+  resolved "https://registry.yarnpkg.com/@motionone/easing/-/easing-10.13.2.tgz#8f10c8624000eb741312941d3f578ed05154e06f"
+  integrity sha512-3HqctS5NyDfDQ+8+cZqc3Pu7I6amFCt9zDUjcozHyFXHh4PKYHK4+GJDFjJIS8bCAF2BrJmpmduDQ2V7lFEYeQ==
   dependencies:
-    "@motionone/utils" "^10.13.1"
+    "@motionone/utils" "^10.13.2"
     tslib "^2.3.1"
 
 "@motionone/generators@^10.13.1":
-  version "10.13.1"
-  resolved "https://registry.yarnpkg.com/@motionone/generators/-/generators-10.13.1.tgz#d4989d887b864e0aefbbec63eed35ce298a73773"
-  integrity sha512-+HK5u2YcNJCckTTqfOLgSVcrWv2z1dVwrSZEMVJuAh0EnWEWGDJRvMBoPc0cFf/osbkA2Rq9bH2+vP0Ex/D8uw==
+  version "10.13.2"
+  resolved "https://registry.yarnpkg.com/@motionone/generators/-/generators-10.13.2.tgz#dd972195b899e7a556d65bd27fae2fd423055e10"
+  integrity sha512-QMoXV1MXEEhR6D3dct/RMMS1FwJlAsW+kMPbFGzBA4NbweblgeYQCft9DcDAVpV9wIwD6qvlBG9u99sOXLfHiA==
   dependencies:
-    "@motionone/types" "^10.13.0"
-    "@motionone/utils" "^10.13.1"
+    "@motionone/types" "^10.13.2"
+    "@motionone/utils" "^10.13.2"
     tslib "^2.3.1"
 
-"@motionone/types@^10.13.0":
-  version "10.13.0"
-  resolved "https://registry.yarnpkg.com/@motionone/types/-/types-10.13.0.tgz#b22c549931ebd88ed5528158b5d611dc9dbb3756"
-  integrity sha512-qegk4qg8U1N9ZwAJ187BG3TkZz1k9LP/pvNtCSlqdq/PMUDKlCFG4ZnjJ481P0IOH/vIw1OzIbKIuyg0A3rk9g==
+"@motionone/types@^10.13.0", "@motionone/types@^10.13.2":
+  version "10.13.2"
+  resolved "https://registry.yarnpkg.com/@motionone/types/-/types-10.13.2.tgz#c560090d81bd0149e7451aae23ab7af458570363"
+  integrity sha512-yYV4q5v5F0iADhab4wHfqaRJnM/eVtQLjUPhyEcS72aUz/xyOzi09GzD/Gu+K506BDfqn5eULIilUI77QNaqhw==
 
-"@motionone/utils@^10.13.1":
-  version "10.13.1"
-  resolved "https://registry.yarnpkg.com/@motionone/utils/-/utils-10.13.1.tgz#14919dfcda36b54b184fff690bc0125d554f60cd"
-  integrity sha512-TjDPTIppaf3ofBXQv4ZzAketJgN0sclALXfZ6mfrkjJkOy83mLls9744F+6S+VKCpBmvbZcBY4PQfrfhAfeMtA==
+"@motionone/utils@^10.13.1", "@motionone/utils@^10.13.2":
+  version "10.13.2"
+  resolved "https://registry.yarnpkg.com/@motionone/utils/-/utils-10.13.2.tgz#ce79bfe1d133493c217cdc0584960434e065648d"
+  integrity sha512-6Lw5bDA/w7lrPmT/jYWQ76lkHlHs9fl2NZpJ22cVy1kKDdEH+Cl1U6hMTpdphO6VQktQ6v2APngag91WBKLqlA==
   dependencies:
-    "@motionone/types" "^10.13.0"
+    "@motionone/types" "^10.13.2"
     hey-listen "^1.0.8"
     tslib "^2.3.1"
 
@@ -1866,12 +1866,12 @@ grapheme-splitter@^1.0.4:
   integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
 
 graphiql@*:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/graphiql/-/graphiql-1.11.0.tgz#e9ce0920e143ab543be189d6f67ac5cf09747709"
-  integrity sha512-QsQcNTbn5O7PurqrWblwFKgvSd12lyosHChs6zPladKyZ6+oiDhuhK69FIjxxBnm1tFR/Ko4NMDsTn4hLH1SMg==
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/graphiql/-/graphiql-1.11.1.tgz#18889f363c3b4c61a84f0b0388fcd9ab39fddd60"
+  integrity sha512-1XdY7x8fp55qfakYA6y3hMd5mMcGOXDpuZ/xtulQR6jVEs3UF4d3jzsiZefhYLWB0uSRf21kW76sUvKYipWfdg==
   dependencies:
-    "@graphiql/react" "^0.7.0"
-    "@graphiql/toolkit" "^0.6.0"
+    "@graphiql/react" "^0.7.1"
+    "@graphiql/toolkit" "^0.6.1"
     entities "^2.0.0"
     graphql-language-service "^5.0.6"
     markdown-it "^12.2.0"
@@ -3173,9 +3173,9 @@ synckit@^0.8.1:
     tslib "^2.4.0"
 
 tailwindcss@*:
-  version "3.1.7"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.1.7.tgz#ce99425f30a74e01457a2e6a724463b0df3159ac"
-  integrity sha512-r7mgumZ3k0InfVPpGWcX8X/Ut4xBfv+1O/+C73ar/m01LxGVzWvPxF/w6xIUPEztrCoz7axfx0SMdh8FH8ZvRQ==
+  version "3.1.8"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.1.8.tgz#4f8520550d67a835d32f2f4021580f9fddb7b741"
+  integrity sha512-YSneUCZSFDYMwk+TGq8qYFdCA3yfBRdBlS7txSq0LUmzyeqRe3a8fBQzbz9M3WS/iFT4BNf/nmw9mEzrnSaC0g==
   dependencies:
     arg "^5.0.2"
     chokidar "^3.5.3"
