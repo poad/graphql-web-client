@@ -4,9 +4,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer');
 const config = {
   reactStrictMode: true,
   swcMinify: true,
-  experimental: {
-    esmExternals: true,
-  },
 };
 
 module.exports = withBundleAnalyzer({

@@ -1,6 +1,6 @@
 import React from 'react';
 import Box, { BoxProps } from '@mui/material/Box';
-import GraphiQL, { FetcherParams } from 'graphiql';
+import GraphiQL from 'graphiql';
 import NoSSR from 'react-no-ssr';
 import 'graphiql/graphiql.min.css';
 
@@ -14,7 +14,7 @@ interface GraphQLEditorProps extends BoxProps {
 }
 
 const GraphQLEditor = ({ endpoint, method, headers, colorMode, ...props }: GraphQLEditorProps): JSX.Element => {
-  const fetcher = async (graphQLParams: FetcherParams) => {
+  const fetcher = async (graphQLParams: unknown) => {
     const data = await fetch(
       endpoint,
       {
@@ -39,7 +39,6 @@ const GraphQLEditor = ({ endpoint, method, headers, colorMode, ...props }: Graph
           <GraphiQL
             fetcher={fetcher}
             shouldPersistHeaders
-            headerEditorEnabled
             editorTheme="github-dark"
           />
         </NoSSR>
