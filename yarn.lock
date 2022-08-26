@@ -2031,9 +2031,9 @@ grapheme-splitter@^1.0.4:
   integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
 
 graphiql@*:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/graphiql/-/graphiql-2.0.0.tgz#df14bd4bd202aa92f119401b7a7d4b492a466e9d"
-  integrity sha512-VsSJI6ftk7d6ORfr/d5ZtQhep4WSslCUsIJd8bwpCEW8GbnB0I1UsId0sVXsMLP1wpB/YZOFKPmF4AbVz8rPAA==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/graphiql/-/graphiql-2.0.1.tgz#8e5c50da0059f57ffcc2077c8ff8cde70f6ce6af"
+  integrity sha512-/4KrJc1D+fAMpWyGPsfm7ySUpo5IBHjm2cUJYLAvQrWBycbWbJ7PICrszoAL/NhXBTaF8zSFzEQz5Liv2BVxMg==
   dependencies:
     "@graphiql/react" "^0.11.0"
     "@graphiql/toolkit" "^0.7.0"
