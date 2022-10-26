@@ -27,7 +27,7 @@
     "graphql": "*",
     "graphql-request": "*",
     "graphql-ws": "*",
-    "next": "^12",
+    "next": "^13",
     "postcss": "*",
     "react": "*",
     "react-dom": "*",
@@ -36,7 +36,7 @@
     "web-vitals": "*"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^12",
+    "@next/bundle-analyzer": "^13",
     "@types/node": "*",
     "@types/react": "*",
     "@types/react-no-ssr": "*",
@@ -45,7 +45,7 @@
     "eslint": "*",
     "eslint-config-airbnb-base": "*",
     "eslint-config-airbnb-typescript": "*",
-    "eslint-config-next": "^12",
+    "eslint-config-next": "^13",
     "eslint-config-prettier": "*",
     "eslint-import-resolver-typescript": "*",
     "eslint-plugin-prettier": "*",
