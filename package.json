@@ -27,7 +27,7 @@
     "graphql": "*",
     "graphql-request": "*",
     "graphql-ws": "*",
-    "next": "^12",
+    "next": "^13",
     "postcss": "*",
     "react": "*",
     "react-dom": "*",
