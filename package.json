@@ -45,7 +45,7 @@
     "eslint": "*",
     "eslint-config-airbnb-base": "*",
     "eslint-config-airbnb-typescript": "*",
-    "eslint-config-next": "^12",
+    "eslint-config-next": "^13",
     "eslint-config-prettier": "*",
     "eslint-import-resolver-typescript": "*",
     "eslint-plugin-prettier": "*",
