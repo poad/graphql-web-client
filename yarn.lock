@@ -216,10 +216,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@graphiql/react@*", "@graphiql/react@^0.13.3":
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/@graphiql/react/-/react-0.13.3.tgz#b29138e8a32fe2e10cb37bd61b64f05cc04ebb4a"
-  integrity sha512-BIOaahIxVHGQjoVbECIiSzEtETZVMyhG83ysVpoFKCVj27KxDbh/Yk9w23L0aYQWuWEU7C02Kzl5gi+Zwx/K3A==
+"@graphiql/react@*", "@graphiql/react@^0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@graphiql/react/-/react-0.13.4.tgz#885d2ef80283926fa85a1372a52b1374529f13ef"
+  integrity sha512-SM8IQDwIngjGibadt4wFsgoOlb+sCKxpRD6VZ2kb2pant3g2/Vn/zNO04t29/bN/gfTtUMM5xbLZAgleApHdWg==
   dependencies:
     "@graphiql/toolkit" "^0.8.0"
     "@reach/combobox" "^0.17.0"
@@ -2046,11 +2046,11 @@ grapheme-splitter@^1.0.4:
   integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
 
 graphiql@*:
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/graphiql/-/graphiql-2.0.9.tgz#00c8c1a37c069d53ade143d4265ef6e164f68bb4"
-  integrity sha512-vPRmcYMi/BUdZ9Y2evW7BtxakfmvPV3k0CF2BZK/U9Qg0lJbYtVErz8DR/vgWy/fRBuKpg2Le7dGretFt9FM+w==
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/graphiql/-/graphiql-2.0.10.tgz#e66a6ef6dd69a7397796f4267e21ae07900082d9"
+  integrity sha512-dS//VqE5VnjU2rSAaea+aKaHc5lGrPfRnpqYeNmrYlQbAnzzJEqcK3PlCQRZnyxFXSqQ64o+vzpEu7EjO4SIWQ==
   dependencies:
-    "@graphiql/react" "^0.13.3"
+    "@graphiql/react" "^0.13.4"
     "@graphiql/toolkit" "^0.8.0"
     entities "^2.0.0"
     graphql-language-service "^5.1.0"
