@@ -217,9 +217,9 @@
     strip-json-comments "^3.1.1"
 
 "@graphiql/react@*", "@graphiql/react@^0.13.3":
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/@graphiql/react/-/react-0.13.3.tgz#b29138e8a32fe2e10cb37bd61b64f05cc04ebb4a"
-  integrity sha512-BIOaahIxVHGQjoVbECIiSzEtETZVMyhG83ysVpoFKCVj27KxDbh/Yk9w23L0aYQWuWEU7C02Kzl5gi+Zwx/K3A==
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@graphiql/react/-/react-0.13.4.tgz#885d2ef80283926fa85a1372a52b1374529f13ef"
+  integrity sha512-SM8IQDwIngjGibadt4wFsgoOlb+sCKxpRD6VZ2kb2pant3g2/Vn/zNO04t29/bN/gfTtUMM5xbLZAgleApHdWg==
   dependencies:
     "@graphiql/toolkit" "^0.8.0"
     "@reach/combobox" "^0.17.0"
