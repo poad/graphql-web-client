@@ -216,10 +216,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@graphiql/react@*", "@graphiql/react@^0.13.4":
-  version "0.13.4"
-  resolved "https://registry.yarnpkg.com/@graphiql/react/-/react-0.13.4.tgz#885d2ef80283926fa85a1372a52b1374529f13ef"
-  integrity sha512-SM8IQDwIngjGibadt4wFsgoOlb+sCKxpRD6VZ2kb2pant3g2/Vn/zNO04t29/bN/gfTtUMM5xbLZAgleApHdWg==
+"@graphiql/react@*", "@graphiql/react@^0.13.7":
+  version "0.13.7"
+  resolved "https://registry.yarnpkg.com/@graphiql/react/-/react-0.13.7.tgz#23c41d0326893c336942d80e1e6cfb32eb7eac3b"
+  integrity sha512-mI+6mXd9AJFDJy39VuZGxCiVLvmBe2XoNidbN3lXgTLe689RZKifPaUw41USitQOu20sASoYDfzJ8i98G4urow==
   dependencies:
     "@graphiql/toolkit" "^0.8.0"
     "@reach/combobox" "^0.17.0"
@@ -229,7 +229,7 @@
     "@reach/tooltip" "^0.17.0"
     "@reach/visually-hidden" "^0.17.0"
     codemirror "^5.65.3"
-    codemirror-graphql "^2.0.0"
+    codemirror-graphql "^2.0.2"
     copy-to-clipboard "^3.2.0"
     graphql-language-service "^5.1.0"
     markdown-it "^12.2.0"
@@ -249,13 +249,13 @@
   integrity sha512-NQ17ii0rK1b34VZonlmT2QMJFI70m0TRwbknO/ihlbatXyaktDhN/98vBiUU6kNBPljqGqyIrl2T4nY2RpFANg==
 
 "@humanwhocodes/config-array@^0.11.6":
-  version "0.11.6"
-  resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.6.tgz#6a51d603a3aaf8d4cf45b42b3f2ac9318a4adc4b"
-  integrity sha512-jJr+hPTJYKyDILJfhNSHsjiwXYf26Flsz8DvNndOsHs5pwSnpGUEy8yzF0JYhCEvTDdV2vuOK5tt8BVhwO5/hg==
+  version "0.11.7"
+  resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.7.tgz#38aec044c6c828f6ed51d5d7ae3d9b9faf6dbb0f"
+  integrity sha512-kBbPWzN8oVMLb0hOUYXhmxggL/1cJE6ydvjDIGi9EnAGUyA7cLVKQg+d/Dsm+KZwx2czGHrCmMVLiyg8s5JPKw==
   dependencies:
     "@humanwhocodes/object-schema" "^1.2.1"
     debug "^4.1.1"
-    minimatch "^3.0.4"
+    minimatch "^3.0.5"
 
 "@humanwhocodes/module-importer@^1.0.1":
   version "1.0.1"
@@ -743,9 +743,9 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/node@*":
-  version "18.11.7"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.7.tgz#8ccef136f240770c1379d50100796a6952f01f94"
-  integrity sha512-LhFTglglr63mNXUSRYD8A+ZAIu5sFqNJ4Y2fPuY7UlrySJH87rRRlhtVmMHplmfk5WkoJGmDjE9oiTfyX94CpQ==
+  version "18.11.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.8.tgz#16d222a58d4363a2a359656dd20b28414de5d265"
+  integrity sha512-uGwPWlE0Hj972KkHtCDVwZ8O39GmyjfMane1Z3GUBGGnkZ2USDq7SxLpVIiIHpweY9DS0QTDH0Nw7RNBsAAZ5A==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1117,9 +1117,9 @@ camelcase-css@^2.0.1:
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
 caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001406, caniuse-lite@^1.0.30001426:
-  version "1.0.30001426"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001426.tgz#58da20446ccd0cb1dfebd11d2350c907ee7c2eaa"
-  integrity sha512-n7cosrHLl8AWt0wwZw/PJZgUg3lV0gk9LMI7ikGJwhyhgsd2Nb65vKvmSexCqq/J7rbH3mFG6yZZiPR5dLPW5A==
+  version "1.0.30001427"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001427.tgz#d3a749f74be7ae0671fbec3a4eea18576e8ad646"
+  integrity sha512-lfXQ73oB9c8DP5Suxaszm+Ta2sr/4tf8+381GkIm1MLj/YdLf+rEDyDSRCzeltuyTVGm+/s18gdZ0q+Wmp8VsQ==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -1173,12 +1173,12 @@ codemirror-github-light@*:
   resolved "https://registry.yarnpkg.com/codemirror-github-light/-/codemirror-github-light-0.4.2.tgz#89497c2495848a945a2cd21aaa3e566b877b1435"
   integrity sha512-+ktVrMRuOoR2iJ6B3GRq+ef/1mT3/Ec9MMkogN9u7wWU6u4PFz+BbwLihdegmmkMHO5VvahtOI7FNZRTQEAqIg==
 
-codemirror-graphql@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/codemirror-graphql/-/codemirror-graphql-2.0.0.tgz#0705da4e179f0708b249d4460b231598cebaa696"
-  integrity sha512-4trIaV9LYo/yRMu3s5qf7ASrKQjcCGrVfqOwaFsdjjcG8koh93gCzZ+csMhe3n6A7lMLWEpPdFWBIepKGV7qQg==
+codemirror-graphql@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/codemirror-graphql/-/codemirror-graphql-2.0.2.tgz#df3cbcb53efc2ad63f170888f25647659376f319"
+  integrity sha512-9c1cItR+8lG7thmTnDDQ3zI8YesNKiFCp2BnLFkYWCtdhSSuCUHebU/Vurew6ayyUl8MBCldNx3Ev66QAWM5Kw==
   dependencies:
-    graphql-language-service "^5.1.0"
+    graphql-language-service "5.0.6"
 
 codemirror@^5.65.3:
   version "5.65.9"
@@ -2051,15 +2051,23 @@ grapheme-splitter@^1.0.4:
   integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
 
 graphiql@*:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/graphiql/-/graphiql-2.0.10.tgz#e66a6ef6dd69a7397796f4267e21ae07900082d9"
-  integrity sha512-dS//VqE5VnjU2rSAaea+aKaHc5lGrPfRnpqYeNmrYlQbAnzzJEqcK3PlCQRZnyxFXSqQ64o+vzpEu7EjO4SIWQ==
+  version "2.0.13"
+  resolved "https://registry.yarnpkg.com/graphiql/-/graphiql-2.0.13.tgz#2734382a66e77a8a9232540a1a1da5bbe3e9e8bb"
+  integrity sha512-hfqcd40aO2V44Z/rey6lGXYnEsbwseeokeeZGQbFfSImciGtyP0SS8MyE5s5yno6z/M0ymJccpaNaUlC6imSwA==
   dependencies:
-    "@graphiql/react" "^0.13.4"
+    "@graphiql/react" "^0.13.7"
     "@graphiql/toolkit" "^0.8.0"
     entities "^2.0.0"
     graphql-language-service "^5.1.0"
     markdown-it "^12.2.0"
+
+graphql-language-service@5.0.6:
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/graphql-language-service/-/graphql-language-service-5.0.6.tgz#7fd1e6479e5c3074b070c760fa961d9ad1ed7c72"
+  integrity sha512-FjE23aTy45Lr5metxCv3ZgSKEZOzN7ERR+OFC1isV5mHxI0Ob8XxayLTYjQKrs8b3kOpvgTYmSmu6AyXOzYslg==
+  dependencies:
+    nullthrows "^1.0.0"
+    vscode-languageserver-types "^3.15.1"
 
 graphql-language-service@^5.1.0:
   version "5.1.0"
@@ -2608,7 +2616,7 @@ mime-types@^2.1.12:
   dependencies:
     mime-db "1.52.0"
 
-minimatch@^3.0.4, minimatch@^3.1.1, minimatch@^3.1.2:
+minimatch@^3.0.4, minimatch@^3.0.5, minimatch@^3.1.1, minimatch@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
   integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
@@ -3598,7 +3606,7 @@ util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-vscode-languageserver-types@^3.17.1:
+vscode-languageserver-types@^3.15.1, vscode-languageserver-types@^3.17.1:
   version "3.17.2"
   resolved "https://registry.yarnpkg.com/vscode-languageserver-types/-/vscode-languageserver-types-3.17.2.tgz#b2c2e7de405ad3d73a883e91989b850170ffc4f2"
   integrity sha512-zHhCWatviizPIq9B7Vh9uvrH6x3sK8itC84HkamnBWoDFJtzBf7SWlpLCZUit72b3os45h6RWQNC9xHRDF8dRA==
