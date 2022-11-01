@@ -19,7 +19,6 @@
     "@mui/icons-material": "*",
     "@mui/material": "*",
     "@mui/styles": "*",
-    "autoprefixer": "*",
     "codemirror-github-dark": "*",
     "codemirror-github-light": "*",
     "framer-motion": "*",
@@ -28,11 +27,9 @@
     "graphql-request": "*",
     "graphql-ws": "*",
     "next": "^13",
-    "postcss": "*",
     "react": "*",
     "react-dom": "*",
     "react-no-ssr": "*",
-    "tailwindcss": "*",
     "web-vitals": "*"
   },
   "devDependencies": {
@@ -42,6 +39,7 @@
     "@types/react-no-ssr": "*",
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
+    "autoprefixer": "*",
     "eslint": "*",
     "eslint-config-airbnb-base": "*",
     "eslint-config-airbnb-typescript": "*",
@@ -52,7 +50,9 @@
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
     "next-transpile-modules": "*",
+    "postcss": "*",
     "prettier": "*",
+    "tailwindcss": "*",
     "typescript": "*"
   }
 }
