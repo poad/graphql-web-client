@@ -216,10 +216,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@graphiql/react@*", "@graphiql/react@^0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@graphiql/react/-/react-0.14.0.tgz#a3beb5bf2967d5085f306c8fcb953a1a95b4e41b"
-  integrity sha512-BBkbl35akar4/+4P6ggZ99jSmU0D1qV70A2OegkuJ4t/knAis/R713faOs9xKyjkUj8hv6+KcAqBOp48LnP6lA==
+"@graphiql/react@*", "@graphiql/react@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@graphiql/react/-/react-0.15.0.tgz#b10fc40c5a85e7b5b845907d57bfd8be92753037"
+  integrity sha512-kJqkdf6d4Cck05Wt5yCDZXWfs7HZgcpuoWq/v8nOa698qVaNMM3qdG4CpRsZEexku0DSSJzWWuanxd5x+sRcFg==
   dependencies:
     "@graphiql/toolkit" "^0.8.0"
     "@reach/combobox" "^0.17.0"
@@ -1887,9 +1887,9 @@ fraction.js@^4.2.0:
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
 
 framer-motion@*:
-  version "7.6.9"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-7.6.9.tgz#d2c8ca8b97580aa00f7c6e2b616da241bd2ce8e6"
-  integrity sha512-byPSPOqKApmVUvbtvmFCyL09dqBNLUwkXRQMeTsawtF6YpiB54yCVzk+9YXAnoswMSgsB7CQaA6ls7e8QL+C+g==
+  version "7.6.12"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-7.6.12.tgz#a1f228e00da03ceb78482ae4a7fba63be39d34e4"
+  integrity sha512-Xm1jPB91v6vIr9b+V3q6c96sPzU1jWdvN+Mv4CvIAY23ZIezGNIWxWNGIWj1We0CZ8SSOQkttz8921M10TQjXg==
   dependencies:
     "@motionone/dom" "10.13.1"
     framesync "6.1.2"
@@ -2053,11 +2053,11 @@ grapheme-splitter@^1.0.4:
   integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
 
 graphiql@*:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/graphiql/-/graphiql-2.1.0.tgz#2c67dd5121e120e30fc4e37ce2b776b7a12d2a76"
-  integrity sha512-b58o/o7y5x/C4WzH7YTeSWbINE6tcfzZN4TxgvoSZxhE9X6MulXXbXLRiGEl5+FuajIN0LxaoleHTJUHb9H2wg==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/graphiql/-/graphiql-2.2.0.tgz#406b9b28bca130ae9ece892826c1d60958c1ac13"
+  integrity sha512-w1ujpCKMlkwkoUjeg0HpRiBBTm1WHAjHNkFv1TbMu6trjzz63mQ48GLZlmyQY1yhwmc+diCcvmmAt+AyvKLWWA==
   dependencies:
-    "@graphiql/react" "^0.14.0"
+    "@graphiql/react" "^0.15.0"
     "@graphiql/toolkit" "^0.8.0"
     entities "^2.0.0"
     graphql-language-service "^5.1.0"
