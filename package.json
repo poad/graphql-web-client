@@ -56,6 +56,6 @@
     "typescript": "*"
   },
   "resolutions": {
-    "json5": ">=2.2.2"
+    "json5": ">=2.2.3"
   }
 }
