@@ -1385,9 +1385,9 @@ duplexer@^0.1.2:
   integrity sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.321"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.321.tgz#48b513fbeae39d431826bbafa2acb88309d8be55"
-  integrity sha512-ERuAqNq7YknVY3+47VbB+Q92kWH7O7sX3mkZINqZtsGJMQFb0dj71d5U3PRTihX03qt2NWIfZic2CCcGXOHJ7A==
+  version "1.4.323"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.323.tgz#5f91cb03e6b88c0a208ff66c0203a24c6e689506"
+  integrity sha512-+a0hMEQxE8u1F1vOHcE0M18kQ2+4AwOXdRrU4avZ1LeR/sa9WAallYE3uES/PNcEGt/wCFcOgWcArSLx5C+WNQ==
 
 emoji-regex@^9.2.2:
   version "9.2.2"
@@ -1546,9 +1546,9 @@ eslint-config-next@^13:
     eslint-plugin-react-hooks "^4.5.0"
 
 eslint-config-prettier@*:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.6.0.tgz#dec1d29ab728f4fa63061774e1672ac4e363d207"
-  integrity sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.7.0.tgz#f1cc58a8afebc50980bd53475451df146c13182d"
+  integrity sha512-HHVXLSlVUhMSmyW4ZzEuvjpwqamgmlfkutD53cYXLikh4pt/modINRcCIApJ84czDxM4GZInwUrromsDdTImTA==
 
 eslint-import-resolver-node@^0.3.6, eslint-import-resolver-node@^0.3.7:
   version "0.3.7"
@@ -1884,9 +1884,9 @@ fraction.js@^4.2.0:
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
 
 framer-motion@*:
-  version "10.0.2"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.0.2.tgz#386ad9fef138d625740e8338715e5f2568ae9951"
-  integrity sha512-1k8y1e6DMRQ/r6or4TBxRhE1cXlDE5bm+SFeWLeh7ng0sfSbpROC2Qd1OEHq6lLXNARar/KKoj/EQ6eIvn60Uw==
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.2.3.tgz#80ac552648f05b707d0595be5e87551aa673689a"
+  integrity sha512-+TBxfia8Ym/lYSvTAhome7LYFIR8fKhImuln5zcp9D8nFI2wNSDdBRtK5WoWTyjHXJ7efv5xv376Ma85zHhtUg==
   dependencies:
     tslib "^2.4.0"
   optionalDependencies:
