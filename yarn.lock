@@ -317,14 +317,14 @@
     "@mui/utils" "^5.11.13"
     prop-types "^15.8.1"
 
-"@mui/styled-engine@^5.11.11":
-  version "5.11.11"
-  resolved "https://registry.yarnpkg.com/@mui/styled-engine/-/styled-engine-5.11.11.tgz#9084c331fdcff2210ec33adf37f34e94d67202e4"
-  integrity sha512-wV0UgW4lN5FkDBXefN8eTYeuE9sjyQdg5h94vtwZCUamGQEzmCOtir4AakgmbWMy0x8OLjdEUESn9wnf5J9MOg==
+"@mui/styled-engine@^5.11.16":
+  version "5.11.16"
+  resolved "https://registry.yarnpkg.com/@mui/styled-engine/-/styled-engine-5.11.16.tgz#8d107b4ade583b53f6be832e0041261c77cd0d79"
+  integrity sha512-8dJRR/LqtGGaZN21p1vU9euwrKERlgtQIWyuzBKZ8/cuSlW5rIzlp46liP+Uh0+7d9NcHU0H4hBMoPt3ax64PA==
   dependencies:
     "@babel/runtime" "^7.21.0"
     "@emotion/cache" "^11.10.5"
-    csstype "^3.1.1"
+    csstype "^3.1.2"
     prop-types "^15.8.1"
 
 "@mui/styles@*":
@@ -351,17 +351,17 @@
     prop-types "^15.8.1"
 
 "@mui/system@^5.11.15":
-  version "5.11.15"
-  resolved "https://registry.yarnpkg.com/@mui/system/-/system-5.11.15.tgz#075fa6aef5ec765ea9573bf654049cf72066364d"
-  integrity sha512-vCatoWCTnAPquoNifHbqMCMnOElEbLosVUeW0FQDyjCq+8yMABD9E6iY0s14O7iq1wD+qqU7rFAuDIVvJ/AzzA==
+  version "5.11.16"
+  resolved "https://registry.yarnpkg.com/@mui/system/-/system-5.11.16.tgz#8847f790a76c503ea4907854982fc2b1734e0bb4"
+  integrity sha512-JY7CNm7ik2Gr4kQpz1+C9N/f4ET3QjVBo/iaHcmlSOgjdxnOzFbv+vCdb1DMzBGew+UbqckppZpZwbgbrBE2Rw==
   dependencies:
     "@babel/runtime" "^7.21.0"
     "@mui/private-theming" "^5.11.13"
-    "@mui/styled-engine" "^5.11.11"
+    "@mui/styled-engine" "^5.11.16"
     "@mui/types" "^7.2.3"
     "@mui/utils" "^5.11.13"
     clsx "^1.2.1"
-    csstype "^3.1.1"
+    csstype "^3.1.2"
     prop-types "^15.8.1"
 
 "@mui/types@^7.2.3":
@@ -1255,7 +1255,7 @@ cssesc@^3.0.0:
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
-csstype@^3.0.2, csstype@^3.1.1:
+csstype@^3.0.2, csstype@^3.1.1, csstype@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
   integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
