@@ -6,27 +6,33 @@ import Box, { BoxProps } from '@mui/material/Box';
 import { createStyles, withStyles } from '@mui/styles';
 import { Theme } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
-import Brightness4Icon from '@mui/icons-material/Brightness4';
-import Brightness7Icon from '@mui/icons-material/Brightness7';
 import Toolbar from '@mui/material/Toolbar';
+import { Brightness4, Brightness7 } from '@mui/icons-material';
 
 interface MainProps extends BoxProps {
-  title: string,
-  theme: Theme,
+  title: string;
+  theme: Theme;
   colorMode: {
     toggleColorMode: () => void;
-  },
+  };
 }
 
-const Center = withStyles(() => createStyles({
-  root: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-}))(Box);
+const Center = withStyles(() =>
+  createStyles({
+    root: {
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+  }),
+)(Box);
 
-export const Main = ({ title, theme, colorMode, ...props }: MainProps): JSX.Element => (
+export const Main = ({
+  title,
+  theme,
+  colorMode,
+  ...props
+}: MainProps): JSX.Element => (
   <Box>
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -34,8 +40,12 @@ export const Main = ({ title, theme, colorMode, ...props }: MainProps): JSX.Elem
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             {title}
           </Typography>
-          <IconButton onClick={colorMode.toggleColorMode} color="inherit" sx={{ display: 'inline' }}>
-            {theme.palette.mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
+          <IconButton
+            onClick={colorMode.toggleColorMode}
+            color="inherit"
+            sx={{ display: 'inline' }}
+          >
+            {theme.palette.mode === 'dark' ? <Brightness7 /> : <Brightness4 />}
           </IconButton>
         </Toolbar>
       </AppBar>
@@ -56,5 +66,5 @@ export const Main = ({ title, theme, colorMode, ...props }: MainProps): JSX.Elem
         />
       </Stack>
     </Center>
-  </Box >
+  </Box>
 );

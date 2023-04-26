@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
-import {
-  Stack, Grid,
-} from '@mui/material';
+import { Stack, Grid } from '@mui/material';
 import { useTheme, ThemeProvider, createTheme } from '@mui/material/styles';
 import { Main } from 'components/Main';
 import { Container } from 'components/Container';
@@ -13,10 +11,10 @@ import Headers from 'components/Headers';
 import 'graphiql/graphiql.min.css';
 import GraphQLEditor, { ColorMode } from 'components/GraphQLEditor';
 
-const ColorModeContext = React.createContext({ toggleColorMode: () => { } });
+const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
 
 interface HomeProps {
-  mode: ColorMode,
+  mode: ColorMode;
 }
 
 const Home = ({ mode }: HomeProps): JSX.Element => {
@@ -31,12 +29,7 @@ const Home = ({ mode }: HomeProps): JSX.Element => {
   const handleMethodChange = (value: string) => setMethod(value);
 
   return (
-    <Container
-      paddingLeft='0'
-      marginLeft='0'
-      paddingRight='0'
-      marginRight='0'
-    >
+    <Container paddingLeft='0' marginLeft='0' paddingRight='0' marginRight='0'>
       <Head>
         <title>GraphQL Client</title>
         <link rel='icon' href='/favicon.ico' />
@@ -71,9 +64,7 @@ const Home = ({ mode }: HomeProps): JSX.Element => {
                 onChange={handleEndpointChange}
                 onSelect={handleMethodChange}
               />
-              <Headers
-                onChange={setHeaders}
-              />
+              <Headers onChange={setHeaders} />
             </Grid>
             <Grid
               item
@@ -131,6 +122,4 @@ const ToggleColorMode = () => {
   );
 };
 
-
 export default ToggleColorMode;
-

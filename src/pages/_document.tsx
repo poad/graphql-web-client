@@ -1,10 +1,19 @@
 import * as React from 'react';
 import createEmotionServer from '@emotion/server/create-instance';
 import createCache from '@emotion/cache';
-import Document, { Html, Head, Main, NextScript, DocumentContext, DocumentInitialProps } from 'next/document';
+import Document, {
+  Html,
+  Head,
+  Main,
+  NextScript,
+  DocumentContext,
+  DocumentInitialProps,
+} from 'next/document';
 
 export default class NextDocument extends Document {
-  static getInitialProps: (ctx: DocumentContext) => Promise<DocumentInitialProps>;
+  static getInitialProps: (
+    ctx: DocumentContext,
+  ) => Promise<DocumentInitialProps>;
 
   render(): JSX.Element {
     return (
@@ -26,7 +35,6 @@ export default class NextDocument extends Document {
 }
 
 NextDocument.getInitialProps = async (ctx: DocumentContext) => {
-
   const originalRenderPage = ctx.renderPage;
 
   const cache = createCache({ key: 'css' });
@@ -34,26 +42,37 @@ NextDocument.getInitialProps = async (ctx: DocumentContext) => {
 
   ctx.renderPage = () =>
     originalRenderPage({
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any, react/display-name
-      enhanceApp: (App: any) => (props) => <App emotionCache={cache} {...props} />,
+      // eslint-disable @typescript-eslint/no-explicit-any
+      // rome-ignore lint/suspicious/noExplicitAny: <explanation>
+      enhanceApp: (App: any) => (props) =>
+        <App emotionCache={cache} {...props} />,
+      // eslint-enable
     });
 
   const initialProps = await Document.getInitialProps(ctx);
   // This is important. It prevents emotion to render invalid HTML.
   // See https://github.com/mui-org/material-ui/issues/26561#issuecomment-855286153
   const emotionStyles = extractCriticalToChunks(initialProps.html);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const emotionStyleTags = emotionStyles.styles.map((style: { key: React.Key | null | undefined; ids: any[]; css: any; }) => (
-    <style
-      data-emotion={`${style.key} ${style.ids.join(' ')}`}
-      key={style.key}
-      // eslint-disable-next-line react/no-danger
-      dangerouslySetInnerHTML={{ __html: style.css }}
-    />
-  ));
+  const emotionStyleTags = emotionStyles.styles.map(
+    // eslint-disable @typescript-eslint/no-explicit-any
+    // rome-ignore lint/suspicious/noExplicitAny: <explanation>
+    (style: { key: React.Key | null | undefined; ids: any[]; css: any }) => (
+      <style
+        data-emotion={`${style.key} ${style.ids.join(' ')}`}
+        key={style.key}
+        // eslint-disable-next-line react/no-danger
+        // rome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
+        dangerouslySetInnerHTML={{ __html: style.css }}
+      />
+    ),
+    // eslint-enable
+  );
 
   return {
     ...initialProps,
-    styles: [...React.Children.toArray(initialProps.styles), ...emotionStyleTags],
+    styles: [
+      ...React.Children.toArray(initialProps.styles),
+      ...emotionStyleTags,
+    ],
   };
 };

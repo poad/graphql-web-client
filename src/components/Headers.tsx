@@ -13,44 +13,45 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import React, { ReactElement, useState } from 'react';
 
 interface HeadersProps {
-  accordionBgColor?: string,
-  thBgColor?: string,
-  onChange: (headers: { [key: string]: string }) => void
+  accordionBgColor?: string;
+  thBgColor?: string;
+  onChange: (headers: { [key: string]: string }) => void;
 }
 
 interface HttpHeaderRecord extends Record<string, unknown> {
-  id: string,
+  id: string;
   key: {
-    id: string,
-    value: string,
-    readonly?: boolean,
-  },
+    id: string;
+    value: string;
+    readonly?: boolean;
+  };
   value: {
-    id: string,
-    type?: string,
-    value: string,
-    readonly?: boolean,
-    placeholder?: string
-  },
+    id: string;
+    type?: string;
+    value: string;
+    readonly?: boolean;
+    placeholder?: string;
+  };
 }
 
 interface HeadersTableProps {
-  thBgColor?: string,
-  records: HttpHeaderRecord[],
-  onChange: (records: HttpHeaderRecord[]) => void
-  onDelete: (id: string) => void
+  thBgColor?: string;
+  records: HttpHeaderRecord[];
+  onChange: (records: HttpHeaderRecord[]) => void;
+  onDelete: (id: string) => void;
 }
 
 const HeadersTable = (props: HeadersTableProps): ReactElement => {
   const records = props.records;
 
-  const onKeyChange = (
-    { id, value }: {
-      id: string,
-      value: string
-    },
-  ) => {
-    const index = records.findIndex(record => record.id === id);
+  const onKeyChange = ({
+    id,
+    value,
+  }: {
+    id: string;
+    value: string;
+  }) => {
+    const index = records.findIndex((record) => record.id === id);
     if (index === -1) {
       // skip
       return;
@@ -68,17 +69,21 @@ const HeadersTable = (props: HeadersTableProps): ReactElement => {
     };
 
     props.onChange(
-      (records.length === 1 ? [] : records.slice(0, index))
-        .concat(newRecord, records.length > index + 1 ? records.slice(index + 1) : []));
+      (records.length === 1 ? [] : records.slice(0, index)).concat(
+        newRecord,
+        records.length > index + 1 ? records.slice(index + 1) : [],
+      ),
+    );
   };
 
-  const onValueChange = (
-    { id, value }: {
-      id: string,
-      value: string
-    },
-  ) => {
-    const index = records.findIndex(record => record.id === id);
+  const onValueChange = ({
+    id,
+    value,
+  }: {
+    id: string;
+    value: string;
+  }) => {
+    const index = records.findIndex((record) => record.id === id);
     if (index === -1) {
       // skip
       return;
@@ -98,8 +103,11 @@ const HeadersTable = (props: HeadersTableProps): ReactElement => {
     };
 
     props.onChange(
-      (records.length === 1 ? [] : records.slice(0, index))
-        .concat(newRecord, records.length > index + 1 ? records.slice(index + 1) : []));
+      (records.length === 1 ? [] : records.slice(0, index)).concat(
+        newRecord,
+        records.length > index + 1 ? records.slice(index + 1) : [],
+      ),
+    );
   };
 
   return (
@@ -113,14 +121,25 @@ const HeadersTable = (props: HeadersTableProps): ReactElement => {
       >
         <TableHead sx={{ w: '100vw' }}>
           <TableRow sx={{ bgcolor: 'background.paper' }}>
-            <TableCell component='th' scope='row' sx={{
-              w: '35vw', pl: '1rem', pr: '1rem',
-            }}>
+            <TableCell
+              component='th'
+              sx={{
+                w: '35vw',
+                pl: '1rem',
+                pr: '1rem',
+              }}
+            >
               Name
             </TableCell>
-            <TableCell component='th' scope='row' sx={{
-              w: '65vw', pl: '1rem', pr: '0',
-            }} colSpan={2}>
+            <TableCell
+              component='th'
+              sx={{
+                w: '65vw',
+                pl: '1rem',
+                pr: '0',
+              }}
+              colSpan={2}
+            >
               Value
             </TableCell>
           </TableRow>
@@ -146,7 +165,9 @@ const HeadersTable = (props: HeadersTableProps): ReactElement => {
                       readOnly: record.value.readonly,
                     }}
                     value={record.key.value}
-                    onChange={(event) => onKeyChange({ id: record.id, value: event.target.value })}
+                    onChange={(event) =>
+                      onKeyChange({ id: record.id, value: event.target.value })
+                    }
                     sx={{ minWidth: '100%', bgcolor: 'background.default' }}
                   />
                 </TableCell>
@@ -168,9 +189,13 @@ const HeadersTable = (props: HeadersTableProps): ReactElement => {
                     }}
                     placeholder={record.value.placeholder}
                     value={record.value.value}
-                    onChange={(event) => onValueChange({ id: record.id, value: event.target.value })}
+                    onChange={(event) =>
+                      onValueChange({
+                        id: record.id,
+                        value: event.target.value,
+                      })
+                    }
                     sx={{ minWidth: '100%', bgcolor: 'background.default' }}
-
                   />
                 </TableCell>
                 <TableCell
@@ -181,7 +206,18 @@ const HeadersTable = (props: HeadersTableProps): ReactElement => {
                     textAlign: 'center',
                   }}
                 >
-                  <Button onClick={() => props.onDelete(record.id)} sx={{ fontSize: '1.75rem', minWidth: '1vw', p: '0', m: '0', color: 'text.primary' }}>-</Button>
+                  <Button
+                    onClick={() => props.onDelete(record.id)}
+                    sx={{
+                      fontSize: '1.75rem',
+                      minWidth: '1vw',
+                      p: '0',
+                      m: '0',
+                      color: 'text.primary',
+                    }}
+                  >
+                    -
+                  </Button>
                 </TableCell>
               </TableRow>
             );
@@ -193,20 +229,22 @@ const HeadersTable = (props: HeadersTableProps): ReactElement => {
 };
 
 const Headers = (props: HeadersProps): JSX.Element => {
-  const originalData = [{
-    id: 'header-0',
-    key: {
-      id: 'header-0-key',
-      value: 'Authorization',
-      readonly: true,
+  const originalData = [
+    {
+      id: 'header-0',
+      key: {
+        id: 'header-0-key',
+        value: 'Authorization',
+        readonly: true,
+      },
+      value: {
+        id: 'header-0-value',
+        value: '',
+        type: 'text',
+        placeholder: 'ex) Bearer <YOUR_TOKEN>',
+      },
     },
-    value: {
-      id: 'header-0-value',
-      value: '',
-      type: 'text',
-      placeholder: 'ex) Bearer <YOUR_TOKEN>',
-    },
-  }];
+  ];
   const [data, seTableCellata] = useState<HttpHeaderRecord[]>(originalData);
 
   const groupBy = <K extends PropertyKey, V>(
@@ -215,7 +253,7 @@ const Headers = (props: HeadersProps): JSX.Element => {
   ) =>
     array.reduce((obj, cur, idx, src) => {
       const key = getKey(cur, idx, src);
-      const record = (obj[key] || (obj[key] = []));
+      const record = obj[key] || (obj[key] = []);
       if (!record) {
         throw new Error(`${key.toString()} in ${obj} is undefined`);
       }
@@ -227,53 +265,75 @@ const Headers = (props: HeadersProps): JSX.Element => {
     seTableCellata(headers);
 
     const groupping = groupBy(
-      headers.map(header => ({ key: header.key.value, value: header.value.value })),
-      r => r.key,
+      headers.map((header) => ({
+        key: header.key.value,
+        value: header.value.value,
+      })),
+      (r) => r.key,
     );
 
-    const h = Object.keys(groupping).map(key => ({
-      key,
-      value: groupping[key]?.map(r => r.value).reduce((acc, cur) => acc.concat(',', cur)),
-    }))
-      .filter(r => r.value !== undefined)
+    const h = Object.keys(groupping)
+      .map((key) => ({
+        key,
+        value: groupping[key]
+          ?.map((r) => r.value)
+          .reduce((acc, cur) => acc.concat(',', cur)),
+      }))
+      .filter((r) => r.value !== undefined)
       // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-      .filter(r => (r.key === 'Authorization' && r.value!.length > 0) || r.key !== 'Authorization')
+      .filter(
+        (r) =>
+          (r.key === 'Authorization' && r.value && r.value.length > 0) ||
+          r.key !== 'Authorization',
+      )
       .map((entry) => {
         const entity: { [key: string]: string } = {};
         // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+        // rome-ignore lint/style/noNonNullAssertion: <explanation>
         entity[entry.key] = entry.value!;
         return entity;
       });
 
-    props.onChange(h.length > 0 ? h.reduce((cur, acc) => Object.assign(acc, cur)) : {});
+    props.onChange(
+      h.length > 0 ? h.reduce((cur, acc) => Object.assign(acc, cur)) : {},
+    );
   };
 
   const reseTableCellata = () => updateData(originalData);
 
-  const addData = () => updateData(data.concat([{
-    id: `header-${data.length}`,
-    key: {
-      id: `header-${data.length}-key`,
-      value: '',
-    },
-    value: {
-      id: `header-${data.length}-value`,
-      value: '',
-    },
-  }]));
+  const addData = () =>
+    updateData(
+      data.concat([
+        {
+          id: `header-${data.length}`,
+          key: {
+            id: `header-${data.length}-key`,
+            value: '',
+          },
+          value: {
+            id: `header-${data.length}-value`,
+            value: '',
+          },
+        },
+      ]),
+    );
 
   const remove = (id: string): void => {
-    const index = data.findIndex(record => record.id === id);
+    const index = data.findIndex((record) => record.id === id);
     if (index === -1) {
       return;
     }
 
-    updateData(data.slice(0, index).concat(data.length > 1 ? data.slice(index + 1) : []));
+    updateData(
+      data.slice(0, index).concat(data.length > 1 ? data.slice(index + 1) : []),
+    );
   };
 
   return (
     <Box pb='0'>
-      <Accordion sx={{ border: 'none', pt: '0', pl: '0', pr: '0', bgcolor: 'divider' }}>
+      <Accordion
+        sx={{ border: 'none', pt: '0', pl: '0', pr: '0', bgcolor: 'divider' }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           sx={{ margin: '0', pt: '0', pb: '0', fontSize: '14' }}
@@ -292,8 +352,15 @@ const Headers = (props: HeadersProps): JSX.Element => {
             onChange={updateData}
             onDelete={remove}
           />
-          <Button onClick={addData} sx={{ color: 'text.primary' }}>+</Button>
-          <Button onClick={reseTableCellata} sx={{ ml: '1rem', color: 'text.primary' }}>Reset</Button>
+          <Button onClick={addData} sx={{ color: 'text.primary' }}>
+            +
+          </Button>
+          <Button
+            onClick={reseTableCellata}
+            sx={{ ml: '1rem', color: 'text.primary' }}
+          >
+            Reset
+          </Button>
         </AccordionDetails>
       </Accordion>
     </Box>

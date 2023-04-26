@@ -9,9 +9,14 @@ interface EndpointInputProps {
   onSelect: (value: string) => void;
 }
 
-const EndpointInput = ({ value, onChange, onSelect }: EndpointInputProps): JSX.Element => {
-
-  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+const EndpointInput = ({
+  value,
+  onChange,
+  onSelect,
+}: EndpointInputProps): JSX.Element => {
+  const handleInputChange = (
+    event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     onChange(event.target.value);
   };
 

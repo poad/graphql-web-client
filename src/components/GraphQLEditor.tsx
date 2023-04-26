@@ -7,27 +7,30 @@ import 'graphiql/graphiql.min.css';
 export type ColorMode = 'light' | 'dark';
 
 interface GraphQLEditorProps extends BoxProps {
-  endpoint: string,
-  method: string,
-  headers: { [key: string]: string },
-  colorMode: ColorMode,
+  endpoint: string;
+  method: string;
+  headers: { [key: string]: string };
+  colorMode: ColorMode;
 }
 
-const GraphQLEditor = ({ endpoint, method, headers, colorMode, ...props }: GraphQLEditorProps): JSX.Element => {
+const GraphQLEditor = ({
+  endpoint,
+  method,
+  headers,
+  colorMode,
+  ...props
+}: GraphQLEditorProps): JSX.Element => {
   const fetcher = async (graphQLParams: unknown) => {
-    const data = await fetch(
-      endpoint,
-      {
-        method,
-        headers: {
-          Accept: 'application/json',
-          'Content-Type': 'application/json',
-          ...headers,
-        },
-        body: JSON.stringify(graphQLParams),
-        credentials: 'same-origin',
+    const data = await fetch(endpoint, {
+      method,
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+        ...headers,
       },
-    );
+      body: JSON.stringify(graphQLParams),
+      credentials: 'same-origin',
+    });
     return data.json().catch(() => data.text());
   };
 
@@ -35,7 +38,6 @@ const GraphQLEditor = ({ endpoint, method, headers, colorMode, ...props }: Graph
     <Box>
       <Box {...props}>
         <NoSSR>
-
           <GraphiQL
             fetcher={fetcher}
             shouldPersistHeaders

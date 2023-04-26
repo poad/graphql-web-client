@@ -22,12 +22,12 @@ export const Container = (props: BoxProps): JSX.Element => {
       sx={{
         flexDirection: 'column',
         verticalAlign: 'center',
-        justifyContent:'flex-start',
+        justifyContent: 'flex-start',
         w: '100%',
         maxW: '100%',
-        margin:'0',
-        padding:'0',
-        h: height,  
+        margin: '0',
+        padding: '0',
+        h: height,
       }}
     />
   );

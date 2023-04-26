@@ -5,8 +5,7 @@ import getDesignTokens from '../styles/theme';
 import '../styles/globals.css';
 import { PaletteMode } from '@mui/material';
 
-
-const ColorModeContext = React.createContext({ toggleColorMode: () => { } });
+const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
 
 const App = ({ Component }: AppProps): JSX.Element => {
   const [mode, setMode] = React.useState<PaletteMode>('light');
