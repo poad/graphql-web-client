@@ -1,4 +1,3 @@
-import React from 'react';
 import Box, { BoxProps } from '@mui/material/Box';
 import GraphiQL from 'graphiql';
 import NoSSR from 'react-no-ssr';

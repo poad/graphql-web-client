@@ -10,7 +10,7 @@ import TableRow from '@mui/material/TableRow';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import React, { ReactElement, useState } from 'react';
+import { ReactElement, useState } from 'react';
 
 interface HeadersProps {
   accordionBgColor?: string;

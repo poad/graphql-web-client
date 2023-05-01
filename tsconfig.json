@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "commonjs",
+    "module": "esnext",
     "jsx": "preserve",
     "allowJs": true,
     "moduleResolution": "node",
@@ -45,6 +45,7 @@
       "node",
       "react"
     ],
+    "jsxImportSource": "@emotion/react",
     "incremental": true
   },
   "exclude": [
