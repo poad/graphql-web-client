@@ -35,22 +35,29 @@
     "graphql-request": "*",
     "graphql-ws": "*",
     "next": "^13",
-    "react": "*",
-    "react-dom": "*",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-is": "^18",
     "react-no-ssr": "*",
     "web-vitals": "*"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13",
     "@types/node": "*",
-    "@types/react": "*",
+    "@types/react": "^18",
     "@types/react-no-ssr": "*",
     "autoprefixer": "*",
-    "next-transpile-modules": "*",
     "postcss": "*",
     "rimraf": "*",
     "rome": "*",
     "tailwindcss": "*",
     "typescript": "*"
+  },
+  "resolutions": {
+    "@types/react": "^18",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-is": "^18",
+    "strip-ansi": "^7.0.1",
+    "string-width": "^5.1.2"
   }
 }
