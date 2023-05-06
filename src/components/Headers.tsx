@@ -1,3 +1,4 @@
+'use client';
 import TextField from '@mui/material/TextField';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -41,7 +42,7 @@ interface HeadersTableProps {
   onDelete: (id: string) => void;
 }
 
-const HeadersTable = (props: HeadersTableProps): ReactElement => {
+function HeadersTable(props: HeadersTableProps): ReactElement {
   const records = props.records;
 
   const onKeyChange = ({
@@ -228,7 +229,7 @@ const HeadersTable = (props: HeadersTableProps): ReactElement => {
   );
 };
 
-const Headers = (props: HeadersProps): JSX.Element => {
+export default function Headers(props: HeadersProps): JSX.Element {
   const originalData = [
     {
       id: 'header-0',
@@ -366,5 +367,3 @@ const Headers = (props: HeadersProps): JSX.Element => {
     </Box>
   );
 };
-
-export default Headers;

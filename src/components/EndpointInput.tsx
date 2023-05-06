@@ -1,6 +1,6 @@
+'use client';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import React from 'react';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 
 interface EndpointInputProps {
@@ -9,11 +9,11 @@ interface EndpointInputProps {
   onSelect: (value: string) => void;
 }
 
-const EndpointInput = ({
+export default function EndpointInput({
   value,
   onChange,
   onSelect,
-}: EndpointInputProps): JSX.Element => {
+}: EndpointInputProps): JSX.Element {
   const handleInputChange = (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
@@ -45,5 +45,3 @@ const EndpointInput = ({
     </Box>
   );
 };
-
-export default EndpointInput;

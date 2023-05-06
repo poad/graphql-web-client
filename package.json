@@ -4,10 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
-    "export": "echo \"no action in script. Please run yarn build (includes next export)\"",
+    "build": "next build",
     "start": "next start",
-    "postbuild": "next export",
     "lint": "next lint --ext .ts,.tsx src .",
     "all": "yarn install && yarn lint && yarn build"
   },

@@ -1,3 +1,4 @@
+'use client';
 import Box, { BoxProps } from '@mui/material/Box';
 import GraphiQL from 'graphiql';
 import NoSSR from 'react-no-ssr';
@@ -12,13 +13,13 @@ interface GraphQLEditorProps extends BoxProps {
   colorMode: ColorMode;
 }
 
-const GraphQLEditor = ({
+export default function GraphQLEditor({
   endpoint,
   method,
   headers,
   colorMode,
   ...props
-}: GraphQLEditorProps): JSX.Element => {
+}: GraphQLEditorProps): JSX.Element {
   const fetcher = async (graphQLParams: unknown) => {
     const data = await fetch(endpoint, {
       method,
@@ -47,5 +48,3 @@ const GraphQLEditor = ({
     </Box>
   );
 };
-
-export default GraphQLEditor;

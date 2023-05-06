@@ -1,8 +1,9 @@
+'use client';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-const GitHubProjectLink = (): JSX.Element => {
+export default function GitHubProjectLink(): JSX.Element {
   return (
     <Box position='fixed' bottom='1rem' right='1rem'>
       <Link href="https://github.com/poad/graphql-web-client">
@@ -10,6 +11,4 @@ const GitHubProjectLink = (): JSX.Element => {
       </Link>
     </Box>
   );
-};
-
-export default GitHubProjectLink;
+}

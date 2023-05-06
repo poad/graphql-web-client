@@ -1,3 +1,4 @@
+'use client';
 import AppBar from '@mui/material/AppBar';
 import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
@@ -26,44 +27,46 @@ const Center = withStyles(() =>
   }),
 )(Box);
 
-export const Main = ({
+export function Main({
   title,
   theme,
   colorMode,
   ...props
-}: MainProps): JSX.Element => (
-  <Box>
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            {title}
-          </Typography>
-          <IconButton
-            onClick={colorMode.toggleColorMode}
-            color="inherit"
-            sx={{ display: 'inline' }}
-          >
-            {theme.palette.mode === 'dark' ? <Brightness7 /> : <Brightness4 />}
-          </IconButton>
-        </Toolbar>
-      </AppBar>
+}: MainProps): JSX.Element {
+  return  (
+    <Box>
+      <Box sx={{ flexGrow: 1 }}>
+        <AppBar position="static">
+          <Toolbar>
+            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+              {title}
+            </Typography>
+            <IconButton
+              onClick={colorMode.toggleColorMode}
+              color="inherit"
+              sx={{ display: 'inline' }}
+            >
+              {theme.palette.mode === 'dark' ? <Brightness7 /> : <Brightness4 />}
+            </IconButton>
+          </Toolbar>
+        </AppBar>
+      </Box>
+      <Center sx={{ w: '80%', minW: '85%' }}>
+        <Stack sx={{ w: '100%' }}>
+          <Box
+            id='main'
+            sx={{
+              w: '80%',
+              spacing: '1.5rem',
+              h: 'inherit',
+              pt: '1rem',
+              px: '1rem',
+            }}
+            {...props}
+            className='line-numbers'
+          />
+        </Stack>
+      </Center>
     </Box>
-    <Center sx={{ w: '80%', minW: '85%' }}>
-      <Stack sx={{ w: '100%' }}>
-        <Box
-          id='main'
-          sx={{
-            w: '80%',
-            spacing: '1.5rem',
-            h: 'inherit',
-            pt: '1rem',
-            px: '1rem',
-          }}
-          {...props}
-          className='line-numbers'
-        />
-      </Stack>
-    </Center>
-  </Box>
-);
+  );  
+}
