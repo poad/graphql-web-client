@@ -1,7 +1,8 @@
+'use client';
 import { useEffect, useState } from 'react';
 import Box, { BoxProps } from '@mui/material/Box';
 
-export const Container = (props: BoxProps): JSX.Element => {
+export function Container(props: BoxProps): JSX.Element {
   const [height, setHeight] = useState<number>(0);
   useEffect(() => {
     setHeight(document.documentElement.clientHeight);
