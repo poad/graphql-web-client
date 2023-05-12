@@ -217,7 +217,7 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.40.0.tgz#3ba73359e11f5a7bd3e407f70b3528abfae69cec"
   integrity sha512-ElyB54bJIhXQYVKjDSvCkPO1iU1tSAeVQJbllWJq1XQSmmA4dgFk8CbiBGpiOPxleE48vDogxCtmMYku4HSVLA==
 
-"@graphiql/react@^0.17.3":
+"@graphiql/react@^0.17.4":
   version "0.17.4"
   resolved "https://registry.yarnpkg.com/@graphiql/react/-/react-0.17.4.tgz#a949d5bf7d239ae8a8ee825953d3c70a5e5f56e5"
   integrity sha512-m2vOX3hLl2u62t1vve4K4mv0GC0rfmsC5Eb5EAK4CZGQ29pFAPMeU71LqA/b4u6QUXUGYm8N5fgCsDMgaUBgwA==
@@ -2161,27 +2161,19 @@ grapheme-splitter@^1.0.4:
   integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
 
 graphiql@*:
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/graphiql/-/graphiql-2.4.3.tgz#eaa40888f709838c6a6f231af3f113839668981f"
-  integrity sha512-HAGeEEdgCY0ioiE3iPsz+xCrU31GQvFeR+pYF7axt77jrNGJu1FtM+LH8A3N4++iyldH7pDD3qT8hqrpnlCyeA==
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/graphiql/-/graphiql-2.4.4.tgz#8348102542c7a58dd561f1fb840ef1421bfb1eab"
+  integrity sha512-RL8qv9288oZDZJETKIoZLFAn2XBdPd5aCLksDuVvaEahxrnAP4hCTJ3S8K4FPPUAcH1Jl+pn0nMGWmHauf2EHg==
   dependencies:
-    "@graphiql/react" "^0.17.3"
+    "@graphiql/react" "^0.17.4"
     "@graphiql/toolkit" "^0.8.4"
-    graphql-language-service "^5.1.5"
+    graphql-language-service "^5.1.6"
     markdown-it "^12.2.0"
 
 graphql-language-service@5.1.6, graphql-language-service@^5.1.6:
   version "5.1.6"
   resolved "https://registry.yarnpkg.com/graphql-language-service/-/graphql-language-service-5.1.6.tgz#0d6d2b2bb09cf0d02c82fd97628dfdc63ce7936b"
   integrity sha512-sl9HTlE/sBoFvZ2SPGnApwpp/a4ahl1d49SOxGm2OIYOslFv00MK7AYms9Yx91omOwAp74is10S7Cjamh5TRQw==
-  dependencies:
-    nullthrows "^1.0.0"
-    vscode-languageserver-types "^3.17.1"
-
-graphql-language-service@^5.1.5:
-  version "5.1.5"
-  resolved "https://registry.yarnpkg.com/graphql-language-service/-/graphql-language-service-5.1.5.tgz#a75a514c4f021fb9e28d06a64ab4bb4828e48205"
-  integrity sha512-6kSB6Fcdv5x8Lia+VZ5J4wI/Uwa4+6/GeT2TLYrhR/OgDyPBEoLajq2HpdIiRxaDOWuwT9/APKfuwC9Km/u0Mg==
   dependencies:
     nullthrows "^1.0.0"
     vscode-languageserver-types "^3.17.1"
