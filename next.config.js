@@ -1,8 +1,15 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const config = {
   output: 'export',
   reactStrictMode: true,
-  eslint: {
-    ignoreDuringBuilds: true,
+  swcMinify: true,
+  cleanDistDir: true,
+  images: {
+    unoptimized: true,
+  },
+  experimental: {
+    //   swcPlugins: [['typewind/swc', {}]],
   },
 };
+
+module.exports = config;

@@ -24,19 +24,17 @@ export default function Layout({ children }: { children: ReactNode }) {
   );
 
   return (
-    <html lang="en">
+    <html lang='en'>
       <head>
         {/* eslint-disable-next-line @next/next/no-page-custom-font */}
         <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+          rel='stylesheet'
+          href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap'
         />
       </head>
       <body>
         <ColorModeContext.Provider value={colorMode}>
-          <ThemeProvider theme={theme}>
-            {children}
-          </ThemeProvider>
+          <ThemeProvider theme={theme}>{children}</ThemeProvider>
         </ColorModeContext.Provider>
       </body>
     </html>

@@ -1,7 +1,6 @@
 'use client';
 import Box, { BoxProps } from '@mui/material/Box';
 import GraphiQL from 'graphiql';
-import NoSSR from 'react-no-ssr';
 import 'graphiql/graphiql.min.css';
 
 export type ColorMode = 'light' | 'dark';
@@ -37,14 +36,12 @@ export default function GraphQLEditor({
   return (
     <Box>
       <Box {...props}>
-        <NoSSR>
-          <GraphiQL
-            fetcher={fetcher}
-            shouldPersistHeaders
-            editorTheme="github-dark"
-          />
-        </NoSSR>
+        <GraphiQL
+          fetcher={fetcher}
+          shouldPersistHeaders
+          editorTheme='github-dark'
+        />
       </Box>
     </Box>
   );
-};
+}

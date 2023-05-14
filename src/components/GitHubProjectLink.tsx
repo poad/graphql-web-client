@@ -6,7 +6,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 export default function GitHubProjectLink(): JSX.Element {
   return (
     <Box position='fixed' bottom='1rem' right='1rem'>
-      <Link href="https://github.com/poad/graphql-web-client">
+      <Link href='https://github.com/poad/graphql-web-client'>
         <GitHubIcon sx={{ w: '3rem', h: '3rem', color: 'text.primary' }} />
       </Link>
     </Box>

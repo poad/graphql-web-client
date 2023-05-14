@@ -45,13 +45,7 @@ interface HeadersTableProps {
 function HeadersTable(props: HeadersTableProps): ReactElement {
   const records = props.records;
 
-  const onKeyChange = ({
-    id,
-    value,
-  }: {
-    id: string;
-    value: string;
-  }) => {
+  const onKeyChange = ({ id, value }: { id: string; value: string }) => {
     const index = records.findIndex((record) => record.id === id);
     if (index === -1) {
       // skip
@@ -77,13 +71,7 @@ function HeadersTable(props: HeadersTableProps): ReactElement {
     );
   };
 
-  const onValueChange = ({
-    id,
-    value,
-  }: {
-    id: string;
-    value: string;
-  }) => {
+  const onValueChange = ({ id, value }: { id: string; value: string }) => {
     const index = records.findIndex((record) => record.id === id);
     if (index === -1) {
       // skip
@@ -227,7 +215,7 @@ function HeadersTable(props: HeadersTableProps): ReactElement {
       </Table>
     </>
   );
-};
+}
 
 export default function Headers(props: HeadersProps): JSX.Element {
   const originalData = [
@@ -254,7 +242,9 @@ export default function Headers(props: HeadersProps): JSX.Element {
   ) =>
     array.reduce((obj, cur, idx, src) => {
       const key = getKey(cur, idx, src);
-      const record = obj[key] || (obj[key] = []);
+      const value = obj[key] || [];
+      obj[key] = value;
+      const record = value;
       if (!record) {
         throw new Error(`${key.toString()} in ${obj} is undefined`);
       }
@@ -366,4 +356,4 @@ export default function Headers(props: HeadersProps): JSX.Element {
       </Accordion>
     </Box>
   );
-};
+}

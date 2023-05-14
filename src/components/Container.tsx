@@ -32,4 +32,4 @@ export function Container(props: BoxProps): JSX.Element {
       }}
     />
   );
-};
+}
