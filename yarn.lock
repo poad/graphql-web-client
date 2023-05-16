@@ -1020,9 +1020,9 @@
     tslib "^2.4.0"
 
 "@types/node@*":
-  version "20.1.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.1.4.tgz#83f148d2d1f5fe6add4c53358ba00d97fc4cdb71"
-  integrity sha512-At4pvmIOki8yuwLtd7BNHl3CiWNbtclUbNtScGx4OHfBd4/oWoJC8KRCIxXwkdndzhxOsPXihrsOoydxBjlE9Q==
+  version "20.1.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.1.5.tgz#e94b604c67fc408f215fcbf3bd84d4743bf7f710"
+  integrity sha512-IvGD1CD/nego63ySR7vrAKEX3AJTcmrAN2kn+/sDNLi1Ff5kBzDeEdqWDplK+0HAEoLYej137Sk0cUU8OLOlMg==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1433,9 +1433,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.394"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.394.tgz#989abe104a40366755648876cde2cdeda9f31133"
-  integrity sha512-0IbC2cfr8w5LxTz+nmn2cJTGafsK9iauV2r5A5scfzyovqLrxuLoxOHE5OBobP3oVIggJT+0JfKnw9sm87c8Hw==
+  version "1.4.396"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.396.tgz#3d3664eb58d86376fbe2fece3705f68ca197205c"
+  integrity sha512-pqKTdqp/c5vsrc0xUPYXTDBo9ixZuGY8es4ZOjjd6HD6bFYbu5QA09VoW3fkY4LF1T0zYk86lN6bZnNlBuOpdQ==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -1576,9 +1576,9 @@ fraction.js@^4.2.0:
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
 
 framer-motion@*:
-  version "10.12.10"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.12.10.tgz#39aff293d8c520f6d9a4a34bf25121a8f1a12d6d"
-  integrity sha512-f/VkrpxfG4xSmBi105/NCfcTt219IgglQEUR0BsuFZAg+be6N3QAcujFyBEvBvbDOSP9Ccv6OMiaY0HFMnBoMA==
+  version "10.12.11"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.12.11.tgz#0ddb928f9819df01ede2ea3106d8bd39f164aba4"
+  integrity sha512-uNsJAc/BQZ9V7tYgzRBXSrEdB+YrdJTtRvgn+8lNAQucGKaINJBL8I4aqXxXdw+HzwJZb/uR955jnOrxBy5sTA==
   dependencies:
     tslib "^2.4.0"
   optionalDependencies:
@@ -1695,9 +1695,9 @@ graphql-request@*:
     cross-fetch "^3.1.5"
 
 graphql-ws@*:
-  version "5.13.0"
-  resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-5.13.0.tgz#92f90858a70112ef8114eaa5e9e50792c3746449"
-  integrity sha512-2VwsecxYZsIZrHDzNOS2R8pIK5kTBRbrV8EVfE0J3pCESx75q+rILxx8oDNYC+HkKU1k6huRcol/vl4C9Co0mA==
+  version "5.13.1"
+  resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-5.13.1.tgz#96ac9963edb1e94c8e7f21af48ce5fcaab91779a"
+  integrity sha512-eiX7ES/ZQr0q7hSM5UBOEIFfaAUmAY9/CSDyAnsETuybByU7l/v46drRg9DQoTvVABEHp3QnrvwgTRMhqy7zxQ==
 
 graphql@*:
   version "16.6.0"
@@ -2135,9 +2135,9 @@ minimist@~1.2.5:
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
 "minipass@^5.0.0 || ^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/minipass/-/minipass-6.0.0.tgz#3b000c121dd32da5dc56156381dc322b4f2ffaa0"
-  integrity sha512-mvD5U4pUen1aWcjTxUgdoMg6PB98dcV0obc/OiPzls79++IpgNoO+MCbOHRlKfWIOvjIjmjUygjZmSStP7B0Og==
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/minipass/-/minipass-6.0.1.tgz#315417c259cb32a1b2fc530c0e7f55c901a60a6d"
+  integrity sha512-Tenl5QPpgozlOGBiveNYHg2f6y+VpxsXRoIHFUVJuSmTonXRAE6q9b8Mp/O46762/2AlW4ye4Nkyvx0fgWDKbw==
 
 ms@2.1.2:
   version "2.1.2"
@@ -2357,9 +2357,9 @@ postcss-nested@^6.0.1:
     postcss-selector-parser "^6.0.11"
 
 postcss-selector-parser@^6.0.11:
-  version "6.0.12"
-  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.12.tgz#2efae5ffab3c8bfb2b7fbf0c426e3bca616c4abb"
-  integrity sha512-NdxGCAZdRrwVI1sy59+Wzrh+pMMHxapGnpfenDVlMEXoOcvt4pGE0JLK9YY2F5dLxcFYA/YbVQKhcGU+FtSYQg==
+  version "6.0.13"
+  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.13.tgz#d05d8d76b1e8e173257ef9d60b706a8e5e99bf1b"
+  integrity sha512-EaV1Gl4mUEV4ddhDnv/xtj7sxwrwxdetHdWUGnT4VJQf+4d05v6lHYZr8N573k5Z0BViss7BDhfWtKS3+sfAqQ==
   dependencies:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
@@ -2388,9 +2388,9 @@ postcss@8.4.14:
     source-map-js "^1.0.2"
 
 prettier-plugin-tailwindcss@*:
-  version "0.2.8"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.2.8.tgz#e9c0356680331f909a86fefe8fc2b247c21e23a2"
-  integrity sha512-KgPcEnJeIijlMjsA6WwYgRs5rh3/q76oInqtMXBA/EMcamrcYJpyhtRhyX1ayT9hnHlHTuO8sIifHF10WuSDKg==
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.3.0.tgz#8299b307c7f6467f52732265579ed9375be6c818"
+  integrity sha512-009/Xqdy7UmkcTBpwlq7jsViDqXAYSOMLDrHAdTMlVZOrKfM2o9Ci7EMWTMZ7SkKBFTG04UM9F9iM2+4i6boDA==
 
 prettier@*:
   version "2.8.8"
