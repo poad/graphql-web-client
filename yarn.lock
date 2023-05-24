@@ -546,10 +546,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.17.19.tgz#8cfaf2ff603e9aabb910e9c0558c26cf32744061"
   integrity sha512-lAhycmKnVOuRYNtRtatQR1LPQf2oYCkRGkSFnseDAKPl8lu5SOsK/e1sXe5a0Pc5kHIHe6P2I/ilntNv2xf3cA==
 
-"@graphiql/react@^0.17.4":
-  version "0.17.4"
-  resolved "https://registry.yarnpkg.com/@graphiql/react/-/react-0.17.4.tgz#a949d5bf7d239ae8a8ee825953d3c70a5e5f56e5"
-  integrity sha512-m2vOX3hLl2u62t1vve4K4mv0GC0rfmsC5Eb5EAK4CZGQ29pFAPMeU71LqA/b4u6QUXUGYm8N5fgCsDMgaUBgwA==
+"@graphiql/react@^0.17.5":
+  version "0.17.5"
+  resolved "https://registry.yarnpkg.com/@graphiql/react/-/react-0.17.5.tgz#3357cadad7ca1640e5f03d179e317802fbc42b80"
+  integrity sha512-rITk7pnYu4jPKeW977hp8mHICfHVhMcm14BN9tCdctMvP5kIglNMUx0uGJwMnUYx9mS110UfRoHaKBs6+05kOA==
   dependencies:
     "@graphiql/toolkit" "^0.8.4"
     "@reach/combobox" "^0.17.0"
@@ -1669,11 +1669,11 @@ globby@^11.0.3:
     slash "^3.0.0"
 
 graphiql@*:
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/graphiql/-/graphiql-2.4.4.tgz#8348102542c7a58dd561f1fb840ef1421bfb1eab"
-  integrity sha512-RL8qv9288oZDZJETKIoZLFAn2XBdPd5aCLksDuVvaEahxrnAP4hCTJ3S8K4FPPUAcH1Jl+pn0nMGWmHauf2EHg==
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/graphiql/-/graphiql-2.4.5.tgz#832a9d876b3d084cc4e5dcef339fd99209f03697"
+  integrity sha512-i+vedgQ9tMJ1uoBgUNS1F2naJODaAGPe7xInIHCscU+xPb4WwjRj9dI9rbAnHCNkcZgCdJNJNz0D6z6tLm1Ucw==
   dependencies:
-    "@graphiql/react" "^0.17.4"
+    "@graphiql/react" "^0.17.5"
     "@graphiql/toolkit" "^0.8.4"
     graphql-language-service "^5.1.6"
     markdown-it "^12.2.0"
