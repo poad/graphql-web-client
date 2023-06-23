@@ -27,7 +27,7 @@
     "codemirror-github-light": "^0.4.2",
     "framer-motion": "^10.12.16",
     "graphiql": "^2.4.7",
-    "graphql": "^16.7.0",
+    "graphql": "^16.7.1",
     "graphql-request": "^6.1.0",
     "graphql-ws": "^5.13.1",
     "next": "^13.4.7",
