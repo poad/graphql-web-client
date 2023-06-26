@@ -920,7 +920,7 @@ packages:
       '@babel/runtime': 7.22.5
       '@emotion/is-prop-valid': 1.2.1
       '@mui/types': 7.2.4(@types/react@18.2.13)
-      '@mui/utils': 5.13.1(react@18.2.0)
+      '@mui/utils': 5.13.6(react@18.2.0)
       '@popperjs/core': 2.11.8
       '@types/react': 18.2.13
       clsx: 1.2.1
@@ -975,7 +975,7 @@ packages:
       '@mui/core-downloads-tracker': 5.13.4
       '@mui/system': 5.13.5(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.13)(react@18.2.0)
       '@mui/types': 7.2.4(@types/react@18.2.13)
-      '@mui/utils': 5.13.1(react@18.2.0)
+      '@mui/utils': 5.13.6(react@18.2.0)
       '@types/react': 18.2.13
       '@types/react-transition-group': 4.4.6
       clsx: 1.2.1
@@ -998,7 +998,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.22.5
-      '@mui/utils': 5.13.1(react@18.2.0)
+      '@mui/utils': 5.13.6(react@18.2.0)
       '@types/react': 18.2.13
       prop-types: 15.8.1
       react: 18.2.0
@@ -1040,7 +1040,7 @@ packages:
       '@emotion/hash': 0.9.1
       '@mui/private-theming': 5.13.1(@types/react@18.2.13)(react@18.2.0)
       '@mui/types': 7.2.4(@types/react@18.2.13)
-      '@mui/utils': 5.13.1(react@18.2.0)
+      '@mui/utils': 5.13.6(react@18.2.0)
       '@types/react': 18.2.13
       clsx: 1.2.1
       csstype: 3.1.2
@@ -1079,7 +1079,7 @@ packages:
       '@mui/private-theming': 5.13.1(@types/react@18.2.13)(react@18.2.0)
       '@mui/styled-engine': 5.13.2(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(react@18.2.0)
       '@mui/types': 7.2.4(@types/react@18.2.13)
-      '@mui/utils': 5.13.1(react@18.2.0)
+      '@mui/utils': 5.13.6(react@18.2.0)
       '@types/react': 18.2.13
       clsx: 1.2.1
       csstype: 3.1.2
@@ -1098,8 +1098,8 @@ packages:
       '@types/react': 18.2.13
     dev: false
 
-  /@mui/utils@5.13.1(react@18.2.0):
-    resolution: {integrity: sha512-6lXdWwmlUbEU2jUI8blw38Kt+3ly7xkmV9ljzY4Q20WhsJMWiNry9CX8M+TaP/HbtuyR8XKsdMgQW7h7MM3n3A==}
+  /@mui/utils@5.13.6(react@18.2.0):
+    resolution: {integrity: sha512-ggNlxl5NPSbp+kNcQLmSig6WVB0Id+4gOxhx644987v4fsji+CSXc+MFYLocFB/x4oHtzCUlSzbVHlJfP/fXoQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
