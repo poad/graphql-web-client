@@ -56,16 +56,16 @@ dependencies:
     specifier: ^13.4.7
     version: 13.4.7(@babel/core@7.22.5)(react-dom@18.2.0)(react@18.2.0)
   react:
-    specifier: ^18.2.0
+    specifier: ^18
     version: 18.2.0
   react-dom:
-    specifier: ^18.2.0
+    specifier: ^18
     version: 18.2.0(react@18.2.0)
   react-is:
-    specifier: ^18.2.0
+    specifier: ^18
     version: 18.2.0
   strip-ansi:
-    specifier: ^7.1.0
+    specifier: ^7.0.1
     version: 7.1.0
   web-vitals:
     specifier: ^3.3.2
@@ -76,7 +76,7 @@ devDependencies:
     specifier: ^20.3.2
     version: 20.3.2
   '@types/react':
-    specifier: ^18.2.14
+    specifier: ^18
     version: 18.2.14
   autoprefixer:
     specifier: ^10.4.14
@@ -2235,7 +2235,7 @@ packages:
   /cross-fetch@3.1.6:
     resolution: {integrity: sha512-riRvo06crlE8HiqOwIpQhxwdOk4fOeR7FVM/wXoxchFEqMNUjvbs3bfo4OTgMEMHzppd4DxFBDbyySj8Cv781g==}
     dependencies:
-      node-fetch: 2.6.11
+      node-fetch: 2.6.12
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -3144,8 +3144,8 @@ packages:
       - babel-plugin-macros
     dev: false
 
-  /node-fetch@2.6.11:
-    resolution: {integrity: sha512-4I6pdBY1EthSqDmJkiNk3JIT8cswwR9nfeW/cPdUagJYEQG7R95WRH74wpz7ma8Gh/9dI9FP+OU+0E4FvtA55w==}
+  /node-fetch@2.6.12:
+    resolution: {integrity: sha512-C/fGU2E8ToujUivIO0H+tpQ6HWo4eEmchoPIoXtxCrVghxdKq+QOHqEZW7tuP3KlV3bC8FRMO5nMCC7Zm1VP6g==}
     engines: {node: 4.x || >=6.0.0}
     peerDependencies:
       encoding: ^0.1.0
