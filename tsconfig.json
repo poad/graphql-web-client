@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "commonjs",
+    "module": "esnext",
     "jsx": "preserve",
     "allowJs": true,
     "moduleResolution": "node",
@@ -29,8 +29,6 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "sourceRoot": "src",
-    "baseUrl": ".",
     "typeRoots": [
       "./node_modules/@types"
     ],
