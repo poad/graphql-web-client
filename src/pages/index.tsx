@@ -1,46 +1,22 @@
+'use client';
 import { useState } from 'react';
 import Head from 'next/head';
 import Box from '@mui/material/Box';
-import Headers from '../components/Headers';
-import Button from '@mui/material/Button';
-import { FormContainer, TextFieldElement } from 'react-hook-form-mui';
-import { DynamicEditor } from '../components/DynamicEditor';
+import { createGraphiQLFetcher } from '@graphiql/toolkit';
+import { TextField } from '@mui/material';
+import dynamic from 'next/dynamic';
+import { GraphiQLInterface } from 'graphiql';
+import 'graphiql/graphiql.min.css'
 
-type FormProps = {
-  endpoint: string;
-};
+const GraphiQLProvider = dynamic(() => import('graphiql'), { ssr: false });
 
 export default function Home(): JSX.Element {
-  const [values, setValues] = useState<FormProps>();
-  const [headers, setHeaders] = useState<Record<string, string>>();
-  const [displayEditor, setDisplayEditor] = useState(false);
+  const [url, setUrl] = useState<string>();
 
-  function Content() {
-    const onSubmit = (data: FormProps) => {
-      setValues(data);
-      setDisplayEditor(true);
-    };
-    const defaultValues: FormProps = { endpoint: '' };
-
-    if (displayEditor && values && values.endpoint.length > 0) {
-      return <DynamicEditor url={values.endpoint} headers={headers} />;
-    }
-    return (
-      <Box sx={{ w: '100vw' }}>
-        <FormContainer defaultValues={defaultValues} onSuccess={onSubmit}>
-          <Box sx={{ w: '100vw' }}>
-            <TextFieldElement
-              name={'endpoint'}
-              placeholder='GraphQL endpoint'
-              sx={{ minWidth: '94vw', fontSize: '14', padding: '0' }}
-            />
-            <Headers onChange={setHeaders} />
-          </Box>
-          <Button type={'submit'}>Continue</Button>
-        </FormContainer>
-      </Box>
-    );
-  }
+  const fetcher = createGraphiQLFetcher({
+    url: url || 'https://beta.pokeapi.co/graphql/v1beta',
+    fetch,
+  });
 
   return (
     <>
@@ -50,7 +26,21 @@ export default function Home(): JSX.Element {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Content />
+      <Box sx={{ w: '100vmax', h: '100vmin' }} alignItems='flex-start'>
+        <TextField
+          name={'endpoint'}
+          placeholder='GraphQL endpoint'
+          sx={{ minWidth: 'calc(100vmax - 2rem)', fontSize: '14', padding: '0', marginTop: '1rem', marginLeft: '1rem' }}
+          value={url}
+          onChange={async (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,) => setUrl(event.target.value)}
+        />
+
+        <div style={{ height: '90vh', width: '100vmax' }}>
+          <GraphiQLProvider fetcher={fetcher}>
+            <GraphiQLInterface />
+          </GraphiQLProvider>
+        </div>
+      </Box>
     </>
   );
 }

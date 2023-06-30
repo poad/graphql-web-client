@@ -7,11 +7,3 @@ body {
   display: flex;
   height: inherit;
 }
-
-.pane {
-  width: 50%;
-}
-
-.left-editor {
-  height: 50%;
-}
