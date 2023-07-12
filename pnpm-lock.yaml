@@ -27,8 +27,8 @@ dependencies:
     specifier: ^5.14.0
     version: 5.14.0(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
   '@mui/styles':
-    specifier: ^5.13.7
-    version: 5.13.7(@types/react@18.2.14)(react@18.2.0)
+    specifier: ^5.14.0
+    version: 5.14.0(@types/react@18.2.14)(react@18.2.0)
   graphiql:
     specifier: ^3.0.0
     version: 3.0.0(@codemirror/language@6.0.0)(@types/node@20.4.1)(@types/react@18.2.14)(graphql-ws@5.14.0)(graphql@16.7.1)(react-dom@18.2.0)(react@18.2.0)
@@ -566,8 +566,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@mui/styles@5.13.7(@types/react@18.2.14)(react@18.2.0):
-    resolution: {integrity: sha512-RWoQwMYzW4gg2ksVGBIGeMjz1bFz6H+FcHOgncYytaZbvXiMXRkChomb+do4cx41BuXpe94YLP63keM7tjNFpg==}
+  /@mui/styles@5.14.0(@types/react@18.2.14)(react@18.2.0):
+    resolution: {integrity: sha512-+nXPk/7qhlJn2QGSBlB42gM9G4shLDEAfkTqjUoCDsS3qPo7ZlpM2X5SgnCNoYhXCn820R0YxaJYd19rmC3FSA==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@types/react': ^17.0.0 || ^18.0.0
