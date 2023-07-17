@@ -1,6 +1,7 @@
 'use client';
 import { ReactNode } from 'react';
 import './globals.css';
+import StyledJsxRegistry from './registry';
 
 export default function Document({ children }: { children: ReactNode }) {
   return (
@@ -11,7 +12,7 @@ export default function Document({ children }: { children: ReactNode }) {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </head>
-      <body>{children}</body>
+      <body><StyledJsxRegistry>{children}</StyledJsxRegistry></body>
     </html>
   );
 }
