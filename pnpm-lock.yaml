@@ -324,8 +324,8 @@ packages:
       '@radix-ui/react-visually-hidden': 1.0.3(@types/react@18.2.15)(react-dom@18.2.0)(react@18.2.0)
       '@types/codemirror': 5.60.8
       clsx: 1.2.1
-      codemirror: 5.65.13
-      codemirror-graphql: 2.0.9(@codemirror/language@6.0.0)(codemirror@5.65.13)(graphql@16.7.1)
+      codemirror: 5.65.14
+      codemirror-graphql: 2.0.9(@codemirror/language@6.0.0)(codemirror@5.65.14)(graphql@16.7.1)
       copy-to-clipboard: 3.3.3
       framer-motion: 6.5.1(react-dom@18.2.0)(react@18.2.0)
       graphql: 16.7.1
@@ -1492,7 +1492,7 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /codemirror-graphql@2.0.9(@codemirror/language@6.0.0)(codemirror@5.65.13)(graphql@16.7.1):
+  /codemirror-graphql@2.0.9(@codemirror/language@6.0.0)(codemirror@5.65.14)(graphql@16.7.1):
     resolution: {integrity: sha512-gl1LR6XSBgZtl7Dr2q4jjRNfhxMF8vn+rnjZTZPf/l+VrQgavY8l3G//hW7s3hWy73iiqkq5LZ4KE1tdaxB/vQ==}
     peerDependencies:
       '@codemirror/language': 6.0.0
@@ -1500,13 +1500,13 @@ packages:
       graphql: ^15.5.0 || ^16.0.0
     dependencies:
       '@codemirror/language': 6.0.0
-      codemirror: 5.65.13
+      codemirror: 5.65.14
       graphql: 16.7.1
       graphql-language-service: 5.1.7(graphql@16.7.1)
     dev: false
 
-  /codemirror@5.65.13:
-    resolution: {integrity: sha512-SVWEzKXmbHmTQQWaz03Shrh4nybG0wXx2MEu3FO4ezbPW8IbnZEd5iGHGEffSUaitKYa3i+pHpBsSvw8sPHtzg==}
+  /codemirror@5.65.14:
+    resolution: {integrity: sha512-VSNugIBDGt0OU9gDjeVr6fNkoFQznrWEUdAApMlXQNbfE8gGO19776D6MwSqF/V/w/sDwonsQ0z7KmmI9guScg==}
     dev: false
 
   /color-convert@1.9.3:
