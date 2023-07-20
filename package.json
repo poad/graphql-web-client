@@ -21,7 +21,7 @@
     "@emotion/styled": "^11.11.0",
     "@graphiql/react": "^0.19.1",
     "@graphiql/toolkit": "^0.9.0",
-    "@mui/icons-material": "^5.14.0",
+    "@mui/icons-material": "^5.14.1",
     "@mui/material": "^5.14.0",
     "@mui/styles": "^5.14.0",
     "graphiql": "^3.0.2",
