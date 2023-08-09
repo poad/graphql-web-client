@@ -536,8 +536,8 @@ packages:
       react-transition-group: 4.4.5(react-dom@18.2.0)(react@18.2.0)
     dev: false
 
-  /@mui/private-theming@5.13.7(@types/react@18.2.18)(react@18.2.0):
-    resolution: {integrity: sha512-qbSr+udcij5F9dKhGX7fEdx2drXchq7htLNr2Qg2Ma+WJ6q0ERlEqGSBiPiVDJkptcjeVL4DGmcf1wl5+vD4EA==}
+  /@mui/private-theming@5.14.4(@types/react@18.2.18)(react@18.2.0):
+    resolution: {integrity: sha512-ISXsHDiQ3z1XA4IuKn+iXDWvDjcz/UcQBiFZqtdoIsEBt8CB7wgdQf3LwcwqO81dl5ofg/vNQBEnXuKfZHrnYA==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@types/react': ^17.0.0 || ^18.0.0
@@ -547,7 +547,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.22.10
-      '@mui/utils': 5.14.3(react@18.2.0)
+      '@mui/utils': 5.14.4(react@18.2.0)
       '@types/react': 18.2.18
       prop-types: 15.8.1
       react: 18.2.0
@@ -587,7 +587,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.22.10
       '@emotion/hash': 0.9.1
-      '@mui/private-theming': 5.13.7(@types/react@18.2.18)(react@18.2.0)
+      '@mui/private-theming': 5.14.4(@types/react@18.2.18)(react@18.2.0)
       '@mui/types': 7.2.4(@types/react@18.2.18)
       '@mui/utils': 5.14.3(react@18.2.0)
       '@types/react': 18.2.18
@@ -625,7 +625,7 @@ packages:
       '@babel/runtime': 7.22.10
       '@emotion/react': 11.11.1(@types/react@18.2.18)(react@18.2.0)
       '@emotion/styled': 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.18)(react@18.2.0)
-      '@mui/private-theming': 5.13.7(@types/react@18.2.18)(react@18.2.0)
+      '@mui/private-theming': 5.14.4(@types/react@18.2.18)(react@18.2.0)
       '@mui/styled-engine': 5.13.2(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(react@18.2.0)
       '@mui/types': 7.2.4(@types/react@18.2.18)
       '@mui/utils': 5.14.3(react@18.2.0)
@@ -649,6 +649,20 @@ packages:
 
   /@mui/utils@5.14.3(react@18.2.0):
     resolution: {integrity: sha512-gZ6Etw+ppO43GYc1HFZSLjwd4DoZoa+RrYTD25wQLfzcSoPjVoC/zZqA2Lkq0zjgwGBQOSxKZI6jfp9uXR+kgw==}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      react: ^17.0.0 || ^18.0.0
+    dependencies:
+      '@babel/runtime': 7.22.10
+      '@types/prop-types': 15.7.5
+      '@types/react-is': 18.2.1
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-is: 18.2.0
+    dev: false
+
+  /@mui/utils@5.14.4(react@18.2.0):
+    resolution: {integrity: sha512-4ANV0txPD3x0IcTCSEHKDWnsutg1K3m6Vz5IckkbLXVYu17oOZCVUdOKsb/txUmaCd0v0PmSRe5PW+Mlvns5dQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
