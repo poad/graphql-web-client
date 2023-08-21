@@ -16,10 +16,10 @@ dependencies:
     version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.20)(react@18.2.0)
   '@graphiql/react':
     specifier: ^0.19.3
-    version: 0.19.3(@codemirror/language@6.0.0)(@types/node@20.5.0)(@types/react@18.2.20)(graphql-ws@5.14.0)(graphql@16.8.0)(react-dom@18.2.0)(react@18.2.0)
+    version: 0.19.3(@codemirror/language@6.0.0)(@types/node@20.5.1)(@types/react@18.2.20)(graphql-ws@5.14.0)(graphql@16.8.0)(react-dom@18.2.0)(react@18.2.0)
   '@graphiql/toolkit':
     specifier: ^0.9.1
-    version: 0.9.1(@types/node@20.5.0)(graphql-ws@5.14.0)(graphql@16.8.0)
+    version: 0.9.1(@types/node@20.5.1)(graphql-ws@5.14.0)(graphql@16.8.0)
   '@mui/icons-material':
     specifier: ^5.14.3
     version: 5.14.3(@mui/material@5.14.5)(@types/react@18.2.20)(react@18.2.0)
@@ -31,7 +31,7 @@ dependencies:
     version: 5.14.5(@types/react@18.2.20)(react@18.2.0)
   graphiql:
     specifier: ^3.0.5
-    version: 3.0.5(@codemirror/language@6.0.0)(@types/node@20.5.0)(@types/react@18.2.20)(graphql-ws@5.14.0)(graphql@16.8.0)(react-dom@18.2.0)(react@18.2.0)
+    version: 3.0.5(@codemirror/language@6.0.0)(@types/node@20.5.1)(@types/react@18.2.20)(graphql-ws@5.14.0)(graphql@16.8.0)(react-dom@18.2.0)(react@18.2.0)
   graphql:
     specifier: ^16.8.0
     version: 16.8.0
@@ -53,8 +53,8 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: ^20.5.0
-    version: 20.5.0
+    specifier: ^20.5.1
+    version: 20.5.1
   '@types/react':
     specifier: ^18.2.20
     version: 18.2.20
@@ -318,14 +318,14 @@ packages:
     resolution: {integrity: sha512-m0G6wlnhm/AX0H12IOWtK8gASEMffnX08RtKkCgTdHb9JpHKGloI7icFfLg9ZmQeavcvR0PKmzxClyuFPSjKWw==}
     dev: false
 
-  /@graphiql/react@0.19.3(@codemirror/language@6.0.0)(@types/node@20.5.0)(@types/react@18.2.20)(graphql-ws@5.14.0)(graphql@16.8.0)(react-dom@18.2.0)(react@18.2.0):
+  /@graphiql/react@0.19.3(@codemirror/language@6.0.0)(@types/node@20.5.1)(@types/react@18.2.20)(graphql-ws@5.14.0)(graphql@16.8.0)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-rpxKcmKPhyGfZo1w9h3+E5FY+LXOn8o5fJxpJd2MbLF8segvvWLtJeXL46Q2IkEFqR4uxf00NUTbCwXjRIVaQQ==}
     peerDependencies:
       graphql: ^15.5.0 || ^16.0.0
       react: ^16.8.0 || ^17 || ^18
       react-dom: ^16.8.0 || ^17 || ^18
     dependencies:
-      '@graphiql/toolkit': 0.9.1(@types/node@20.5.0)(graphql-ws@5.14.0)(graphql@16.8.0)
+      '@graphiql/toolkit': 0.9.1(@types/node@20.5.1)(graphql-ws@5.14.0)(graphql@16.8.0)
       '@headlessui/react': 1.7.17(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-dialog': 1.0.4(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-dropdown-menu': 2.0.5(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
@@ -351,7 +351,7 @@ packages:
       - graphql-ws
     dev: false
 
-  /@graphiql/toolkit@0.9.1(@types/node@20.5.0)(graphql-ws@5.14.0)(graphql@16.8.0):
+  /@graphiql/toolkit@0.9.1(@types/node@20.5.1)(graphql-ws@5.14.0)(graphql@16.8.0):
     resolution: {integrity: sha512-LVt9pdk0830so50ZnU2Znb2rclcoWznG8r8asqAENzV0U1FM1kuY0sdPpc/rBc9MmmNgnB6A+WZzDhq6dbhTHA==}
     peerDependencies:
       graphql: ^15.5.0 || ^16.0.0
@@ -363,7 +363,7 @@ packages:
       '@n1ru4l/push-pull-async-iterable-iterator': 3.2.0
       graphql: 16.8.0
       graphql-ws: 5.14.0(graphql@16.8.0)
-      meros: 1.3.0(@types/node@20.5.0)
+      meros: 1.3.0(@types/node@20.5.1)
     transitivePeerDependencies:
       - '@types/node'
     dev: false
@@ -414,7 +414,7 @@ packages:
       '@motionone/easing': 10.15.1
       '@motionone/types': 10.15.1
       '@motionone/utils': 10.15.1
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /@motionone/dom@10.12.0:
@@ -425,14 +425,14 @@ packages:
       '@motionone/types': 10.15.1
       '@motionone/utils': 10.15.1
       hey-listen: 1.0.8
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /@motionone/easing@10.15.1:
     resolution: {integrity: sha512-6hIHBSV+ZVehf9dcKZLT7p5PEKHGhDwky2k8RKkmOvUoYP3S+dXsKupyZpqx5apjd9f+php4vXk4LuS+ADsrWw==}
     dependencies:
       '@motionone/utils': 10.15.1
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /@motionone/generators@10.15.1:
@@ -440,7 +440,7 @@ packages:
     dependencies:
       '@motionone/types': 10.15.1
       '@motionone/utils': 10.15.1
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /@motionone/types@10.15.1:
@@ -452,7 +452,7 @@ packages:
     dependencies:
       '@motionone/types': 10.15.1
       hey-listen: 1.0.8
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /@mui/base@5.0.0-beta.11(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0):
@@ -1353,7 +1353,7 @@ packages:
   /@swc/helpers@0.5.1:
     resolution: {integrity: sha512-sJ902EfIzn1Fa+qYmjdQqh8tPsoxyBz+8yBKC2HKUxyezKJFwPGOn7pv4WY6QuQW//ySQi5lJjA/ZT9sNWWNTg==}
     dependencies:
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /@types/codemirror@5.60.8:
@@ -1366,8 +1366,8 @@ packages:
     resolution: {integrity: sha512-LG4opVs2ANWZ1TJoKc937iMmNstM/d0ae1vNbnBvBhqCSezgVUOzcLCqbI5elV8Vy6WKwKjaqR+zO9VKirBBCA==}
     dev: false
 
-  /@types/node@20.5.0:
-    resolution: {integrity: sha512-Mgq7eCtoTjT89FqNoTzzXg2XvCi5VMhRV6+I2aYanc6kQCBImeNaAYRs/DyoVqk1YEUJK5gN9VO7HRIdz4Wo3Q==}
+  /@types/node@20.5.1:
+    resolution: {integrity: sha512-4tT2UrL5LBqDwoed9wZ6N3umC4Yhz3W3FloMmiiG4JwmUJWpie0c7lcnUNd4gtMKuDEO4wRVS8B6Xa0uMRsMKg==}
 
   /@types/parse-json@4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
@@ -1441,7 +1441,7 @@ packages:
     resolution: {integrity: sha512-xcLxITLe2HYa1cnYnwCjkOO1PqUHQpozB8x9AR0OgWN2woOBi5kSDVxKfd0b7sb1hw5qFeJhXm9H1nu3xSfLeQ==}
     engines: {node: '>=10'}
     dependencies:
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /babel-plugin-macros@3.1.0:
@@ -1479,8 +1479,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /caniuse-lite@1.0.30001521:
-    resolution: {integrity: sha512-fnx1grfpEOvDGH+V17eccmNjucGUnCbP6KL+l5KqBIerp26WK/+RQ7CIDE37KGJjaPyqWXXlFUyKiWmvdNNKmQ==}
+  /caniuse-lite@1.0.30001522:
+    resolution: {integrity: sha512-TKiyTVZxJGhsTszLuzb+6vUZSjVOAhClszBr2Ta2k9IwtNBT/4dzmL6aywt0HCgEZlmwJzXJd8yNiob6HgwTRg==}
     dev: false
 
   /chalk@2.4.2:
@@ -1662,7 +1662,7 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       style-value-types: 5.0.0
-      tslib: 2.6.1
+      tslib: 2.6.2
     optionalDependencies:
       '@emotion/is-prop-valid': 0.8.8
     dev: false
@@ -1670,7 +1670,7 @@ packages:
   /framesync@6.0.1:
     resolution: {integrity: sha512-fUY88kXvGiIItgNC7wcTOl0SNRCVXMKSWW2Yzfmn7EKNc+MpCzcz9DhdHcdjbrtN3c6R4H5dTY2jiCpPdysEjA==}
     dependencies:
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /function-bind@1.1.1:
@@ -1702,15 +1702,15 @@ packages:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
     dev: false
 
-  /graphiql@3.0.5(@codemirror/language@6.0.0)(@types/node@20.5.0)(@types/react@18.2.20)(graphql-ws@5.14.0)(graphql@16.8.0)(react-dom@18.2.0)(react@18.2.0):
+  /graphiql@3.0.5(@codemirror/language@6.0.0)(@types/node@20.5.1)(@types/react@18.2.20)(graphql-ws@5.14.0)(graphql@16.8.0)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-R02CKVXPajOmJcg0TAKuRMU8qvwb7ltGDYqbaQMKbLeYYw/wQUrmTxLwdVuRadgRL4ubNzl3q5vKTkQKR5Ay2Q==}
     peerDependencies:
       graphql: ^15.5.0 || ^16.0.0
       react: ^16.8.0 || ^17 || ^18
       react-dom: ^16.8.0 || ^17 || ^18
     dependencies:
-      '@graphiql/react': 0.19.3(@codemirror/language@6.0.0)(@types/node@20.5.0)(@types/react@18.2.20)(graphql-ws@5.14.0)(graphql@16.8.0)(react-dom@18.2.0)(react@18.2.0)
-      '@graphiql/toolkit': 0.9.1(@types/node@20.5.0)(graphql-ws@5.14.0)(graphql@16.8.0)
+      '@graphiql/react': 0.19.3(@codemirror/language@6.0.0)(@types/node@20.5.1)(@types/react@18.2.20)(graphql-ws@5.14.0)(graphql@16.8.0)(react-dom@18.2.0)(react@18.2.0)
+      '@graphiql/toolkit': 0.9.1(@types/node@20.5.1)(graphql-ws@5.14.0)(graphql@16.8.0)
       graphql: 16.8.0
       graphql-language-service: 5.1.7(graphql@16.8.0)
       markdown-it: 12.3.2
@@ -1968,7 +1968,7 @@ packages:
     resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
     dev: false
 
-  /meros@1.3.0(@types/node@20.5.0):
+  /meros@1.3.0(@types/node@20.5.1):
     resolution: {integrity: sha512-2BNGOimxEz5hmjUG2FwoxCt5HN7BXdaWyFqEwxPTrJzVdABtrL4TiHTcsWSFAxPQ/tOnEaQEJh3qWq71QRMY+w==}
     engines: {node: '>=13'}
     peerDependencies:
@@ -1977,7 +1977,7 @@ packages:
       '@types/node':
         optional: true
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
     dev: false
 
   /minimatch@9.0.3:
@@ -2031,7 +2031,7 @@ packages:
       '@next/env': 13.4.19
       '@swc/helpers': 0.5.1
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001521
+      caniuse-lite: 1.0.30001522
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -2115,7 +2115,7 @@ packages:
       framesync: 6.0.1
       hey-listen: 1.0.8
       style-value-types: 5.0.0
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /postcss@8.4.14:
@@ -2170,7 +2170,7 @@ packages:
       '@types/react': 18.2.20
       react: 18.2.0
       react-style-singleton: 2.2.1(@types/react@18.2.20)(react@18.2.0)
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /react-remove-scroll@2.5.5(@types/react@18.2.20)(react@18.2.0):
@@ -2187,7 +2187,7 @@ packages:
       react: 18.2.0
       react-remove-scroll-bar: 2.3.4(@types/react@18.2.20)(react@18.2.0)
       react-style-singleton: 2.2.1(@types/react@18.2.20)(react@18.2.0)
-      tslib: 2.6.1
+      tslib: 2.6.2
       use-callback-ref: 1.3.0(@types/react@18.2.20)(react@18.2.0)
       use-sidecar: 1.1.2(@types/react@18.2.20)(react@18.2.0)
     dev: false
@@ -2206,7 +2206,7 @@ packages:
       get-nonce: 1.0.1
       invariant: 2.2.4
       react: 18.2.0
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /react-transition-group@4.4.5(react-dom@18.2.0)(react@18.2.0):
@@ -2391,7 +2391,7 @@ packages:
     resolution: {integrity: sha512-08yq36Ikn4kx4YU6RD7jWEv27v4V+PUsOGa4n/as8Et3CuODMJQ00ENeAVXAeydX4Z2j1XHZF1K2sX4mGl18fA==}
     dependencies:
       hey-listen: 1.0.8
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /styled-jsx@5.1.1(react@18.2.0):
@@ -2451,8 +2451,8 @@ packages:
     resolution: {integrity: sha512-BiZS+C1OS8g/q2RRbJmy59xpyghNBqrr6k5L/uKBGRsTfxmu3ffiRnd8mlGPUVayg8pvfi5urfnu8TU7DVOkLQ==}
     dev: false
 
-  /tslib@2.6.1:
-    resolution: {integrity: sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==}
+  /tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: false
 
   /typescript@5.1.6:
@@ -2477,7 +2477,7 @@ packages:
     dependencies:
       '@types/react': 18.2.20
       react: 18.2.0
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /use-sidecar@1.1.2(@types/react@18.2.20)(react@18.2.0):
@@ -2493,7 +2493,7 @@ packages:
       '@types/react': 18.2.20
       detect-node-es: 1.1.0
       react: 18.2.0
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /util-deprecate@1.0.2:
