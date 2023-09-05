@@ -331,7 +331,7 @@ packages:
       '@radix-ui/react-dropdown-menu': 2.0.5(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-tooltip': 1.0.6(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-visually-hidden': 1.0.3(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
-      '@types/codemirror': 5.60.9
+      '@types/codemirror': 5.60.10
       clsx: 1.2.1
       codemirror: 5.65.15
       codemirror-graphql: 2.0.9(@codemirror/language@6.0.0)(codemirror@5.65.15)(graphql@16.8.0)
@@ -1357,8 +1357,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@types/codemirror@5.60.9:
-    resolution: {integrity: sha512-8RhLhlGo9bAkytFYKDzezorY2ojvGk+4xFEso/6Hc2oR1oE2P9lI+AEkbUW7cDlKcQAK5WJkJRBLTdjBE7xQPA==}
+  /@types/codemirror@5.60.10:
+    resolution: {integrity: sha512-ZTA3teiCWKT8HUUofqlGPlShu5ojdIajizsS0HpH6GL0/iEdjRt7fXbCLHHqKYP5k7dC/HnnWIjZAiELUwBdjQ==}
     dependencies:
       '@types/tern': 0.23.4
     dev: false
