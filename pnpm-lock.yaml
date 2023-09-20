@@ -1756,7 +1756,7 @@ packages:
     dependencies:
       graphql: 16.8.1
       nullthrows: 1.1.1
-      vscode-languageserver-types: 3.17.3
+      vscode-languageserver-types: 3.17.4
     dev: false
 
   /graphql-ws@5.14.0(graphql@16.8.1):
@@ -2510,8 +2510,8 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: false
 
-  /vscode-languageserver-types@3.17.3:
-    resolution: {integrity: sha512-SYU4z1dL0PyIMd4Vj8YOqFvHu7Hz/enbWtpfnVbJHU4Nd1YNYx8u0ennumc6h48GQNeOLxmwySmnADouT/AuZA==}
+  /vscode-languageserver-types@3.17.4:
+    resolution: {integrity: sha512-9YXi5pA3XF2V+NUQg6g+lulNS0ncRCKASYdK3Cs7kiH9sVFXWq27prjkC/B8M/xJLRPPRSPCHVMuBTgRNFh2sQ==}
     dev: false
 
   /w3c-keyname@2.2.8:
