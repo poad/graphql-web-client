@@ -489,7 +489,7 @@ packages:
     resolution: {integrity: sha512-UdPTtLMAktHiqV0atOczNYyDd/d8Cf5fFsd1tua03PqTwwCe/6lwhLSQ8a7TbnQ5SN0gm44N1slBfj+ORIhrqw==}
     dependencies:
       '@motionone/animation': 10.16.3
-      '@motionone/generators': 10.16.3
+      '@motionone/generators': 10.16.4
       '@motionone/types': 10.16.3
       '@motionone/utils': 10.16.3
       hey-listen: 1.0.8
@@ -503,8 +503,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@motionone/generators@10.16.3:
-    resolution: {integrity: sha512-fWdAufF/mgOaz0ygRCwaCB839FPeI9txsfl7FKH+cL3gfCQJab4N6U7FsQ02Mgve5B1eRRKV7Xqitm1DRUy8tg==}
+  /@motionone/generators@10.16.4:
+    resolution: {integrity: sha512-geFZ3w0Rm0ZXXpctWsSf3REGywmLLujEjxPYpBR0j+ymYwof0xbV6S5kGqqsDKgyWKVWpUInqQYvQfL6fRbXeg==}
     dependencies:
       '@motionone/types': 10.16.3
       '@motionone/utils': 10.16.3
