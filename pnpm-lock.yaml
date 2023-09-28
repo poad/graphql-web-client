@@ -593,7 +593,7 @@ packages:
       '@mui/types': 7.2.4(@types/react@18.2.23)
       '@mui/utils': 5.14.11(@types/react@18.2.23)(react@18.2.0)
       '@types/react': 18.2.23
-      '@types/react-transition-group': 4.4.6
+      '@types/react-transition-group': 4.4.7
       clsx: 2.0.0
       csstype: 3.1.2
       prop-types: 15.8.1
@@ -1405,8 +1405,8 @@ packages:
   /@types/prop-types@15.7.7:
     resolution: {integrity: sha512-FbtmBWCcSa2J4zL781Zf1p5YUBXQomPEcep9QZCfRfQgTxz3pJWiDFLebohZ9fFntX5ibzOkSsrJ0TEew8cAog==}
 
-  /@types/react-transition-group@4.4.6:
-    resolution: {integrity: sha512-VnCdSxfcm08KjsJVQcfBmhEQAPnLB8G08hAxn39azX1qYBQ/5RVQuoHuKIcfKOdncuaUvEpFKFzEvbtIMsfVew==}
+  /@types/react-transition-group@4.4.7:
+    resolution: {integrity: sha512-ICCyBl5mvyqYp8Qeq9B5G/fyBSRC0zx3XM3sCC6KkcMsNeAHqXBKkmat4GqdJET5jtYUpZXrxI5flve5qhi2Eg==}
     dependencies:
       '@types/react': 18.2.23
     dev: false
