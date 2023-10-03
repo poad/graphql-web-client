@@ -10,6 +10,10 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    groups:
+      actions:
+        patterns:
+          - '＊'
 
   - package-ecosystem: npm
     directory: '/'
@@ -22,6 +26,6 @@ updates:
     assignees:
       - poad
     groups:
-      nextjs:
+      npm:
         patterns:
           - '＊'
