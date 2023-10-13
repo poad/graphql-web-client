@@ -194,7 +194,7 @@ packages:
   /@codemirror/language@6.0.0:
     resolution: {integrity: sha512-rtjk5ifyMzOna1c7PBu7J1VCt0PvA5wy3o8eMVnxMKb7z8KA7JFecvD04dSn14vj/bBaAbqRsGed5OjtofEnLA==}
     dependencies:
-      '@codemirror/state': 6.2.1
+      '@codemirror/state': 6.3.0
       '@codemirror/view': 6.21.3
       '@lezer/common': 1.1.0
       '@lezer/highlight': 1.1.6
@@ -202,14 +202,14 @@ packages:
       style-mod: 4.1.0
     dev: false
 
-  /@codemirror/state@6.2.1:
-    resolution: {integrity: sha512-RupHSZ8+OjNT38zU9fKH2sv+Dnlr8Eb8sl4NOnnqz95mCFTZUaiRP8Xv5MeeaG0px2b8Bnfe7YGwCV3nsBhbuw==}
+  /@codemirror/state@6.3.0:
+    resolution: {integrity: sha512-5fIS19U46PEqczbBL6gBAtju9MFDT9TjIC/q2MYblHCEKiU8jhV3cRFhvQu5tQvbtxc5KLWxSnzMNh3ZqeaXVg==}
     dev: false
 
   /@codemirror/view@6.21.3:
     resolution: {integrity: sha512-8l1aSQ6MygzL4Nx7GVYhucSXvW4jQd0F6Zm3v9Dg+6nZEfwzJVqi4C2zHfDljID+73gsQrWp9TgHc81xU15O4A==}
     dependencies:
-      '@codemirror/state': 6.2.1
+      '@codemirror/state': 6.3.0
       style-mod: 4.1.0
       w3c-keyname: 2.2.8
     dev: false
