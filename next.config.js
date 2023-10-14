@@ -7,6 +7,9 @@ const config = {
   images: {
     unoptimized: true,
   },
+  compiler: {
+    emotion: true,
+  },
   trailingSlash: true,
 };
 
