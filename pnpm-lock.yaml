@@ -15,8 +15,8 @@ dependencies:
     specifier: ^11.11.0
     version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.34)(react@18.2.0)
   '@graphiql/react':
-    specifier: ^0.20.1
-    version: 0.20.1(@codemirror/language@6.0.0)(@types/node@20.8.10)(@types/react@18.2.34)(graphql-ws@5.14.2)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^0.20.2
+    version: 0.20.2(@codemirror/language@6.0.0)(@types/node@20.8.10)(@types/react@18.2.34)(graphql-ws@5.14.2)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
   '@graphiql/toolkit':
     specifier: ^0.9.1
     version: 0.9.1(@types/node@20.8.10)(graphql-ws@5.14.2)(graphql@16.8.1)
@@ -386,8 +386,8 @@ packages:
     resolution: {integrity: sha512-OfX7E2oUDYxtBvsuS4e/jSn4Q9Qb6DzgeYtsAdkPZ47znpoNsMgZw0+tVijiv3uGNR6dgNlty6r9rzIzHjtd/A==}
     dev: false
 
-  /@graphiql/react@0.20.1(@codemirror/language@6.0.0)(@types/node@20.8.10)(@types/react@18.2.34)(graphql-ws@5.14.2)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-BW9XwMui3hKNtOOG+kLl7cjQ3HP/cOWpqbaATDlwOmXubQ/Lo6OghthWZKLWPOk4sa0zMk+FX37UoTCVoEL0uA==}
+  /@graphiql/react@0.20.2(@codemirror/language@6.0.0)(@types/node@20.8.10)(@types/react@18.2.34)(graphql-ws@5.14.2)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-/crAUlM+4iVHyNHVdiZjsTEqfMXBHfjEvrMwCwTVig6YXmCAVuaxqkD7NlDtrrPQArLGkABmf1Nw7ObRpby5lg==}
     peerDependencies:
       graphql: ^15.5.0 || ^16.0.0
       react: ^16.8.0 || ^17 || ^18
@@ -1735,7 +1735,7 @@ packages:
       react: ^16.8.0 || ^17 || ^18
       react-dom: ^16.8.0 || ^17 || ^18
     dependencies:
-      '@graphiql/react': 0.20.1(@codemirror/language@6.0.0)(@types/node@20.8.10)(@types/react@18.2.34)(graphql-ws@5.14.2)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@graphiql/react': 0.20.2(@codemirror/language@6.0.0)(@types/node@20.8.10)(@types/react@18.2.34)(graphql-ws@5.14.2)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
       '@graphiql/toolkit': 0.9.1(@types/node@20.8.10)(graphql-ws@5.14.2)(graphql@16.8.1)
       graphql: 16.8.1
       graphql-language-service: 5.2.0(graphql@16.8.1)
