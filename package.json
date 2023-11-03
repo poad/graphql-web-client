@@ -24,7 +24,7 @@
     "@mui/icons-material": "^5.14.16",
     "@mui/material": "^5.14.16",
     "@mui/styles": "^5.14.16",
-    "graphiql": "^3.0.8",
+    "graphiql": "^3.0.9",
     "graphql": "^16.8.1",
     "graphql-ws": "^5.14.2",
     "next": "^14.0.1",
