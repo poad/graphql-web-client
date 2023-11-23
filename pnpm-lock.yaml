@@ -1382,13 +1382,13 @@ packages:
   /@types/codemirror@0.0.90:
     resolution: {integrity: sha512-8Z9+tSg27NPRGubbUPUCrt5DDG/OWzLph5BvcDykwR5D7RyZh5mhHG0uS1ePKV1YFCA+/cwc4Ey2AJAEFfV3IA==}
     dependencies:
-      '@types/tern': 0.23.8
+      '@types/tern': 0.23.9
     dev: false
 
   /@types/codemirror@5.60.14:
     resolution: {integrity: sha512-Gs+9yVSe7ceqhY7SJ6YUpU20aVnj/E2wjYHPWyntSD2ayr204xgPtVWyEp+8ARZjteEYVLJ/rVnHtdSCPbfYFQ==}
     dependencies:
-      '@types/tern': 0.23.8
+      '@types/tern': 0.23.9
     dev: false
 
   /@types/estree@1.0.5:
@@ -1423,8 +1423,8 @@ packages:
   /@types/scheduler@0.16.7:
     resolution: {integrity: sha512-8g25Nl3AuB1KulTlSUsUhUo/oBgBU6XIXQ+XURpeioEbEJvkO7qI4vDfREv3vJYHHzqXjcAHvoJy4pTtSQNZtA==}
 
-  /@types/tern@0.23.8:
-    resolution: {integrity: sha512-XrypALKbpwm8SfcDqwQ3Dp751v2TBr7UgrDnNWz3rHx/m7/aGXlEo3QbZFIwhvi5JFE4pKbk3CcKitR2sWv7KA==}
+  /@types/tern@0.23.9:
+    resolution: {integrity: sha512-ypzHFE/wBzh+BlH6rrBgS5I/Z7RD21pGhZ2rltb/+ZrVM1awdZwjx7hE5XfuYgHWk9uvV5HLZN3SloevCAp3Bw==}
     dependencies:
       '@types/estree': 1.0.5
     dev: false
