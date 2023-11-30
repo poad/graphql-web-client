@@ -536,7 +536,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.23.4
       '@floating-ui/react-dom': 2.0.4(react-dom@18.2.0)(react@18.2.0)
-      '@mui/types': 7.2.9(@types/react@18.2.39)
+      '@mui/types': 7.2.10(@types/react@18.2.39)
       '@mui/utils': 5.14.18(@types/react@18.2.39)(react@18.2.0)
       '@popperjs/core': 2.11.8
       '@types/react': 18.2.39
@@ -590,7 +590,7 @@ packages:
       '@mui/base': 5.0.0-beta.24(@types/react@18.2.39)(react-dom@18.2.0)(react@18.2.0)
       '@mui/core-downloads-tracker': 5.14.18
       '@mui/system': 5.14.18(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.39)(react@18.2.0)
-      '@mui/types': 7.2.9(@types/react@18.2.39)
+      '@mui/types': 7.2.10(@types/react@18.2.39)
       '@mui/utils': 5.14.18(@types/react@18.2.39)(react@18.2.0)
       '@types/react': 18.2.39
       '@types/react-transition-group': 4.4.9
@@ -655,7 +655,7 @@ packages:
       '@babel/runtime': 7.23.4
       '@emotion/hash': 0.9.1
       '@mui/private-theming': 5.14.18(@types/react@18.2.39)(react@18.2.0)
-      '@mui/types': 7.2.9(@types/react@18.2.39)
+      '@mui/types': 7.2.10(@types/react@18.2.39)
       '@mui/utils': 5.14.18(@types/react@18.2.39)(react@18.2.0)
       '@types/react': 18.2.39
       clsx: 2.0.0
@@ -694,7 +694,7 @@ packages:
       '@emotion/styled': 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.39)(react@18.2.0)
       '@mui/private-theming': 5.14.18(@types/react@18.2.39)(react@18.2.0)
       '@mui/styled-engine': 5.14.18(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(react@18.2.0)
-      '@mui/types': 7.2.9(@types/react@18.2.39)
+      '@mui/types': 7.2.10(@types/react@18.2.39)
       '@mui/utils': 5.14.18(@types/react@18.2.39)(react@18.2.0)
       '@types/react': 18.2.39
       clsx: 2.0.0
@@ -703,8 +703,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@mui/types@7.2.9(@types/react@18.2.39):
-    resolution: {integrity: sha512-k1lN/PolaRZfNsRdAqXtcR71sTnv3z/VCCGPxU8HfdftDkzi335MdJ6scZxvofMAd/K/9EbzCZTFBmlNpQVdCg==}
+  /@mui/types@7.2.10(@types/react@18.2.39):
+    resolution: {integrity: sha512-wX1vbDC+lzF7FlhT6A3ffRZgEoKWPF8VqRoTu4lZwouFX2t90KyCMsgepMw5DxLak1BSp/KP86CmtZttikb/gQ==}
     peerDependencies:
       '@types/react': ^17.0.0 || ^18.0.0
     peerDependenciesMeta:
