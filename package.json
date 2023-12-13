@@ -22,7 +22,7 @@
     "@graphiql/react": "^0.20.2",
     "@graphiql/toolkit": "^0.9.1",
     "@mui/icons-material": "^5.14.19",
-    "@mui/material": "^5.14.20",
+    "@mui/material": "^5.15.0",
     "@mui/styles": "^5.14.20",
     "graphiql": "^3.0.10",
     "graphql": "^16.8.1",
