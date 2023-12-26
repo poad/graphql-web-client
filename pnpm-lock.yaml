@@ -620,8 +620,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@mui/styled-engine@5.15.1(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(react@18.2.0):
-    resolution: {integrity: sha512-7WDZTJLqGexWDjqE9oAgjU8ak6hEtUw2yQU7SIYID5kLVO2Nj/Wi/KicbLsXnTsJNvSqePIlUIWTBSXwWJCPZw==}
+  /@mui/styled-engine@5.15.2(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(react@18.2.0):
+    resolution: {integrity: sha512-fYEN3IZzbebeHwAmQHhxwruiOIi8W74709qXg/7tgtHV4byQSmPgnnKsZkg0hFlzjEbcJIRZyZI0qEecgpR2cg==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@emotion/react': ^11.4.1
@@ -693,7 +693,7 @@ packages:
       '@emotion/react': 11.11.3(@types/react@18.2.45)(react@18.2.0)
       '@emotion/styled': 11.11.0(@emotion/react@11.11.3)(@types/react@18.2.45)(react@18.2.0)
       '@mui/private-theming': 5.15.1(@types/react@18.2.45)(react@18.2.0)
-      '@mui/styled-engine': 5.15.1(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(react@18.2.0)
+      '@mui/styled-engine': 5.15.2(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(react@18.2.0)
       '@mui/types': 7.2.11(@types/react@18.2.45)
       '@mui/utils': 5.15.1(@types/react@18.2.45)(react@18.2.0)
       '@types/react': 18.2.45
