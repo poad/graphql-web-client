@@ -463,7 +463,7 @@ packages:
       react: ^16 || ^17 || ^18
       react-dom: ^16 || ^17 || ^18
     dependencies:
-      '@tanstack/react-virtual': 3.0.2(react-dom@18.2.0)(react@18.2.0)
+      '@tanstack/react-virtual': 3.0.4(react-dom@18.2.0)(react@18.2.0)
       client-only: 0.0.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -1400,8 +1400,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@tanstack/react-virtual@3.0.2(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-9XbRLPKgnhMwwmuQMnJMv+5a9sitGNCSEtf/AZXzmJdesYk7XsjYHaEDny+IrJzvPNwZliIIDwCRiaUqR3zzCA==}
+  /@tanstack/react-virtual@3.0.4(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-tiqKW/e2MJVCr7/pRUXulpkyxllaOclkHNfhKTo4pmHjJIqnhMfwIjc1Q1R0Un3PI3kQywywu/791c8z9u0qeA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
