@@ -16,28 +16,28 @@ dependencies:
     version: 11.11.0(@emotion/react@11.11.3)(@types/react@18.2.55)(react@18.2.0)
   '@graphiql/react':
     specifier: ^0.20.3
-    version: 0.20.3(@codemirror/language@6.0.0)(@types/node@20.11.17)(@types/react@18.2.55)(graphql-ws@5.14.3)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+    version: 0.20.3(@codemirror/language@6.0.0)(@types/node@20.11.17)(@types/react@18.2.55)(graphql-ws@5.15.0)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
   '@graphiql/toolkit':
     specifier: ^0.9.1
-    version: 0.9.1(@types/node@20.11.17)(graphql-ws@5.14.3)(graphql@16.8.1)
+    version: 0.9.1(@types/node@20.11.17)(graphql-ws@5.15.0)(graphql@16.8.1)
   '@mui/icons-material':
-    specifier: ^5.15.9
-    version: 5.15.9(@mui/material@5.15.9)(@types/react@18.2.55)(react@18.2.0)
+    specifier: ^5.15.10
+    version: 5.15.10(@mui/material@5.15.10)(@types/react@18.2.55)(react@18.2.0)
   '@mui/material':
-    specifier: ^5.15.9
-    version: 5.15.9(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^5.15.10
+    version: 5.15.10(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)
   '@mui/styles':
-    specifier: ^5.15.9
-    version: 5.15.9(@types/react@18.2.55)(react@18.2.0)
+    specifier: ^5.15.10
+    version: 5.15.10(@types/react@18.2.55)(react@18.2.0)
   graphiql:
     specifier: ^3.1.1
-    version: 3.1.1(@codemirror/language@6.0.0)(@types/node@20.11.17)(@types/react@18.2.55)(graphql-ws@5.14.3)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+    version: 3.1.1(@codemirror/language@6.0.0)(@types/node@20.11.17)(@types/react@18.2.55)(graphql-ws@5.15.0)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
   graphql:
     specifier: ^16.8.1
     version: 16.8.1
   graphql-ws:
-    specifier: ^5.14.3
-    version: 5.14.3(graphql@16.8.1)
+    specifier: ^5.15.0
+    version: 5.15.0(graphql@16.8.1)
   next:
     specifier: ^14.1.0
     version: 14.1.0(react-dom@18.2.0)(react@18.2.0)
@@ -384,8 +384,8 @@ packages:
       '@floating-ui/utils': 0.2.1
     dev: false
 
-  /@floating-ui/dom@1.6.2:
-    resolution: {integrity: sha512-xymkSSowKdGqo0SRr2Mp4czH5A8o2Pum35PAD0ftb3gCcPacWzwhvtUeUqmVXm9EVtm2hThD/lRrFNcahMOaSQ==}
+  /@floating-ui/dom@1.6.3:
+    resolution: {integrity: sha512-RnDthu3mzPlQ31Ss/BTwQ1zjzIhr3lk1gZB1OC56h/1vEtaXkESrOqL5fQVMfXpwGtRwX+YsZBdyHtJMQnkArw==}
     dependencies:
       '@floating-ui/core': 1.6.0
       '@floating-ui/utils': 0.2.1
@@ -397,7 +397,7 @@ packages:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
-      '@floating-ui/dom': 1.6.2
+      '@floating-ui/dom': 1.6.3
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
@@ -406,14 +406,14 @@ packages:
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
     dev: false
 
-  /@graphiql/react@0.20.3(@codemirror/language@6.0.0)(@types/node@20.11.17)(@types/react@18.2.55)(graphql-ws@5.14.3)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0):
+  /@graphiql/react@0.20.3(@codemirror/language@6.0.0)(@types/node@20.11.17)(@types/react@18.2.55)(graphql-ws@5.15.0)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-LHEiWQPABflTyRJZBZB50WSlrWER4RtlWg9XV1+D4yZQ3+6GbLM7X1zYf4D/TQ6AJB/vLZQHEnbhS0LuKcNqfA==}
     peerDependencies:
       graphql: ^15.5.0 || ^16.0.0
       react: ^16.8.0 || ^17 || ^18
       react-dom: ^16.8.0 || ^17 || ^18
     dependencies:
-      '@graphiql/toolkit': 0.9.1(@types/node@20.11.17)(graphql-ws@5.14.3)(graphql@16.8.1)
+      '@graphiql/toolkit': 0.9.1(@types/node@20.11.17)(graphql-ws@5.15.0)(graphql@16.8.1)
       '@headlessui/react': 1.7.18(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-dialog': 1.0.5(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-dropdown-menu': 2.0.6(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)
@@ -439,7 +439,7 @@ packages:
       - graphql-ws
     dev: false
 
-  /@graphiql/toolkit@0.9.1(@types/node@20.11.17)(graphql-ws@5.14.3)(graphql@16.8.1):
+  /@graphiql/toolkit@0.9.1(@types/node@20.11.17)(graphql-ws@5.15.0)(graphql@16.8.1):
     resolution: {integrity: sha512-LVt9pdk0830so50ZnU2Znb2rclcoWznG8r8asqAENzV0U1FM1kuY0sdPpc/rBc9MmmNgnB6A+WZzDhq6dbhTHA==}
     peerDependencies:
       graphql: ^15.5.0 || ^16.0.0
@@ -450,7 +450,7 @@ packages:
     dependencies:
       '@n1ru4l/push-pull-async-iterable-iterator': 3.2.0
       graphql: 16.8.1
-      graphql-ws: 5.14.3(graphql@16.8.1)
+      graphql-ws: 5.15.0(graphql@16.8.1)
       meros: 1.3.0(@types/node@20.11.17)
     transitivePeerDependencies:
       - '@types/node'
@@ -567,12 +567,12 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@mui/core-downloads-tracker@5.15.9:
-    resolution: {integrity: sha512-CSDpVevGaxsvMkiYBZ8ztki1z/eT0mM2MqUT21eCRiMz3DU4zQw5rXG5ML/yTuJF9Z2Wv9SliIeaRAuSR/9Nig==}
+  /@mui/core-downloads-tracker@5.15.10:
+    resolution: {integrity: sha512-qPv7B+LeMatYuzRjB3hlZUHqinHx/fX4YFBiaS19oC02A1e9JFuDKDvlyRQQ5oRSbJJt0QlaLTlr0IcauVcJRQ==}
     dev: false
 
-  /@mui/icons-material@5.15.9(@mui/material@5.15.9)(@types/react@18.2.55)(react@18.2.0):
-    resolution: {integrity: sha512-6tLQoM6RylQuDnHR6qQay0G0pJgKmrhn5MIm0IfrwtmSO8eV5iUFR+nNUTXsWa24gt7ZbIKnJ962UlYaeXa4bg==}
+  /@mui/icons-material@5.15.10(@mui/material@5.15.10)(@types/react@18.2.55)(react@18.2.0):
+    resolution: {integrity: sha512-9cF8oUHZKo9oQ7EQ3pxPELaZuZVmphskU4OI6NiJNDVN7zcuvrEsuWjYo1Zh4fLiC39Nrvm30h/B51rcUjvSGA==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@mui/material': ^5.0.0
@@ -583,13 +583,13 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.23.9
-      '@mui/material': 5.15.9(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)
+      '@mui/material': 5.15.10(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.55
       react: 18.2.0
     dev: false
 
-  /@mui/material@5.15.9(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-kbHTZDcFmN8GHKzRpImUEl9AJfFWI/0Kl+DsYVT3kHzQWUuHiKm3uHXR1RCOqr7H8IgHFPdbxItmCSQ/mj7zgg==}
+  /@mui/material@5.15.10(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-YJJGHjwDOucecjDEV5l9ISTCo+l9YeWrho623UajzoHRYxuKUmwrGVYOW4PKwGvCx9SU9oklZnbbi2Clc5XZHw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@emotion/react': ^11.5.0
@@ -609,7 +609,7 @@ packages:
       '@emotion/react': 11.11.3(@types/react@18.2.55)(react@18.2.0)
       '@emotion/styled': 11.11.0(@emotion/react@11.11.3)(@types/react@18.2.55)(react@18.2.0)
       '@mui/base': 5.0.0-beta.36(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)
-      '@mui/core-downloads-tracker': 5.15.9
+      '@mui/core-downloads-tracker': 5.15.10
       '@mui/system': 5.15.9(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.55)(react@18.2.0)
       '@mui/types': 7.2.13(@types/react@18.2.55)
       '@mui/utils': 5.15.9(@types/react@18.2.55)(react@18.2.0)
@@ -663,8 +663,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@mui/styles@5.15.9(@types/react@18.2.55)(react@18.2.0):
-    resolution: {integrity: sha512-xwQ1uI2rB6Ra9fZM0jPjmUWsr2Jbtf8+VMNs7DiallJDrzdmmvHzBkVe74bTWWmHq1HdsYIz2vIcH0wnFYGe4Q==}
+  /@mui/styles@5.15.10(@types/react@18.2.55)(react@18.2.0):
+    resolution: {integrity: sha512-VUl9rCK89lkCZ+ctYv1hSCN9gBke9CfnXF9BtGPkw9jTxPkrW6fQQYep2wcHdzLORE3w96oq9BbSXDqrOnSEPA==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@types/react': ^17.0.0 || ^18.0.0
@@ -1540,8 +1540,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /caniuse-lite@1.0.30001585:
-    resolution: {integrity: sha512-yr2BWR1yLXQ8fMpdS/4ZZXpseBgE7o4g41x3a6AJOqZuOi+iE/WdJYAuZ6Y95i4Ohd2Y+9MzIWRR+uGABH4s3Q==}
+  /caniuse-lite@1.0.30001587:
+    resolution: {integrity: sha512-HMFNotUmLXn71BQxg8cijvqxnIAofforZOwGsxyXJ0qugTdspUF4sPSJ2vhgprHCB996tIDzEq1ubumPDV8ULA==}
     dev: false
 
   /chalk@2.4.2:
@@ -1760,15 +1760,15 @@ packages:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
     dev: false
 
-  /graphiql@3.1.1(@codemirror/language@6.0.0)(@types/node@20.11.17)(@types/react@18.2.55)(graphql-ws@5.14.3)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0):
+  /graphiql@3.1.1(@codemirror/language@6.0.0)(@types/node@20.11.17)(@types/react@18.2.55)(graphql-ws@5.15.0)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-FMNa981Wj8JBJJRTdryNyrVteigS8B7q+Q1fh1rW4IsFPaXNIs1VMs8kwqIZ8zERj4Fc64Ea750g3n6r2w9Zcg==}
     peerDependencies:
       graphql: ^15.5.0 || ^16.0.0
       react: ^16.8.0 || ^17 || ^18
       react-dom: ^16.8.0 || ^17 || ^18
     dependencies:
-      '@graphiql/react': 0.20.3(@codemirror/language@6.0.0)(@types/node@20.11.17)(@types/react@18.2.55)(graphql-ws@5.14.3)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
-      '@graphiql/toolkit': 0.9.1(@types/node@20.11.17)(graphql-ws@5.14.3)(graphql@16.8.1)
+      '@graphiql/react': 0.20.3(@codemirror/language@6.0.0)(@types/node@20.11.17)(@types/react@18.2.55)(graphql-ws@5.15.0)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@graphiql/toolkit': 0.9.1(@types/node@20.11.17)(graphql-ws@5.15.0)(graphql@16.8.1)
       graphql: 16.8.1
       graphql-language-service: 5.2.0(graphql@16.8.1)
       markdown-it: 12.3.2
@@ -1793,8 +1793,8 @@ packages:
       vscode-languageserver-types: 3.17.5
     dev: false
 
-  /graphql-ws@5.14.3(graphql@16.8.1):
-    resolution: {integrity: sha512-F/i2xNIVbaEF2xWggID0X/UZQa2V8kqKDPO8hwmu53bVOcTL7uNkxnexeEgSCVxYBQUTUNEI8+e4LO1FOhKPKQ==}
+  /graphql-ws@5.15.0(graphql@16.8.1):
+    resolution: {integrity: sha512-xWGAtm3fig9TIhSaNsg0FaDZ8Pyn/3re3RFlP4rhQcmjRDIPpk1EhRuNB+YSJtLzttyuToaDiNhwT1OMoGnJnw==}
     engines: {node: '>=10'}
     peerDependencies:
       graphql: '>=0.11 <=16'
@@ -2089,7 +2089,7 @@ packages:
       '@next/env': 14.1.0
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001585
+      caniuse-lite: 1.0.30001587
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0
