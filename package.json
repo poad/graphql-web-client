@@ -21,9 +21,9 @@
     "@emotion/styled": "^11.11.5",
     "@graphiql/react": "^0.20.4",
     "@graphiql/toolkit": "^0.9.1",
-    "@mui/icons-material": "^5.15.14",
-    "@mui/material": "^5.15.14",
-    "@mui/styles": "^5.15.14",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/material": "^5.15.15",
+    "@mui/styles": "^5.15.15",
     "graphiql": "^3.1.2",
     "graphql": "^16.8.1",
     "graphql-ws": "^5.16.0",
@@ -33,8 +33,8 @@
     "web-vitals": "^3.5.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.6.3",
-    "@types/node": "^20.12.3",
+    "@biomejs/biome": "^1.6.4",
+    "@types/node": "^20.12.4",
     "@types/react": "^18.2.74",
     "next-global-css": "^1.3.1",
     "rimraf": "^5.0.5",
