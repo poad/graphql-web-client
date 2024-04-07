@@ -24,7 +24,7 @@
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "^5.15.15",
     "@mui/styles": "^5.15.15",
-    "graphiql": "^3.1.2",
+    "graphiql": "^3.2.0",
     "graphql": "^16.8.1",
     "graphql-ws": "^5.16.0",
     "next": "^14.1.4",
@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.6.4",
-    "@types/node": "^20.12.4",
+    "@types/node": "^20.12.5",
     "@types/react": "^18.2.74",
     "next-global-css": "^1.3.1",
     "rimraf": "^5.0.5",
