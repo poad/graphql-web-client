@@ -23,7 +23,7 @@
     "@graphiql/toolkit": "^0.9.1",
     "@mui/icons-material": "^5.15.17",
     "@mui/material": "^5.15.17",
-    "@mui/styles": "^5.15.16",
+    "@mui/styles": "^5.15.17",
     "graphiql": "^3.2.1",
     "graphql": "^16.8.1",
     "graphql-ws": "^5.16.0",
