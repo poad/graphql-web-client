@@ -1034,8 +1034,8 @@ packages:
     resolution: {integrity: sha512-QY6S+hZ0f5m1WT8WffYN+Hg+xm/w5I8XeUcAq/ZYP5wVC8xbKi4Whhru3FtrAebD5EhBW8rmFzkDI6eCAuFe2w==}
     hasBin: true
 
-  hyphenate-style-name@1.0.4:
-    resolution: {integrity: sha512-ygGZLjmXfPHj+ZWh6LwbC37l43MhfztxetbFCoYTM2VjkIUpeHgSNn7QIyVFj7YQ1Wl9Cbw5sholVJPzWvC2MQ==}
+  hyphenate-style-name@1.0.5:
+    resolution: {integrity: sha512-fedL7PRwmeVkgyhu9hLeTBaI6wcGk7JGJswdaRsa5aUbkXI1kr1xZwTPBtaYPpwf56878iDek6VbVnuWMebJmw==}
 
   import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
@@ -2487,7 +2487,7 @@ snapshots:
       readable-stream: 1.0.34
       through2: 0.4.2
 
-  hyphenate-style-name@1.0.4: {}
+  hyphenate-style-name@1.0.5: {}
 
   import-fresh@3.3.0:
     dependencies:
@@ -2537,7 +2537,7 @@ snapshots:
   jss-plugin-camel-case@10.10.0:
     dependencies:
       '@babel/runtime': 7.24.5
-      hyphenate-style-name: 1.0.4
+      hyphenate-style-name: 1.0.5
       jss: 10.10.0
 
   jss-plugin-default-unit@10.10.0:
