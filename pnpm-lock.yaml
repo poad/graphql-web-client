@@ -985,8 +985,8 @@ packages:
     resolution: {integrity: sha512-FJhYRoDaiatfEkUK8HKlicmu/3SGFD51q3itKDGoSTysQJBnfOcxU5GxnhE1E6soB76MbT0MBtnKJuXyAx+96Q==}
     engines: {node: '>=6'}
 
-  glob@10.4.0:
-    resolution: {integrity: sha512-+K6CicMIL11UEbC3gH/MVxgGG4gJDMu9tPD+nH+d6W3+y2fYuDSbpa2b+EGyvCGvSN/PT/7daJTH25NknJkcIQ==}
+  glob@10.4.1:
+    resolution: {integrity: sha512-2jelhlq3E4ho74ZyVLN03oKdAZVUa6UDZzFLVH1H7dnoax+y9qyaq8zBkfDIggjniU19z0wU18y16jMB2eyVIw==}
     engines: {node: '>=16 || 14 >=14.18'}
     hasBin: true
 
@@ -2429,7 +2429,7 @@ snapshots:
 
   get-nonce@1.0.1: {}
 
-  glob@10.4.0:
+  glob@10.4.1:
     dependencies:
       foreground-child: 3.1.1
       jackspeak: 3.1.2
@@ -2782,7 +2782,7 @@ snapshots:
 
   rimraf@5.0.7:
     dependencies:
-      glob: 10.4.0
+      glob: 10.4.1
 
   safe-buffer@5.1.2: {}
 
