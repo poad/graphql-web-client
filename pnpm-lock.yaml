@@ -30,8 +30,8 @@ importers:
         specifier: ^5.15.18
         version: 5.15.18(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@mui/styles':
-        specifier: ^5.15.18
-        version: 5.15.18(@types/react@18.3.3)(react@18.3.1)
+        specifier: ^5.15.19
+        version: 5.15.19(@types/react@18.3.3)(react@18.3.1)
       graphiql:
         specifier: ^3.2.2
         version: 3.2.2(@codemirror/language@6.0.0)(@types/node@20.12.12)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -367,8 +367,8 @@ packages:
       '@emotion/styled':
         optional: true
 
-  '@mui/styles@5.15.18':
-    resolution: {integrity: sha512-dKfd804Wu2JSsQTbK55sHonzfx0/mt9QxPtLZ/sm9qYuWshzIbmvSYbMIxlVigvVQxNy6l8MkCdEwtvE+fmkUg==}
+  '@mui/styles@5.15.19':
+    resolution: {integrity: sha512-WOYjZT6DL/StJv/vFR/tJPJuHC98lwWza7Gzj2RWZk123eCcSJ+3ruc62/ZyXaCx4PKCbE849mVl+CWhA2ecmw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@types/react': ^17.0.0 || ^18.0.0
@@ -1836,7 +1836,7 @@ snapshots:
       '@emotion/react': 11.11.4(@types/react@18.3.3)(react@18.3.1)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)
 
-  '@mui/styles@5.15.18(@types/react@18.3.3)(react@18.3.1)':
+  '@mui/styles@5.15.19(@types/react@18.3.3)(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.6
       '@emotion/hash': 0.9.1
