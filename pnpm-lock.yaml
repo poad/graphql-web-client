@@ -865,8 +865,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001626:
-    resolution: {integrity: sha512-JRW7kAH8PFJzoPCJhLSHgDgKg5348hsQ68aqb+slnzuB5QFERv846oA/mRChmlLAOdEDeOkRn3ynb1gSFnjt3w==}
+  caniuse-lite@1.0.30001627:
+    resolution: {integrity: sha512-4zgNiB8nTyV/tHhwZrFs88ryjls/lHiqFhrxCW4qSTeuRByBVnPYpDInchOIySWknznucaf31Z4KYqjfbrecVw==}
 
   chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -2309,7 +2309,7 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  caniuse-lite@1.0.30001626: {}
+  caniuse-lite@1.0.30001627: {}
 
   chalk@2.4.2:
     dependencies:
@@ -2629,7 +2629,7 @@ snapshots:
       '@next/env': 14.2.3
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001626
+      caniuse-lite: 1.0.30001627
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.3.1
