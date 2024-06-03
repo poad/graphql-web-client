@@ -19,10 +19,10 @@ importers:
         version: 11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)
       '@graphiql/react':
         specifier: ^0.22.2
-        version: 0.22.2(@codemirror/language@6.0.0)(@types/node@20.13.0)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 0.22.2(@codemirror/language@6.0.0)(@types/node@20.14.0)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@graphiql/toolkit':
         specifier: ^0.9.1
-        version: 0.9.1(@types/node@20.13.0)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)
+        version: 0.9.1(@types/node@20.14.0)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)
       '@mui/icons-material':
         specifier: ^5.15.19
         version: 5.15.19(@mui/material@5.15.19(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)
@@ -34,7 +34,7 @@ importers:
         version: 5.15.19(@types/react@18.3.3)(react@18.3.1)
       graphiql:
         specifier: ^3.2.3
-        version: 3.2.3(@codemirror/language@6.0.0)(@types/node@20.13.0)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 3.2.3(@codemirror/language@6.0.0)(@types/node@20.14.0)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       graphql:
         specifier: ^16.8.1
         version: 16.8.1
@@ -58,8 +58,8 @@ importers:
         specifier: ^1.7.3
         version: 1.7.3
       '@types/node':
-        specifier: ^20.13.0
-        version: 20.13.0
+        specifier: ^20.14.0
+        version: 20.14.0
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
@@ -284,8 +284,8 @@ packages:
   '@lezer/lr@1.4.1':
     resolution: {integrity: sha512-CHsKq8DMKBf9b3yXPDIU4DbH+ZJd/sJdYOW2llbW/HudP5u0VS6Bfq1hLYfgU7uAYGFIyGGQIsSOXGPEErZiJw==}
 
-  '@motionone/animation@10.17.0':
-    resolution: {integrity: sha512-ANfIN9+iq1kGgsZxs+Nz96uiNcPLGTXwfNo2Xz/fcJXniPYpaz/Uyrfa+7I5BPLxCP82sh7quVDudf1GABqHbg==}
+  '@motionone/animation@10.18.0':
+    resolution: {integrity: sha512-9z2p5GFGCm0gBsZbi8rVMOAJCtw1WqBTIPw3ozk06gDvZInBPIsQcHgYogEJ4yuHJ+akuW8g1SEIOpTOvYs8hw==}
 
   '@motionone/dom@10.12.0':
     resolution: {integrity: sha512-UdPTtLMAktHiqV0atOczNYyDd/d8Cf5fFsd1tua03PqTwwCe/6lwhLSQ8a7TbnQ5SN0gm44N1slBfj+ORIhrqw==}
@@ -293,17 +293,11 @@ packages:
   '@motionone/easing@10.18.0':
     resolution: {integrity: sha512-VcjByo7XpdLS4o9T8t99JtgxkdMcNWD3yHU/n6CLEz3bkmKDRZyYQ/wmSf6daum8ZXqfUAgFeCZSpJZIMxaCzg==}
 
-  '@motionone/generators@10.17.0':
-    resolution: {integrity: sha512-T6Uo5bDHrZWhIfxG/2Aut7qyWQyJIWehk6OB4qNvr/jwA/SRmixwbd7SOrxZi1z5rH3LIeFFBKK1xHnSbGPZSQ==}
-
-  '@motionone/types@10.17.0':
-    resolution: {integrity: sha512-EgeeqOZVdRUTEHq95Z3t8Rsirc7chN5xFAPMYFobx8TPubkEfRSm5xihmMUkbaR2ErKJTUw3347QDPTHIW12IA==}
+  '@motionone/generators@10.18.0':
+    resolution: {integrity: sha512-+qfkC2DtkDj4tHPu+AFKVfR/C30O1vYdvsGYaR13W/1cczPrrcjdvYCj0VLFuRMN+lP1xvpNZHCRNM4fBzn1jg==}
 
   '@motionone/types@10.17.1':
     resolution: {integrity: sha512-KaC4kgiODDz8hswCrS0btrVrzyU2CSQKO7Ps90ibBVSQmjkrt2teqta6/sOG59v7+dPnKMAg13jyqtMKV2yJ7A==}
-
-  '@motionone/utils@10.17.0':
-    resolution: {integrity: sha512-bGwrki4896apMWIj9yp5rAS2m0xyhxblg6gTB/leWDPt+pb410W8lYWsxyurX+DH+gO1zsQsfx2su/c1/LtTpg==}
 
   '@motionone/utils@10.18.0':
     resolution: {integrity: sha512-3XVF7sgyTSI2KWvTf6uLlBJ5iAgRgmvp3bpuOiQJvInd4nZ19ET8lX5unn30SlmRH7hXbBbH+Gxd0m0klJ3Xtw==}
@@ -805,8 +799,8 @@ packages:
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
-  '@types/node@20.13.0':
-    resolution: {integrity: sha512-FM6AOb3khNkNIXPnHFDYaHerSv8uN22C91z098AnGccVu+Pcdhi+pNUFDi0iLmPIsVE0JBD0KVS7mzUYt4nRzQ==}
+  '@types/node@20.14.0':
+    resolution: {integrity: sha512-5cHBxFGJx6L4s56Bubp4fglrEpmyJypsqI6RgzMfBHWUJQGWAAi8cWcgetEbZXHYXo9C2Fa4EEds/uSyS4cxmA==}
 
   '@types/parse-json@4.0.2':
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
@@ -871,8 +865,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001625:
-    resolution: {integrity: sha512-4KE9N2gcRH+HQhpeiRZXd+1niLB/XNLAhSy4z7fI8EzcbcPoAqjNInxVHTiTwWfTIV4w096XG8OtCOCQQKPv3w==}
+  caniuse-lite@1.0.30001626:
+    resolution: {integrity: sha512-JRW7kAH8PFJzoPCJhLSHgDgKg5348hsQ68aqb+slnzuB5QFERv846oA/mRChmlLAOdEDeOkRn3ynb1gSFnjt3w==}
 
   chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -1679,9 +1673,9 @@ snapshots:
 
   '@floating-ui/utils@0.2.2': {}
 
-  '@graphiql/react@0.22.2(@codemirror/language@6.0.0)(@types/node@20.13.0)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@graphiql/react@0.22.2(@codemirror/language@6.0.0)(@types/node@20.14.0)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@graphiql/toolkit': 0.9.1(@types/node@20.13.0)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)
+      '@graphiql/toolkit': 0.9.1(@types/node@20.14.0)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)
       '@headlessui/react': 1.7.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dialog': 1.0.5(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dropdown-menu': 2.0.6(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1706,11 +1700,11 @@ snapshots:
       - '@types/react-dom'
       - graphql-ws
 
-  '@graphiql/toolkit@0.9.1(@types/node@20.13.0)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)':
+  '@graphiql/toolkit@0.9.1(@types/node@20.14.0)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)':
     dependencies:
       '@n1ru4l/push-pull-async-iterable-iterator': 3.2.0
       graphql: 16.8.1
-      meros: 1.3.0(@types/node@20.13.0)
+      meros: 1.3.0(@types/node@20.14.0)
     optionalDependencies:
       graphql-ws: 5.16.0(graphql@16.8.1)
     transitivePeerDependencies:
@@ -1742,19 +1736,19 @@ snapshots:
     dependencies:
       '@lezer/common': 1.2.1
 
-  '@motionone/animation@10.17.0':
+  '@motionone/animation@10.18.0':
     dependencies:
       '@motionone/easing': 10.18.0
-      '@motionone/types': 10.17.0
-      '@motionone/utils': 10.17.0
+      '@motionone/types': 10.17.1
+      '@motionone/utils': 10.18.0
       tslib: 2.6.2
 
   '@motionone/dom@10.12.0':
     dependencies:
-      '@motionone/animation': 10.17.0
-      '@motionone/generators': 10.17.0
-      '@motionone/types': 10.17.0
-      '@motionone/utils': 10.17.0
+      '@motionone/animation': 10.18.0
+      '@motionone/generators': 10.18.0
+      '@motionone/types': 10.17.1
+      '@motionone/utils': 10.18.0
       hey-listen: 1.0.8
       tslib: 2.6.2
 
@@ -1763,21 +1757,13 @@ snapshots:
       '@motionone/utils': 10.18.0
       tslib: 2.6.2
 
-  '@motionone/generators@10.17.0':
+  '@motionone/generators@10.18.0':
     dependencies:
-      '@motionone/types': 10.17.0
-      '@motionone/utils': 10.17.0
+      '@motionone/types': 10.17.1
+      '@motionone/utils': 10.18.0
       tslib: 2.6.2
-
-  '@motionone/types@10.17.0': {}
 
   '@motionone/types@10.17.1': {}
-
-  '@motionone/utils@10.17.0':
-    dependencies:
-      '@motionone/types': 10.17.0
-      hey-listen: 1.0.8
-      tslib: 2.6.2
 
   '@motionone/utils@10.18.0':
     dependencies:
@@ -2262,7 +2248,7 @@ snapshots:
 
   '@types/estree@1.0.5': {}
 
-  '@types/node@20.13.0':
+  '@types/node@20.14.0':
     dependencies:
       undici-types: 5.26.5
 
@@ -2323,7 +2309,7 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  caniuse-lite@1.0.30001625: {}
+  caniuse-lite@1.0.30001626: {}
 
   chalk@2.4.2:
     dependencies:
@@ -2453,10 +2439,10 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  graphiql@3.2.3(@codemirror/language@6.0.0)(@types/node@20.13.0)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  graphiql@3.2.3(@codemirror/language@6.0.0)(@types/node@20.14.0)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@graphiql/react': 0.22.2(@codemirror/language@6.0.0)(@types/node@20.13.0)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@graphiql/toolkit': 0.9.1(@types/node@20.13.0)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)
+      '@graphiql/react': 0.22.2(@codemirror/language@6.0.0)(@types/node@20.14.0)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@graphiql/toolkit': 0.9.1(@types/node@20.14.0)(graphql-ws@5.16.0(graphql@16.8.1))(graphql@16.8.1)
       graphql: 16.8.1
       graphql-language-service: 5.2.1(graphql@16.8.1)
       markdown-it: 14.1.0
@@ -2617,9 +2603,9 @@ snapshots:
 
   mdurl@2.0.0: {}
 
-  meros@1.3.0(@types/node@20.13.0):
+  meros@1.3.0(@types/node@20.14.0):
     optionalDependencies:
-      '@types/node': 20.13.0
+      '@types/node': 20.14.0
 
   minimatch@9.0.4:
     dependencies:
@@ -2643,7 +2629,7 @@ snapshots:
       '@next/env': 14.2.3
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001625
+      caniuse-lite: 1.0.30001626
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.3.1
