@@ -25,7 +25,7 @@
     "@mui/material": "^5.15.20",
     "@mui/styles": "^5.15.20",
     "graphiql": "^3.2.3",
-    "graphql": "^16.8.1",
+    "graphql": "^16.8.2",
     "graphql-ws": "^5.16.0",
     "next": "^14.2.4",
     "react": "^18.3.1",
