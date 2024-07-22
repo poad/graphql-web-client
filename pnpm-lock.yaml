@@ -242,8 +242,8 @@ packages:
       '@emotion/css':
         optional: true
 
-  '@emotion/sheet@1.3.0':
-    resolution: {integrity: sha512-vOPwbKw8fj/oSEa7CWqiKCvLZ1AeLIAApmboGP34xUyUjXalFyf+tMtgMDqP7VMevLPhUa+YWJS46cQUA+tr9A==}
+  '@emotion/sheet@1.4.0':
+    resolution: {integrity: sha512-fTBW9/8r2w3dXWYM4HCB1Rdp8NLibOw2+XELH5m5+AkWiL/KqYX6dc0kKYlaYyKjrQ6ds33MCdMPEwgs2z1rqg==}
 
   '@emotion/styled@11.13.0':
     resolution: {integrity: sha512-tkzkY7nQhW/zC4hztlwucpT8QEZ6eUzpXDRhww/Eej4tFfO0FxQYWRyg/c5CCXa4d/f174kqeXYjuQRnhzf6dA==}
@@ -1706,7 +1706,7 @@ snapshots:
   '@emotion/cache@11.12.0':
     dependencies:
       '@emotion/memoize': 0.9.0
-      '@emotion/sheet': 1.3.0
+      '@emotion/sheet': 1.4.0
       '@emotion/utils': 1.3.0
       '@emotion/weak-memoize': 0.4.0
       stylis: 4.2.0
@@ -1766,7 +1766,7 @@ snapshots:
       multipipe: 1.0.2
       through: 2.3.8
 
-  '@emotion/sheet@1.3.0': {}
+  '@emotion/sheet@1.4.0': {}
 
   '@emotion/styled@11.13.0(@emotion/react@11.12.0(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)':
     dependencies:
