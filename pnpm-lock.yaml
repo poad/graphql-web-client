@@ -19,10 +19,10 @@ importers:
         version: 11.13.0(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)
       '@graphiql/react':
         specifier: ^0.22.4
-        version: 0.22.4(@codemirror/language@6.0.0)(@types/node@20.14.13)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 0.22.4(@codemirror/language@6.0.0)(@types/node@22.0.0)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@graphiql/toolkit':
         specifier: ^0.9.1
-        version: 0.9.1(@types/node@20.14.13)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)
+        version: 0.9.1(@types/node@22.0.0)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)
       '@mui/icons-material':
         specifier: ^5.16.5
         version: 5.16.5(@mui/material@5.16.5(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.13.0(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)
@@ -34,7 +34,7 @@ importers:
         version: 5.16.5(@types/react@18.3.3)(react@18.3.1)
       graphiql:
         specifier: ^3.3.2
-        version: 3.3.2(@codemirror/language@6.0.0)(@types/node@20.14.13)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 3.3.2(@codemirror/language@6.0.0)(@types/node@22.0.0)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       graphql:
         specifier: ^16.9.0
         version: 16.9.0
@@ -58,8 +58,8 @@ importers:
         specifier: ^1.8.3
         version: 1.8.3
       '@types/node':
-        specifier: ^20.14.13
-        version: 20.14.13
+        specifier: ^22.0.0
+        version: 22.0.0
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
@@ -823,8 +823,8 @@ packages:
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
-  '@types/node@20.14.13':
-    resolution: {integrity: sha512-+bHoGiZb8UiQ0+WEtmph2IWQCjIqg8MDZMAV+ppRRhUZnquF5mQkP/9vpSwJClEiSM/C7fZZExPzfU0vJTyp8w==}
+  '@types/node@22.0.0':
+    resolution: {integrity: sha512-VT7KSYudcPOzP5Q0wfbowyNLaVR8QWUdw+088uFWwfvpY6uCWaXpqV6ieLAu9WBcnTa7H4Z5RLK8I5t2FuOcqw==}
 
   '@types/parse-json@4.0.2':
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
@@ -1473,8 +1473,8 @@ packages:
   uc.micro@2.1.0:
     resolution: {integrity: sha512-ARDJmphmdvUk6Glw7y9DQ2bFkKBHwQHLi2lsaH6PPmz/Ka9sFOBsBluozhDltWmnv9u/cF6Rt87znRTPV+yp/A==}
 
-  undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  undici-types@6.11.1:
+    resolution: {integrity: sha512-mIDEX2ek50x0OlRgxryxsenE5XaQD4on5U2inY7RApK3SOJpofyw7uW2AyfMKkhAxXIceo2DeWGVGwyvng1GNQ==}
 
   use-callback-ref@1.3.2:
     resolution: {integrity: sha512-elOQwe6Q8gqZgDA8mrh44qRTQqpIHDcZ3hXTLjBe1i4ph8XpNJnO+aQf3NaG+lriLopI4HMx9VjQLfPQ6vhnoA==}
@@ -1760,9 +1760,9 @@ snapshots:
 
   '@floating-ui/utils@0.2.5': {}
 
-  '@graphiql/react@0.22.4(@codemirror/language@6.0.0)(@types/node@20.14.13)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@graphiql/react@0.22.4(@codemirror/language@6.0.0)(@types/node@22.0.0)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@graphiql/toolkit': 0.9.1(@types/node@20.14.13)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)
+      '@graphiql/toolkit': 0.9.1(@types/node@22.0.0)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)
       '@headlessui/react': 1.7.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dialog': 1.1.1(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dropdown-menu': 2.1.1(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1787,11 +1787,11 @@ snapshots:
       - '@types/react-dom'
       - graphql-ws
 
-  '@graphiql/toolkit@0.9.1(@types/node@20.14.13)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)':
+  '@graphiql/toolkit@0.9.1(@types/node@22.0.0)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)':
     dependencies:
       '@n1ru4l/push-pull-async-iterable-iterator': 3.2.0
       graphql: 16.9.0
-      meros: 1.3.0(@types/node@20.14.13)
+      meros: 1.3.0(@types/node@22.0.0)
     optionalDependencies:
       graphql-ws: 5.16.0(graphql@16.9.0)
     transitivePeerDependencies:
@@ -2311,9 +2311,9 @@ snapshots:
 
   '@types/estree@1.0.5': {}
 
-  '@types/node@20.14.13':
+  '@types/node@22.0.0':
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.11.1
 
   '@types/parse-json@4.0.2': {}
 
@@ -2509,10 +2509,10 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  graphiql@3.3.2(@codemirror/language@6.0.0)(@types/node@20.14.13)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  graphiql@3.3.2(@codemirror/language@6.0.0)(@types/node@22.0.0)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@graphiql/react': 0.22.4(@codemirror/language@6.0.0)(@types/node@20.14.13)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@graphiql/toolkit': 0.9.1(@types/node@20.14.13)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)
+      '@graphiql/react': 0.22.4(@codemirror/language@6.0.0)(@types/node@22.0.0)(@types/react@18.3.3)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@graphiql/toolkit': 0.9.1(@types/node@22.0.0)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)
       graphql: 16.9.0
       graphql-language-service: 5.2.1(graphql@16.9.0)
       markdown-it: 14.1.0
@@ -2675,9 +2675,9 @@ snapshots:
 
   mdurl@2.0.0: {}
 
-  meros@1.3.0(@types/node@20.14.13):
+  meros@1.3.0(@types/node@22.0.0):
     optionalDependencies:
-      '@types/node': 20.14.13
+      '@types/node': 22.0.0
 
   minimatch@10.0.1:
     dependencies:
@@ -2951,7 +2951,7 @@ snapshots:
 
   uc.micro@2.1.0: {}
 
-  undici-types@5.26.5: {}
+  undici-types@6.11.1: {}
 
   use-callback-ref@1.3.2(@types/react@18.3.3)(react@18.3.1):
     dependencies:
