@@ -337,8 +337,8 @@ packages:
   '@motionone/utils@10.18.0':
     resolution: {integrity: sha512-3XVF7sgyTSI2KWvTf6uLlBJ5iAgRgmvp3bpuOiQJvInd4nZ19ET8lX5unn30SlmRH7hXbBbH+Gxd0m0klJ3Xtw==}
 
-  '@mui/core-downloads-tracker@5.16.5':
-    resolution: {integrity: sha512-ziFn1oPm6VjvHQcdGcAO+fXvOQEgieIj0BuSqcltFU+JXIxjPdVYNTdn2HU7/Ak5Gabk6k2u7+9PV7oZ6JT5sA==}
+  '@mui/core-downloads-tracker@5.16.6':
+    resolution: {integrity: sha512-kytg6LheUG42V8H/o/Ptz3olSO5kUXW9zF0ox18VnblX6bO2yif1FPItgc3ey1t5ansb1+gbe7SatntqusQupg==}
 
   '@mui/icons-material@5.16.5':
     resolution: {integrity: sha512-bn88xxU/J9UV0s6+eutq7o3TTOrOlbCX+KshFb8kxgIxJZZfYz3JbAXVMivvoMF4Md6jCVUzM9HEkf4Ajab4tw==}
@@ -1875,7 +1875,7 @@ snapshots:
       hey-listen: 1.0.8
       tslib: 2.6.3
 
-  '@mui/core-downloads-tracker@5.16.5': {}
+  '@mui/core-downloads-tracker@5.16.6': {}
 
   '@mui/icons-material@5.16.5(@mui/material@5.16.5(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.13.0(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)':
     dependencies:
@@ -1888,7 +1888,7 @@ snapshots:
   '@mui/material@5.16.5(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.13.0(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.25.0
-      '@mui/core-downloads-tracker': 5.16.5
+      '@mui/core-downloads-tracker': 5.16.6
       '@mui/system': 5.16.5(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.13.0(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)
       '@mui/types': 7.2.15(@types/react@18.3.3)
       '@mui/utils': 5.16.5(@types/react@18.3.3)(react@18.3.1)
