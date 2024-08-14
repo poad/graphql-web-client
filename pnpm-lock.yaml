@@ -907,12 +907,12 @@ packages:
     resolution: {integrity: sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==}
     engines: {node: '>=6'}
 
-  codemirror-graphql@2.0.13:
-    resolution: {integrity: sha512-MBx8BtfqpacLUwcx0smI0JLq7uR6ssKvdF0ENz0yV1w1xqKmFcZ29uHh11LMWdeLL0j14KXGSIDl97fovfdszQ==}
+  codemirror-graphql@2.1.0:
+    resolution: {integrity: sha512-Lm5augEJOd+7L6HXzBDmx/n7ViL8P/Dt0ba21X0JLeaMMEWtcG1SOvIdeI35St9ADOGdu/eMOg7aciX/RnWDFA==}
     peerDependencies:
       '@codemirror/language': 6.0.0
       codemirror: ^5.65.3
-      graphql: ^15.5.0 || ^16.0.0
+      graphql: ^15.5.0 || ^16.0.0 || ^17.0.0-alpha.2
 
   codemirror@5.65.17:
     resolution: {integrity: sha512-1zOsUx3lzAOu/gnMAZkQ9kpIHcPYOc9y1Fbm2UVk5UBPkdq380nhkelG0qUwm1f7wPvTbndu9ZYlug35EwAZRQ==}
@@ -1045,6 +1045,12 @@ packages:
     hasBin: true
     peerDependencies:
       graphql: ^15.5.0 || ^16.0.0
+
+  graphql-language-service@5.3.0:
+    resolution: {integrity: sha512-gCQIIy7lM9CB1KPLEb+DNZLczA9zuTLEOJE2hEQZTFYInogdmMDRa6RAkvM4LL0LcgcS+3uPs6KtHlcjCqRbUg==}
+    hasBin: true
+    peerDependencies:
+      graphql: ^15.5.0 || ^16.0.0 || ^17.0.0-alpha.2
 
   graphql-ws@5.16.0:
     resolution: {integrity: sha512-Ju2RCU2dQMgSKtArPbEtsK5gNLnsQyTNIo/T7cZNp96niC1x0KdJNZV0TIoilceBPQwfb5itrGl8pkFeOUMl4A==}
@@ -1774,7 +1780,7 @@ snapshots:
       '@types/codemirror': 5.60.15
       clsx: 1.2.1
       codemirror: 5.65.17
-      codemirror-graphql: 2.0.13(@codemirror/language@6.0.0)(codemirror@5.65.17)(graphql@16.9.0)
+      codemirror-graphql: 2.1.0(@codemirror/language@6.0.0)(codemirror@5.65.17)(graphql@16.9.0)
       copy-to-clipboard: 3.3.3
       framer-motion: 6.5.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       graphql: 16.9.0
@@ -2389,13 +2395,13 @@ snapshots:
 
   clsx@2.1.1: {}
 
-  codemirror-graphql@2.0.13(@codemirror/language@6.0.0)(codemirror@5.65.17)(graphql@16.9.0):
+  codemirror-graphql@2.1.0(@codemirror/language@6.0.0)(codemirror@5.65.17)(graphql@16.9.0):
     dependencies:
       '@codemirror/language': 6.0.0
       '@types/codemirror': 0.0.90
       codemirror: 5.65.17
       graphql: 16.9.0
-      graphql-language-service: 5.2.2(graphql@16.9.0)
+      graphql-language-service: 5.3.0(graphql@16.9.0)
 
   codemirror@5.65.17: {}
 
@@ -2528,6 +2534,13 @@ snapshots:
       - graphql-ws
 
   graphql-language-service@5.2.2(graphql@16.9.0):
+    dependencies:
+      debounce-promise: 3.1.2
+      graphql: 16.9.0
+      nullthrows: 1.1.1
+      vscode-languageserver-types: 3.17.5
+
+  graphql-language-service@5.3.0(graphql@16.9.0):
     dependencies:
       debounce-promise: 3.1.2
       graphql: 16.9.0
