@@ -20,7 +20,7 @@
     "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.13.0",
     "@graphiql/react": "^0.23.1",
-    "@graphiql/toolkit": "^0.9.2",
+    "@graphiql/toolkit": "^0.10.0",
     "@mui/icons-material": "^5.16.7",
     "@mui/material": "^5.16.7",
     "@mui/styles": "^5.16.7",
