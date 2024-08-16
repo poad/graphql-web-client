@@ -1060,12 +1060,6 @@ packages:
       react: ^16.8.0 || ^17 || ^18
       react-dom: ^16.8.0 || ^17 || ^18
 
-  graphql-language-service@5.2.2:
-    resolution: {integrity: sha512-ulIM1xE2eyEk8/QKg7I9QCGQWijNNZVwQ/dpm0B1XwD9AfYzeaGkipcsxW3JPmurt/d/ZMYRxK5Y0d2amrXEtQ==}
-    hasBin: true
-    peerDependencies:
-      graphql: ^15.5.0 || ^16.0.0
-
   graphql-language-service@5.3.0:
     resolution: {integrity: sha512-gCQIIy7lM9CB1KPLEb+DNZLczA9zuTLEOJE2hEQZTFYInogdmMDRa6RAkvM4LL0LcgcS+3uPs6KtHlcjCqRbUg==}
     hasBin: true
@@ -1804,7 +1798,7 @@ snapshots:
       copy-to-clipboard: 3.3.3
       framer-motion: 6.5.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       graphql: 16.9.0
-      graphql-language-service: 5.2.2(graphql@16.9.0)
+      graphql-language-service: 5.3.0(graphql@16.9.0)
       markdown-it: 14.1.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -2594,13 +2588,6 @@ snapshots:
       - '@types/react'
       - '@types/react-dom'
       - graphql-ws
-
-  graphql-language-service@5.2.2(graphql@16.9.0):
-    dependencies:
-      debounce-promise: 3.1.2
-      graphql: 16.9.0
-      nullthrows: 1.1.1
-      vscode-languageserver-types: 3.17.5
 
   graphql-language-service@5.3.0(graphql@16.9.0):
     dependencies:
