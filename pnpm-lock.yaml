@@ -907,8 +907,8 @@ packages:
     resolution: {integrity: sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==}
     engines: {node: '>=6'}
 
-  codemirror-graphql@2.1.0:
-    resolution: {integrity: sha512-Lm5augEJOd+7L6HXzBDmx/n7ViL8P/Dt0ba21X0JLeaMMEWtcG1SOvIdeI35St9ADOGdu/eMOg7aciX/RnWDFA==}
+  codemirror-graphql@2.1.1:
+    resolution: {integrity: sha512-qVNd+H4OqkeBLDztB5bYllAmToxmZASOoELgbf+csNcoovIHKqSB/eppkzWI5jdQGd8bvLK1lTePfqXsCBFryw==}
     peerDependencies:
       '@codemirror/language': 6.0.0
       codemirror: ^5.65.3
@@ -1778,7 +1778,7 @@ snapshots:
       '@types/codemirror': 5.60.15
       clsx: 1.2.1
       codemirror: 5.65.17
-      codemirror-graphql: 2.1.0(@codemirror/language@6.0.0)(codemirror@5.65.17)(graphql@16.9.0)
+      codemirror-graphql: 2.1.1(@codemirror/language@6.0.0)(codemirror@5.65.17)(graphql@16.9.0)
       copy-to-clipboard: 3.3.3
       framer-motion: 6.5.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       get-value: 3.0.1
@@ -2394,7 +2394,7 @@ snapshots:
 
   clsx@2.1.1: {}
 
-  codemirror-graphql@2.1.0(@codemirror/language@6.0.0)(codemirror@5.65.17)(graphql@16.9.0):
+  codemirror-graphql@2.1.1(@codemirror/language@6.0.0)(codemirror@5.65.17)(graphql@16.9.0):
     dependencies:
       '@codemirror/language': 6.0.0
       '@types/codemirror': 0.0.90
