@@ -1,5 +1,5 @@
 {
-	"$schema": "https://biomejs.dev/schemas/1.0.0/schema.json",
+	"$schema": "https://biomejs.dev/schemas/1.9.0/schema.json",
   "files": {
     "ignore": ["**/*.js"]
   },
@@ -11,5 +11,10 @@
 		"rules": {
 			"recommended": true
 		}
-	}
+	},
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2
+  }
 }

@@ -10,7 +10,7 @@
     "format-check": "biome format src",
     "format": "biome format --write src",
     "check": "biome check src",
-    "check-fix": "biome check --apply src",
+    "check-fix": "biome check --write src",
     "lint": "pnpm format-check && pnpm check",
     "lint-fix": "pnpm format && pnpm check-fix",
     "all": "pnpm install && pnpm lint && pnpm build"
