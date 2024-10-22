@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import type { ReactNode } from "react";
-import { useState } from "react";
-import { useServerInsertedHTML } from "next/navigation";
-import { StyleRegistry, createStyleRegistry } from "styled-jsx";
+import type { ReactNode } from 'react';
+import { useState } from 'react';
+import { useServerInsertedHTML } from 'next/navigation';
+import { StyleRegistry, createStyleRegistry } from 'styled-jsx';
 
 export default function StyledJsxRegistry({
   children,

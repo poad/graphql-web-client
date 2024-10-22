@@ -1,7 +1,7 @@
-"use client";
-import type { ReactNode } from "react";
-import "./globals.css";
-import StyledJsxRegistry from "./registry";
+'use client';
+import type { ReactNode } from 'react';
+import './globals.css';
+import StyledJsxRegistry from './registry';
 
 export default function Document({ children }: { children: ReactNode }) {
   return (
