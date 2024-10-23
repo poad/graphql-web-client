@@ -26,7 +26,7 @@
     "next": "^14.2.15",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "web-vitals": "^4.2.3"
+    "web-vitals": "^4.2.4"
   },
   "devDependencies": {
     "@stylistic/eslint-plugin": "^2.9.0",

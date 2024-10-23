@@ -51,8 +51,8 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       web-vitals:
-        specifier: ^4.2.3
-        version: 4.2.3
+        specifier: ^4.2.4
+        version: 4.2.4
     devDependencies:
       '@stylistic/eslint-plugin':
         specifier: ^2.9.0
@@ -2548,8 +2548,8 @@ packages:
   w3c-keyname@2.2.8:
     resolution: {integrity: sha512-dpojBhNsCNN7T82Tm7k26A6G9ML3NkhDsnw9n/eoxSRlVBB4CEtIQ/KTCLI2Fwf3ataSXRhYFkQi3SlnFwPvPQ==}
 
-  web-vitals@4.2.3:
-    resolution: {integrity: sha512-/CFAm1mNxSmOj6i0Co+iGFJ58OS4NRGVP+AWS/l509uIK5a1bSoIVaHz/ZumpHTfHSZBpgrJ+wjfpAOrTHok5Q==}
+  web-vitals@4.2.4:
+    resolution: {integrity: sha512-r4DIlprAGwJ7YM11VZp4R884m0Vmgr6EAKe3P+kO0PPj3Unqyvv59rczf6UiGcb9Z8QxZVcqKNwv/g0WNdWwsw==}
 
   which-boxed-primitive@1.0.2:
     resolution: {integrity: sha512-bwZdv0AKLpplFY2KZRX6TvyuN7ojjr7lwkg6ml0roIy9YeuSr7JS372qlNW18UQYzgYK9ziGcerWqZOmEn9VNg==}
@@ -5352,7 +5352,7 @@ snapshots:
 
   w3c-keyname@2.2.8: {}
 
-  web-vitals@4.2.3: {}
+  web-vitals@4.2.4: {}
 
   which-boxed-primitive@1.0.2:
     dependencies:
