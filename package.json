@@ -38,7 +38,7 @@
     "@types/react": "^18.3.12",
     "eslint": "^9.13.0",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^15.0.1",
+    "eslint-config-next": "^14.2.16",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
