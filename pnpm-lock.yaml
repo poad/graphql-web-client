@@ -70,8 +70,8 @@ importers:
         specifier: ^2.9.0
         version: 2.9.0(eslint@9.13.0)
       '@stylistic/eslint-plugin-ts':
-        specifier: ^2.9.0
-        version: 2.9.0(eslint@9.13.0)(typescript@5.6.3)
+        specifier: ^2.10.0
+        version: 2.10.0(eslint@9.13.0)(typescript@5.6.3)
       '@types/node':
         specifier: ^22.8.4
         version: 22.8.4
@@ -1084,8 +1084,8 @@ packages:
     peerDependencies:
       eslint: '*'
 
-  '@stylistic/eslint-plugin-ts@2.9.0':
-    resolution: {integrity: sha512-CxB73paAKlmaIDtOfKoIHlhNJVlyRMVobuBqdOc4wbVSqfhbgpCWuJYpBkV3ydGDKRfVWNJ9yg5b99lzZtrjhg==}
+  '@stylistic/eslint-plugin-ts@2.10.0':
+    resolution: {integrity: sha512-/pydlXkvbvn0MUrXzxfLElne/wr5Mb5fC+inncpBUB2nvSUdSjiNDBJC0ehbg0Z6U3FD2XNotOIQV9srHbP3nQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
@@ -3810,11 +3810,11 @@ snapshots:
     dependencies:
       eslint: 9.13.0
 
-  '@stylistic/eslint-plugin-ts@2.9.0(eslint@9.13.0)(typescript@5.6.3)':
+  '@stylistic/eslint-plugin-ts@2.10.0(eslint@9.13.0)(typescript@5.6.3)':
     dependencies:
-      '@typescript-eslint/utils': 8.12.1(eslint@9.13.0)(typescript@5.6.3)
+      '@typescript-eslint/utils': 8.12.2(eslint@9.13.0)(typescript@5.6.3)
       eslint: 9.13.0
-      eslint-visitor-keys: 4.1.0
+      eslint-visitor-keys: 4.2.0
       espree: 10.3.0
     transitivePeerDependencies:
       - supports-color
