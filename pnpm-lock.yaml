@@ -61,8 +61,8 @@ importers:
         specifier: ^2.10.0
         version: 2.10.0(eslint@9.13.0)(typescript@5.6.3)
       '@stylistic/eslint-plugin-js':
-        specifier: ^2.9.0
-        version: 2.9.0(eslint@9.13.0)
+        specifier: ^2.10.0
+        version: 2.10.0(eslint@9.13.0)
       '@stylistic/eslint-plugin-jsx':
         specifier: ^2.10.0
         version: 2.10.0(eslint@9.13.0)
@@ -1070,8 +1070,8 @@ packages:
   '@rushstack/eslint-patch@1.10.4':
     resolution: {integrity: sha512-WJgX9nzTqknM393q1QJDJmoW28kUfEnybeTfVNcNAPnIx210RXm2DiXiHzfNPJNIUUb1tJnz/l4QGtJ30PgWmA==}
 
-  '@stylistic/eslint-plugin-js@2.9.0':
-    resolution: {integrity: sha512-h08DQybPsXxIvHIvQqU1tFWcu74M7kZK/0S0jVIDdoHSFq7jB+TzxikBWAg5j0lPR17WsGGGHAS8GHFlAAQXHA==}
+  '@stylistic/eslint-plugin-js@2.10.0':
+    resolution: {integrity: sha512-H742K6j8EeWgStJphdwWBZRy9LXWUZ/EjFgqUy7PfuXNnldr6QbfZT3zug5QUkWyA9Qh7skmMF8aT7TsnNwJ6w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
@@ -3795,10 +3795,10 @@ snapshots:
 
   '@rushstack/eslint-patch@1.10.4': {}
 
-  '@stylistic/eslint-plugin-js@2.9.0(eslint@9.13.0)':
+  '@stylistic/eslint-plugin-js@2.10.0(eslint@9.13.0)':
     dependencies:
       eslint: 9.13.0
-      eslint-visitor-keys: 4.1.0
+      eslint-visitor-keys: 4.2.0
       espree: 10.3.0
 
   '@stylistic/eslint-plugin-jsx@2.10.0(eslint@9.13.0)':
