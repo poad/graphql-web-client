@@ -36,8 +36,8 @@ importers:
         specifier: ^6.1.6
         version: 6.1.6(@types/react@18.3.12)(react@18.3.1)
       graphiql:
-        specifier: ^3.7.1
-        version: 3.7.1(@codemirror/language@6.0.0)(@types/node@22.9.0)(@types/react@18.3.12)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^3.7.2
+        version: 3.7.2(@codemirror/language@6.0.0)(@types/node@22.9.0)(@types/react@18.3.12)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       graphql:
         specifier: ^16.9.0
         version: 16.9.0
@@ -1781,10 +1781,10 @@ packages:
   graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
 
-  graphiql@3.7.1:
-    resolution: {integrity: sha512-kmummedOrFYs0BI5evrVY0AerOYlaMt/Sc/e+Sta1x8X6vEMYWNeUUz/kKF2NQT5BcsR3FnNdFt1Gk2QMgueGQ==}
+  graphiql@3.7.2:
+    resolution: {integrity: sha512-DL+KrX+aQdyzl+KwcqjlmdYdjyKegm7FcZJKkIQ1e56xn6Eoe8lw5F4t65gFex/45fHzv8e8CpaIcljxfJhO7A==}
     peerDependencies:
-      graphql: ^15.5.0 || ^16.0.0 || ^17.0.0-alpha.2
+      graphql: ^15.5.0 || ^16.0.0 || ^17.0.0
       react: ^16.8.0 || ^17 || ^18
       react-dom: ^16.8.0 || ^17 || ^18
 
@@ -4691,9 +4691,9 @@ snapshots:
 
   graphemer@1.4.0: {}
 
-  graphiql@3.7.1(@codemirror/language@6.0.0)(@types/node@22.9.0)(@types/react@18.3.12)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  graphiql@3.7.2(@codemirror/language@6.0.0)(@types/node@22.9.0)(@types/react@18.3.12)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@graphiql/react': 0.26.2(@codemirror/language@6.0.0)(@types/node@22.9.0)(@types/react@18.3.12)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@graphiql/react': 0.27.0(@codemirror/language@6.0.0)(@types/node@22.9.0)(@types/react@18.3.12)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       graphql: 16.9.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
