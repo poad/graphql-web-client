@@ -14,6 +14,9 @@ import { FlatCompat } from '@eslint/eslintrc';
 const compat = new FlatCompat();
 
 export default tseslint.config(
+  eslint.configs.recommended,
+  ...tseslint.configs.strict,
+  ...tseslint.configs.stylistic,
   {
     ignores: [
       '**/*.d.ts',
@@ -25,11 +28,6 @@ export default tseslint.config(
       './.next/*',
       'out',
     ],
-  },
-  eslint.configs.recommended,
-  ...tseslint.configs.strict,
-  ...tseslint.configs.stylistic,
-  {
     files: ['src/**/*.{jsx,tsx}'],
     plugins: {
       'jsx-a11y': jsxA11yPlugin,
@@ -69,8 +67,6 @@ export default tseslint.config(
       'arrow-parens': ['error', 'always'],
       semi: ['error', 'always'],
       quotes: ['error', 'single'],
-      '@typescript-eslint/no-unused-expressions': 'off',
-      '@typescript-eslint/no-empty-function': 'off',
     },
   },
 );
