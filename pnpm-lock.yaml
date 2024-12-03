@@ -1970,8 +1970,8 @@ packages:
     resolution: {integrity: sha512-PlfzajuF9vSo5wErv3MJAKD/nqf9ngAs1NFQYm16nUYFO2IzxJ2hcm+IOCg+EEopdykNNUhVq5cz35cAUxU8+g==}
     engines: {node: '>= 0.4'}
 
-  is-symbol@1.0.4:
-    resolution: {integrity: sha512-C/CPBqKWnvdcxqIARxyOh4v1UUEOCHpgDa0WYgpKDFMszcrPcffg5uhwSgPCLD2WWxmq6isisz87tzT01tuGhg==}
+  is-symbol@1.1.0:
+    resolution: {integrity: sha512-qS8KkNNXUZ/I+nX6QT8ZS1/Yx0A444yhzdTKxCzKkNjQ9sHErBxJnJAgh+f5YhusYECEcjo4XcyH87hn6+ks0A==}
     engines: {node: '>= 0.4'}
 
   is-typed-array@1.1.13:
@@ -4307,7 +4307,7 @@ snapshots:
     dependencies:
       is-callable: 1.2.7
       is-date-object: 1.0.5
-      is-symbol: 1.0.4
+      is-symbol: 1.1.0
 
   escalade@3.2.0: {}
 
@@ -4847,9 +4847,11 @@ snapshots:
       call-bind: 1.0.7
       has-tostringtag: 1.0.2
 
-  is-symbol@1.0.4:
+  is-symbol@1.1.0:
     dependencies:
+      call-bind: 1.0.7
       has-symbols: 1.0.3
+      safe-regex-test: 1.0.3
 
   is-typed-array@1.1.13:
     dependencies:
@@ -5642,7 +5644,7 @@ snapshots:
       is-boolean-object: 1.1.2
       is-number-object: 1.1.0
       is-string: 1.1.0
-      is-symbol: 1.0.4
+      is-symbol: 1.1.0
 
   which-builtin-type@1.2.0:
     dependencies:
