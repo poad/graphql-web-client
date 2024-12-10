@@ -13,7 +13,7 @@ updates:
     groups:
       actions:
         patterns:
-          - '＊'
+          - '*'
 
   - package-ecosystem: npm
     directory: '/'
@@ -28,4 +28,4 @@ updates:
     groups:
       npm:
         patterns:
-          - '＊'
+          - '*'
