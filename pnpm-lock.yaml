@@ -528,8 +528,8 @@ packages:
   '@lezer/lr@1.4.2':
     resolution: {integrity: sha512-pu0K1jCIdnQ12aWNaAVU5bzi7Bd1w54J3ECgANPmYLtQKP0HBj2cE/5coBD66MT10xbtIuUr7tg0Shbsvk0mDA==}
 
-  '@marijn/find-cluster-break@1.0.0':
-    resolution: {integrity: sha512-0YSzy7M9mBiK+h1m33rD8vZOfaO8leG6CY3+Q+1Lig86snkc8OAHQVAdndmnXMWJlVIH6S7fSZVVcjLcq6OH1A==}
+  '@marijn/find-cluster-break@1.0.2':
+    resolution: {integrity: sha512-l0h88YhZFyKdXIFNfSWpyjStDjGHwZ/U7iobcK1cQQD8sejsONdQtTVU+1wVN1PBw40PiiHB1vA5S7VTfQiP9g==}
 
   '@motionone/animation@10.18.0':
     resolution: {integrity: sha512-9z2p5GFGCm0gBsZbi8rVMOAJCtw1WqBTIPw3ozk06gDvZInBPIsQcHgYogEJ4yuHJ+akuW8g1SEIOpTOvYs8hw==}
@@ -2898,7 +2898,7 @@ snapshots:
 
   '@codemirror/state@6.5.0':
     dependencies:
-      '@marijn/find-cluster-break': 1.0.0
+      '@marijn/find-cluster-break': 1.0.2
 
   '@codemirror/view@6.35.2':
     dependencies:
@@ -3246,7 +3246,7 @@ snapshots:
     dependencies:
       '@lezer/common': 1.2.3
 
-  '@marijn/find-cluster-break@1.0.0': {}
+  '@marijn/find-cluster-break@1.0.2': {}
 
   '@motionone/animation@10.18.0':
     dependencies:
