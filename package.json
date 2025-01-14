@@ -29,13 +29,13 @@
     "web-vitals": "^4.2.4"
   },
   "devDependencies": {
-    "@stylistic/eslint-plugin": "^2.12.1",
-    "@stylistic/eslint-plugin-js": "^2.12.1",
-    "@stylistic/eslint-plugin-jsx": "^2.12.1",
-    "@stylistic/eslint-plugin-plus": "^2.12.1",
-    "@stylistic/eslint-plugin-ts": "^2.12.1",
-    "@types/node": "^22.10.5",
-    "@types/react": "^19.0.5",
+    "@stylistic/eslint-plugin": "^2.13.0",
+    "@stylistic/eslint-plugin-js": "^2.13.0",
+    "@stylistic/eslint-plugin-jsx": "^2.13.0",
+    "@stylistic/eslint-plugin-plus": "^2.13.0",
+    "@stylistic/eslint-plugin-ts": "^2.13.0",
+    "@types/node": "^22.10.6",
+    "@types/react": "^19.0.6",
     "@types/react-dom": "^19.0.3",
     "eslint": "^9.18.0",
     "eslint-config-import": "^0.13.0",
@@ -44,11 +44,11 @@
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-react": "^7.37.3",
+    "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.1.0",
     "rimraf": "^6.0.1",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.19.1"
+    "typescript-eslint": "^8.20.0"
   },
   "resolutions": {
     "@headlessui/react": ">=2.1.10"
@@ -61,5 +61,5 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.1"
   },
-  "packageManager": "pnpm@9.15.3+sha512.1f79bc245a66eb0b07c5d4d83131240774642caaa86ef7d0434ab47c0d16f66b04e21e0c086eb61e62c77efc4d7f7ec071afad3796af64892fae66509173893a"
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
 }
