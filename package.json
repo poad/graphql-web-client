@@ -37,7 +37,7 @@
     "@stylistic/eslint-plugin-jsx": "^3.0.1",
     "@stylistic/eslint-plugin-plus": "^3.0.1",
     "@stylistic/eslint-plugin-ts": "^3.0.1",
-    "@types/node": "^22.13.0",
+    "@types/node": "^22.13.1",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "eslint": "^9.19.0",
@@ -49,10 +49,10 @@
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.1.0",
-    "pnpm": "^10.1.0",
+    "pnpm": "^10.2.0",
     "rimraf": "^6.0.1",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.22.0"
+    "typescript-eslint": "^8.23.0"
   },
   "resolutions": {
     "@headlessui/react": ">=2.1.10"
