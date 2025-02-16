@@ -13,7 +13,7 @@ if [ $result -ne 0 ]; then
   exit $result
 fi
 pwd
-corepack use pnpm@latest && pnpm install && pnpm up && pnpm build
+pnpm install && pnpm up && pnpm build
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
