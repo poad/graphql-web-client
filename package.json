@@ -43,7 +43,7 @@
     "eslint": "^9.22.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-next": "^15.2.2",
-    "eslint-import-resolver-typescript": "^3.8.5",
+    "eslint-import-resolver-typescript": "^3.8.6",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
